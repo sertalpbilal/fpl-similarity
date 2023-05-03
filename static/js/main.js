@@ -354,7 +354,7 @@ function fetch_team_picks() {
     });
 }
 
-let debug = true
+let debug = false
 
 $(document).ready(() => {
     read_local_file("index.json").then((d) => {
