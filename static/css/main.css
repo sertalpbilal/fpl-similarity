@@ -1,0 +1,252 @@
+body {
+    background-color: #2e2e2e;
+    color: #d8d8d8;
+}
+
+[v-cloak] {
+    display: none;
+}
+
+[v-cloak]>* {
+    display: none;
+}
+
+
+@font-face {
+    font-family: "PremierSans-Light", sans-serif;
+    src: url(/static/media/PremierLeagueW01-Light.2099571f.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: "PremierSans-Regular", sans-serif;
+    src: url(/static/media/PremierLeagueW01-Regular.70ff7a49.woff2) format("woff2")
+}
+
+@font-face {
+    font-family: "PremierSans-Bold", sans-serif;
+    src: url(/static/media/PremierLeagueW01-Bold.5ddd953a.woff2) format("woff2")
+}
+
+* {
+    font-family: 'PremierSans-Regular', sans-serif;
+}
+
+#banner_bg {
+    position: relative;
+    width: 600px;
+    height: 900px; 
+    background-image: url(/static/img/fpl_banner.png);
+    background-size: 100% auto;
+    background-repeat: repeat;
+    background-position: 0%;
+    color: #34013f;
+}
+
+@media screen and (max-width: 650px) {
+    #gradient_bg {
+        transform: scale(0.5);
+    }
+}
+
+#gradient_bg {
+    transform-origin: top;
+    background: linear-gradient(135deg, rgba(150,60,254,1) 0%, rgba(4,240,254,1) 100%);
+    /* background-color: #9267ff; */
+}
+
+/* #signature:before {
+    content: "";
+    position: absolute;
+    padding-left: 0px;
+    margin-left: -30px;
+    height: 40px;
+    background-color: #37003c;
+    background-position: -50px 0px;
+    z-index: 0;
+    mask-image: url(/static/img/curve2.svg);
+    -webkit-mask-image: url(/static/img/curve2.svg);
+    width: 50px;
+} */
+
+#signature {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    width: 600px;
+    /* background-image: url(/static/img/curve2.svg); */
+    background-repeat: no-repeat;
+    background-attachment: unset;
+    background-position: 0px 0px;
+    font-size: 8pt;
+}
+
+#signature div {
+    text-align: center;
+    background-color: #37003c;
+    height: 15px;
+    padding: 10px 5px 10px 5px;
+    /* padding-right: px; */
+    color: wheat;
+    line-height: 0px;
+    font-family: 'PremierSans-Regular';
+    position: relative;
+    bottom: 0px;
+    z-index: 2;
+    right: 0px;
+}
+
+#signature div span {
+    margin-top: -5px;
+    display: block;
+}
+
+#tool-title {
+    position: absolute;
+    top: 43px;
+    left: 50px;
+    width: calc(500px);
+    font-family: PremierSans-Bold, Arial, "Helvetica Neue", Helvetica, sans-seriff;
+    font-size: 21pt;
+    line-height: 100%;
+    /* font-weight: bold; */
+}
+
+#tool-padding {
+    padding-left: 30px;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: larger;
+}
+
+#fpl_logo {
+    width: 35%;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    /* filter: drop-shadow(15px 15px 0px white); */
+}
+
+#inner-box {
+    position: relative;
+    left: 50px;
+    top: 140px;
+    height: 620px;
+    width: 500px;
+    /* background-color: black; */
+}
+
+.main-cols {
+    font-size: 10pt;
+    /* text-transform: uppercase; */
+}
+
+#player-column {
+    width: 200px;
+    position: absolute;
+    top: 50%; left: 0%;
+    transform: translate(0%,-50%);
+}
+
+#player-column > div {
+    background-color: #37003c;
+    color: white;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+#player-column > div.chip-entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-cols > div {
+    box-shadow: 0px 0px 3px #0000001f;
+}
+
+.main-cols > div:first-child {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.main-cols > div:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#player-column > div:first-child {
+    background: linear-gradient(135deg, #06f0fd 0%, #00ff87 100%);
+    color: #37013a;
+}
+
+#content-creator-column {
+    /* position: absolute;
+    right: 50px;
+    top: 200px; */
+    width: 260px;
+    position: absolute;
+    top: 50%; right: 0%;
+    transform: translate(0%,-50%);
+}
+
+#content-creator-column > div {
+    background-color: #37003c;
+    color: white;
+    margin-top: 3px;
+    padding: 10px;
+}
+
+#content-creator-column > div:first-child {
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+#content-creator-column > div:nth-child(2) {
+    background-color: white;
+    color: black;
+}
+
+.sim-title{
+    font-size: normal;
+}
+
+.sim-value {
+    font-size: x-large;
+}
+
+.sim-footnote {
+    font-size: x-small;
+    color: rgb(189, 189, 189);
+}
+
+.img-wrapper {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.chip-entry > span:last-child {
+    text-align: right;
+}
+
+
+.fill-screen {
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+}
+
