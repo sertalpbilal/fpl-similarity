@@ -31,7 +31,7 @@ var app = new Vue({
             chips = {'WC1': undefined, 'WC2': undefined, 'TC': undefined, 'BB': undefined, 'FH': undefined}
             let gws = _.range(1, this.max_gw+1)
             for (let gw of gws) {
-                let gw_data = this.team_data[gw]
+                let gw_data = this.team_data['GW'+gw]
                 if (gw_data?.active_chip != null) {
                     if (gw_data?.active_chip == 'wildcard') {
                         if (chips['WC1'] == undefined) {
@@ -79,7 +79,7 @@ var app = new Vue({
                 // compare for every gameweek
                 for (let gw of _.range(1, this.max_gw+1)) {
                     let cc_gw = cc_data.picks[gw]
-                    let my_gw = app.team_data[gw]
+                    let my_gw = app.team_data['GW'+gw]
                     let cc_mults = _.fromPairs(cc_gw)
                     for (let pick of my_gw.picks) {
                         if (cc_mults?.[pick.element] == pick.multiplier) {
@@ -269,8 +269,48 @@ function fetch_team_transfers({ team_id }) {
     });
 }
 
-
 function fetch_team_picks() {
+    app.loading = true
+    app.ready = false
+    let gw = 33
+    let tid = document.querySelector("#tid").value
+    if (tid == '') { return }
+
+    let c = new Promise((resolve, reject) => {
+        $.ajax({
+            type: "GET",
+            url: `https://alpscode.com/fpl-fetch/fpl_data?id=${tid}&gw=${gw}`,
+            dataType: 'json',
+            async: true,
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+                'Access-Control-Allow-Headers': "X-Requested-With",
+                'Access-Control-Allow-Methods': 'GET',
+                'X-Requested-With': 'XMLHttpRequest',
+                'Referrer-Policy': 'no-referrer-when-downgrade'
+            },
+            success: function(data) {
+                resolve({ body: data, is_last_gw: false })
+            },
+            error: function(xhr, status, error) {
+                reject(`Cannot get picks for team ${tid} GW ${gw}`)
+            }
+        });
+    })
+
+    c.then((e) => {
+        app.team_info = e.body.info
+        app.team_data = e.body.picks
+        app.team_transfers = e.body.trs
+        app.loading = false
+        app.ready = true
+    })
+
+
+}
+
+
+function fetch_team_picks_old() {
     app.loading = true
     app.ready = false
     let tid = document.querySelector("#tid").value
