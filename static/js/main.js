@@ -102,6 +102,7 @@ var app = new Vue({
             let cc_trs = this.cc_data.find(i => i.id == most_similar.id)['trs']
 
             for (let tr of this.team_transfers) {
+                if (tr.event == 17) { continue }
                 if (tr.event == this.chip_gws['WC1'] || tr.event == this.chip_gws['WC2'] || tr.event == this.chip_gws['FH']) { continue }
                 let match = cc_trs.find(i => i[2] == tr.event && i[1] == tr.element_in && i[0] == tr.element_out)
                 if (match) {
