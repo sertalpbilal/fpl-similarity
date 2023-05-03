@@ -14,17 +14,17 @@ body {
 
 @font-face {
     font-family: "PremierSans-Light", sans-serif;
-    src: url(/static/media/PremierLeagueW01-Light.2099571f.woff2) format("woff2")
+    src: url(../media/PremierLeagueW01-Light.2099571f.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "PremierSans-Regular", sans-serif;
-    src: url(/static/media/PremierLeagueW01-Regular.70ff7a49.woff2) format("woff2")
+    src: url(../media/PremierLeagueW01-Regular.70ff7a49.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "PremierSans-Bold", sans-serif;
-    src: url(/static/media/PremierLeagueW01-Bold.5ddd953a.woff2) format("woff2")
+    src: url(../media/PremierLeagueW01-Bold.5ddd953a.woff2) format("woff2")
 }
 
 * {
@@ -35,7 +35,7 @@ body {
     position: relative;
     width: 600px;
     height: 900px; 
-    background-image: url(/static/img/fpl_banner.png);
+    background-image: url(../img/fpl_banner.png);
     background-size: 100% auto;
     background-repeat: repeat;
     background-position: 0%;
