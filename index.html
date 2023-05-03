@@ -68,6 +68,7 @@
                             <div class="text-center">
                                 <div class="sim-title"><b>{{ most_similar_cached?.cc?.Name }}</b></div>
                                 <div class="sim-title">{{ most_similar_cached?.cc?.PlayerName }} | ID {{ most_similar_cached?.cc?.id }}</div>
+                                <div class="sim-footnote" v-if="excluding_yourself">*Excluding yourself</div>
                             </div>
                             <div class="text-center">
                                 <div class="sim-title">Team Similarity</div>

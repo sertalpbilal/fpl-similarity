@@ -18,7 +18,8 @@ var app = new Vue({
         fetch_team_picks: fetch_team_picks,
         allow_cache: true,
         most_similar_cached: undefined,
-        taking_screenshot: false
+        taking_screenshot: false,
+        excluding_yourself: false
     },
     computed: {
         completed() {
@@ -60,11 +61,17 @@ var app = new Vue({
             if (!this.ready) { return {}}
             if (_.isEmpty(this.team_data) || _.isEmpty(this.team_info) || _.isEmpty(this.cc_index) || _.isEmpty(this.cc_data)) { return {}}
 
+            app.excluding_yourself = false;
+
             let best_score = 0
             let most_similar = undefined
             let total_count = 0
 
             for (let cc of this.cc_index) {
+                if (this.team_info.id == cc['id']) {
+                    app.excluding_yourself = true;
+                    continue
+                }
                 let same_pick_count = 0
                 total_count = 0
                 let cc_id = cc['id']
@@ -99,7 +106,7 @@ var app = new Vue({
                 let match = cc_trs.find(i => i[2] == tr.event && i[1] == tr.element_in && i[0] == tr.element_out)
                 if (match) {
                     // check timings
-                    if (new Date(match[3]) - new Date(tr.time) <= 120) {
+                    if (new Date(match[3]) - new Date(tr.time) <= 1) {
                         tr_time_similarity_count += 1
                     }
                     else {
