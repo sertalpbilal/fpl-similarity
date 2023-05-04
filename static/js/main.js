@@ -18,6 +18,7 @@ var app = new Vue({
         fetch_team_picks: fetch_team_picks,
         allow_cache: true,
         most_similar_cached: undefined,
+        most_similar_by_gw: undefined,
         taking_screenshot: false,
         excluding_yourself: false
     },
@@ -57,81 +58,36 @@ var app = new Vue({
             }
             return chips
         },
-        async most_similar() {
+        most_similar() {
             if (!this.ready) { return {}}
             if (_.isEmpty(this.team_data) || _.isEmpty(this.team_info) || _.isEmpty(this.cc_index) || _.isEmpty(this.cc_data)) { return {}}
 
             app.excluding_yourself = false;
 
-            let best_score = 0
-            let most_similar = undefined
-            let total_count = 0
+            app.most_similar_by_gw = {}
 
-            for (let cc of this.cc_index) {
-                if (this.team_info.id == cc['id']) {
-                    app.excluding_yourself = true;
-                    continue
-                }
-                let same_pick_count = 0
-                total_count = 0
-                let cc_id = cc['id']
-                let cc_data = this.cc_data.find(i => i.id == cc_id)
-                // compare for every gameweek
-                for (let gw of _.range(1, this.max_gw+1)) {
-                    let cc_gw = cc_data.picks[gw]
-                    let my_gw = app.team_data['GW'+gw]
-                    let cc_mults = _.fromPairs(cc_gw)
-                    for (let pick of my_gw.picks) {
-                        if (cc_mults?.[pick.element] != undefined) { // have the same player
-                            let lowest_rating = Math.min(cc_mults[pick.element], pick.multiplier)
-                            same_pick_count += lowest_rating
-                        }
-                        total_count += pick.multiplier
-                    }
-                }
-                console.log(cc_id + ': ' + same_pick_count + '/' + total_count)
-                if (same_pick_count > best_score) {
-                    best_score = same_pick_count
-                    most_similar = cc
+            for (let last_gw of _.range(1,app.max_gw+1)) {
+                for (let start_gw of [1, last_gw]) {
+
+                    let m = app.most_similar_in_period(start_gw, last_gw)
+                    app.most_similar_by_gw[start_gw + '_' + last_gw] = m
+
                 }
             }
 
-            // after we have the most similar CC, we can check transfers
-            let tr_similarity_count = 0
-            let tr_time_similarity_count = 0
-            let total_tr_count = 0
-            let cc_trs = this.cc_data.find(i => i.id == most_similar.id)['trs']
+            app.most_similar_cached = app.most_similar_by_gw['1_33']
+            
 
-            for (let tr of this.team_transfers) {
-                if (tr.event == 17) { continue }
-                if (tr.event == this.chip_gws['WC1'] || tr.event == this.chip_gws['WC2'] || tr.event == this.chip_gws['FH']) { continue }
-                let match = cc_trs.find(i => i[2] == tr.event && i[1] == tr.element_in && i[0] == tr.element_out)
-                if (match) {
-                    // check timings
-                    if (new Date(match[3]) - new Date(tr.time) <= 1) {
-                        tr_time_similarity_count += 1
-                    }
-                    else {
-                        // debugger
-                    }
-                    tr_similarity_count += 1
-                }
-                total_tr_count += 1
-                console.log(tr_similarity_count + ' / ' + total_tr_count)
-            }
-
-            console.log('yay')
-
-            app.most_similar_cached = {
-                'cc': most_similar,
-                best_score,
-                total_count,
-                'perc': best_score/total_count,
-                tr_similarity_count,
-                tr_time_similarity_count,
-                total_tr_count,
-                'tr_perc': tr_similarity_count/total_tr_count,
-                'tr_time_perc': tr_time_similarity_count/total_tr_count}
+            // app.most_similar_cached = {
+            //     'cc': most_similar,
+            //     best_score,
+            //     total_count,
+            //     'perc': best_score/total_count,
+            //     tr_similarity_count,
+            //     tr_time_similarity_count,
+            //     total_tr_count,
+            //     'tr_perc': tr_similarity_count/total_tr_count,
+            //     'tr_time_perc': tr_time_similarity_count/total_tr_count}
 
         }
     },
@@ -172,6 +128,78 @@ var app = new Vue({
                         console.error('oops, something went wrong!', error);
                     });
             }, 100)
+
+        },
+        most_similar_in_period(start_gw, last_gw) {
+
+            let best_score = 0
+            let most_similar = undefined
+            let total_count = 0
+
+            for (let cc of this.cc_index) {
+                if (this.team_info.id == cc['id']) {
+                    app.excluding_yourself = true;
+                    continue
+                }
+                let same_pick_count = 0
+                total_count = 0
+                let cc_id = cc['id']
+                let cc_data = this.cc_data.find(i => i.id == cc_id)
+                // compare for every gameweek
+                for (let gw of _.range(start_gw, last_gw+1)) {
+                    let cc_gw = cc_data.picks[gw]
+                    let my_gw = app.team_data['GW'+gw]
+                    let cc_mults = _.fromPairs(cc_gw)
+                    for (let pick of my_gw.picks) {
+                        if (cc_mults?.[pick.element] != undefined) { // have the same player
+                            let lowest_rating = Math.min(cc_mults[pick.element], pick.multiplier)
+                            same_pick_count += lowest_rating
+                        }
+                        total_count += pick.multiplier
+                    }
+                }
+                if (same_pick_count > best_score) {
+                    best_score = same_pick_count
+                    most_similar = cc
+                }
+            }
+
+            // after we have the most similar CC, we can check transfers
+            let tr_similarity_count = 0
+            let tr_time_similarity_count = 0
+            let total_tr_count = 0
+            let cc_trs = this.cc_data.find(i => i.id == most_similar.id)['trs']
+
+            for (let tr of this.team_transfers.filter(i => i.event >= start_gw && i.event <= last_gw)) {
+                if (tr.event == 17) { continue }
+                if (tr.event == this.chip_gws['WC1'] || tr.event == this.chip_gws['WC2'] || tr.event == this.chip_gws['FH']) { continue }
+                let match = cc_trs.find(i => i[2] == tr.event && i[1] == tr.element_in && i[0] == tr.element_out)
+                if (match) {
+                    // check timings
+                    if (new Date(match[3]) - new Date(tr.time) <= 1) {
+                        tr_time_similarity_count += 1
+                    }
+                    else {
+                        // debugger
+                    }
+                    tr_similarity_count += 1
+                }
+                total_tr_count += 1
+            }
+
+            return {
+                'start_gw': start_gw,
+                'last_gw': last_gw,
+                'cc': most_similar,
+                best_score,
+                total_count,
+                'perc': best_score/total_count,
+                tr_similarity_count,
+                tr_time_similarity_count,
+                total_tr_count,
+                'tr_perc': tr_similarity_count/total_tr_count,
+                'tr_time_perc': tr_time_similarity_count/total_tr_count
+            }
 
         }
     }

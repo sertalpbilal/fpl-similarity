@@ -87,12 +87,12 @@ body {
 #signature div {
     text-align: center;
     background-color: #37003c;
-    height: 15px;
+    height: 38px;
     padding: 10px 5px 10px 5px;
     /* padding-right: px; */
     color: wheat;
-    line-height: 0px;
-    font-family: 'PremierSans-Regular';
+    line-height: 68%;
+    /* font-family: 'PremierSans-Regular'; */
     position: relative;
     bottom: 0px;
     z-index: 2;
@@ -261,3 +261,26 @@ body {
     text-shadow: 0 0 1px black;
 }
 
+.detail-body {
+    background-color: #2e2e2e;
+}
+
+.accordion-button {
+    color: white;
+    background-color: darkcyan;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: lightcyan;
+}
+
+.text-v-small {
+    font-size: small;
+}
+
+@media screen and (max-width: 650px) {
+    .text-v-small {
+        font-size: xx-small;
+    }
+}
