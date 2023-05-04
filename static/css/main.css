@@ -50,7 +50,10 @@ body {
 
 #gradient_bg {
     transform-origin: top;
-    background: linear-gradient(135deg, rgba(150,60,254,1) 0%, rgba(4,240,254,1) 100%);
+    /* background: linear-gradient(45deg, white, blue); */
+    /* background: linear-gradient(135deg, #963cfe 10%, #04f0fe 20%); */
+    background: linear-gradient(135deg, #963cfe 0%, #04f0fe 100%);
+    /* background: linear-gradient(135deg, rgba(150,60,254,1) 0%, rgba(4,240,254,1) 100%); */
     /* background-color: #9267ff; */
 }
 
@@ -248,5 +251,13 @@ body {
     flex-wrap: wrap;
     align-items: center;
     color: white;
+}
+
+#tool-version {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #01fb82;
+    text-shadow: 0 0 1px black;
 }
 

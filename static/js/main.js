@@ -82,8 +82,9 @@ var app = new Vue({
                     let my_gw = app.team_data['GW'+gw]
                     let cc_mults = _.fromPairs(cc_gw)
                     for (let pick of my_gw.picks) {
-                        if (cc_mults?.[pick.element] == pick.multiplier) {
-                            same_pick_count += pick.multiplier
+                        if (cc_mults?.[pick.element] != undefined) { // have the same player
+                            let lowest_rating = Math.min(cc_mults[pick.element], pick.multiplier)
+                            same_pick_count += 1
                         }
                         total_count += pick.multiplier
                     }
@@ -143,12 +144,13 @@ var app = new Vue({
                 var node = document.getElementById('gradient_bg');
                 // node.style.width = '1600px'
                 node.style['transform-origin'] = 'top left'
+                node.style['background'] = 'linear-gradient(135deg, #963cfe 0%, #04f0fe 50%)'
                 node.style.transform = 'scale(2)'
 
                 
 
                 domtoimage
-                    .toPng(node, {'width': '1200', 'height': '1800'}, copyDefaultStyles=true)
+                    .toJpeg(node, {'quality': 0.95, 'width': '1200', 'height': '1800'}, copyDefaultStyles=true)
                     .then(function (dataUrl) {
                         var img = new Image();
                         img.src = dataUrl;
@@ -162,6 +164,7 @@ var app = new Vue({
                             document.body.removeChild(link);
                             node.style.transform = ''
                             node.style['transform-origin'] = 'top'
+                            node.style['background'] = 'linear-gradient(135deg, #963cfe 0%, #04f0fe 100%)'
                             app.taking_screenshot = false
                         }, 300);
                     })

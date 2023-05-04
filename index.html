@@ -27,13 +27,13 @@
             Downloading the image...
         </div>
         <div class="text-center mt-2">
-            <h3>FPL SIMILARITY TOOL</h3>
+            <h3>FPL Similarity Tool</h3>
         </div>
-        <div class="mt-1 mb-1" style="font-size: small;">
+        <!-- <div class="mt-1 mb-1" style="font-size: small;">
             <div class="alert alert-warning">
                 The tool is under heavy load, and may not work properly at the moment. Please try again in 24 hours.
             </div>
-        </div>
+        </div> -->
         <div class="d-flex justify-content-center mt-3">
             <div>
                 <label for="tid" class="form-label">Team ID</label>
@@ -44,9 +44,12 @@
                 <div class="progress" v-if="loading" v-cloak>
                     <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" :style="{ width: completed/max_gw*100 + '%' }" aria-valuemin="0" aria-valuemax="100"></div>
                 </div>
-                <div class="text-center">
-                    Loading: {{ loading }}, Ready: {{ ready }}
+                <div class="text-center" v-show="loading">
+                    Team data is loading... Please wait.
                 </div>
+                <!-- <div class="text-center">
+                    Loading: {{ loading }}, Ready: {{ ready }}
+                </div> -->
             </div>
         </div>
 
@@ -58,6 +61,7 @@
             <div id="gradient_bg" v-show="ready" v-cloak>
                 <div id="banner_bg">
                     <div id="tool-title"><span class="main-title">CONTENT CREATOR SIMILARITY RATING</span><br>GW1-GW33</div>
+                    <div id="tool-version">v0.2</div>
                     <div id="fpl_logo" v-html="fpl_logo"></div>
                     <div id="inner-box">
                         <div class="main-cols" id="player-column">
