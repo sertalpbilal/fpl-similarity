@@ -84,7 +84,7 @@ var app = new Vue({
                     for (let pick of my_gw.picks) {
                         if (cc_mults?.[pick.element] != undefined) { // have the same player
                             let lowest_rating = Math.min(cc_mults[pick.element], pick.multiplier)
-                            same_pick_count += 1
+                            same_pick_count += lowest_rating
                         }
                         total_count += pick.multiplier
                     }
