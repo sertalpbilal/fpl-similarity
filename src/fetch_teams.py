@@ -16,6 +16,10 @@ def get_next_gw():
         if event['is_next']:
             next_gw = event['id']
             break
+
+    ng = {'next_gw': next_gw}
+    with open('../data/info.json', 'w') as f:
+        json.dump(ng, f)
     return next_gw
 
 
