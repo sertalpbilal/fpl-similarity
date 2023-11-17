@@ -62,7 +62,7 @@ var app = new Vue({
             if (!this.ready) { return {}}
             if (_.isEmpty(this.team_data) || _.isEmpty(this.team_info) || _.isEmpty(this.cc_index) || _.isEmpty(this.cc_data)) { return {}}
 
-            debugger
+            
 
             app.excluding_yourself = false;
 
@@ -440,16 +440,15 @@ let debug = false
 $(document).ready(() => {
 
     // get max gw
-    read_local_file("data/info.json").then((e) => {
+    read_local_file("data/info.json?cache=0").then((e) => {
 
-        debugger
         app.max_gw = parseInt(e.next_gw) - 1
 
-        read_local_file("index.json").then((d) => {
+        read_local_file("index.json?cache=0").then((d) => {
             app.cc_index = d
             app.cc_data = undefined
 
-            read_local_file('data/combined.json').then((d) => {
+            read_local_file('data/combined.json?cache=0').then((d) => {
                 app.cc_data = Object.freeze(d)
                 if (debug) {
                     document.querySelector("#tid").value = '4789442'
