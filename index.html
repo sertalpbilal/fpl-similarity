@@ -171,7 +171,11 @@
 
         <div style="display:none">{{ most_similar }}</div>
 
+        <img :src="'data/cc/' + x + '.png'" v-for="x in app?.cc_data?.map(i => i.id) || []" style="display:none" />
+
     </div>
+
+
 
 </body>
 

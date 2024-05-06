@@ -129,7 +129,7 @@ var app = new Vue({
                     .catch(function (error) {
                         console.error('oops, something went wrong!', error);
                     });
-            }, 100)
+            }, 200)
 
         },
         most_similar_in_period(start_gw, last_gw) {
