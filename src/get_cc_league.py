@@ -2,6 +2,8 @@
 import requests
 import json
 
+season = '2024-2025'
+
 headers = {
     'Accept': '*/*',
     'Accept-Language': 'en-US,en;q=0.9',
@@ -23,7 +25,7 @@ headers = {
 
 params = {
     'leagueId': 'special_10002',
-    'entry': '275269',
+    'entry': '275466',
     'compareEntry': '4845',
     'currentweek': '38',
     'doNotCache': '1',
@@ -60,5 +62,5 @@ main_data['TeamDatas'] = main_data['TeamDatas'] + response.json()['TeamDatas']
 # %%
 len(main_data['TeamDatas'])
 
-with open('../data/list/cc_league.json', 'w') as f:
+with open(f'../data/list/cc_league_{season}.json', 'w') as f:
     json.dump(main_data, f, indent=4)
