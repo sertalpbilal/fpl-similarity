@@ -32,7 +32,6 @@ jobs:
 
     - name: Add changes
       run: |
-        cd ..
         git add -u .
         git config user.name "Daily cache"
         git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
