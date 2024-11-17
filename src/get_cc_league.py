@@ -1,6 +1,7 @@
 #%%
 import requests
 import json
+import pathlib
 
 season = '2024-2025'
 
@@ -61,6 +62,8 @@ main_data['TeamDatas'] = main_data['TeamDatas'] + response.json()['TeamDatas']
 
 # %%
 len(main_data['TeamDatas'])
+pathlib.Path("../data/list/").mkdir(exist_ok=True, parents=True)
+
 
 with open(f'../data/list/cc_league_{season}.json', 'w') as f:
     json.dump(main_data, f, indent=4)
