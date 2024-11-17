@@ -62,7 +62,7 @@
             <div id="gradient_bg" v-show="ready" v-cloak>
                 <div id="banner_bg">
                     <div id="tool-title"><span class="main-title">CONTENT CREATOR SIMILARITY RATING</span><br>GW1-GW{{ max_gw }}</div>
-                    <div id="tool-version">v0.3</div>
+                    <div id="tool-version">v0.4</div>
                     <div id="fpl_logo" v-html="fpl_logo"></div>
                     <div id="inner-box">
                         <div class="main-cols" id="player-column">
@@ -75,7 +75,7 @@
                         </div>
                         <div class="main-cols" id="content-creator-column">
                             <div>
-                                <div class="img-wrapper"><img class="w-100 h-100" :src="'data/cc/' + most_similar_cached?.cc?.id + '.png'" /></div>
+                                <div class="img-wrapper"><img class="w-100 h-100" :src="'data/cc/2024-2025/' + most_similar_cached?.cc?.id + '.png'" @error="this.src = 'data/cc/2024-2025/0.png'" /></div>
                             </div>
                             <div class="text-center">
                                 <div class="sim-title"><b>{{ most_similar_cached?.cc?.Name }}</b></div>
@@ -171,7 +171,7 @@
 
         <div style="display:none">{{ most_similar }}</div>
 
-        <img :src="'data/cc/' + x + '.png'" v-for="x in app?.cc_data?.map(i => i.id) || []" style="display:none" />
+        <img :src="'data/cc/2024-2025/' + x + '.png'" v-for="x in app?.cc_data?.map(i => i.id) || []" style="display:none" />
 
     </div>
 
