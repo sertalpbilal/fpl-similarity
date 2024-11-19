@@ -120,16 +120,16 @@
         "Description": "Fantasy Football Scout"
     },
     {
-        "id": 9,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
-    },
-    {
         "id": 4673,
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
+    },
+    {
+        "id": 9,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
     },
     {
         "id": 266,
@@ -156,16 +156,16 @@
         "Description": "Alon from the FML FPL podcast"
     },
     {
-        "id": 1844,
-        "Name": "Tom (WGTA)",
-        "PlayerName": "Tom C (WGTA)",
-        "Description": "Tom from Who got the assist podcast"
-    },
-    {
         "id": 79661,
         "Name": "Javed (FPLDagga)",
         "PlayerName": "Javed Khan",
         "Description": "Javed (FPLDagga)"
+    },
+    {
+        "id": 1844,
+        "Name": "Tom (WGTA)",
+        "PlayerName": "Tom C (WGTA)",
+        "Description": "Tom from Who got the assist podcast"
     },
     {
         "id": 2748,
@@ -288,16 +288,16 @@
         "Description": "@fpl.cim on TikTok"
     },
     {
-        "id": 24,
-        "Name": "Andy (Let's Talk FPL)",
-        "PlayerName": "Andy LTFPL",
-        "Description": "Andy from the YouTube channel Let's Talk FPL"
-    },
-    {
         "id": 2627,
         "Name": "FPL Tom",
         "PlayerName": "Tom L",
         "Description": "FPL Tom"
+    },
+    {
+        "id": 24,
+        "Name": "Andy (Let's Talk FPL)",
+        "PlayerName": "Andy LTFPL",
+        "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
         "id": 2911,
@@ -318,16 +318,16 @@
         "Description": "Sam FPL"
     },
     {
-        "id": 20183,
-        "Name": "Fpl Heisenberg (FF Hub)",
-        "PlayerName": "Wes Prickett",
-        "Description": "Full-time FPL Content Creator"
-    },
-    {
         "id": 32260,
         "Name": "Nick (FPL Juice)",
         "PlayerName": "Nick Turner (FPL JUiCE)",
         "Description": "Nick (FPL Juice)"
+    },
+    {
+        "id": 20183,
+        "Name": "Fpl Heisenberg (FF Hub)",
+        "PlayerName": "Wes Prickett",
+        "Description": "Full-time FPL Content Creator"
     },
     {
         "id": 5484,
@@ -336,28 +336,28 @@
         "Description": "Rob (FPL Haul)"
     },
     {
-        "id": 22383,
-        "Name": "FPL Nima (Locked in FPL + FPL Meets)",
-        "PlayerName": "Nima Kafai",
-        "Description": "Nima from youtube/pod Net That Haul"
-    },
-    {
         "id": 271,
         "Name": "BigManBakar (FF Hub)",
         "PlayerName": "BigMan Bakar",
         "Description": "AbuBakar Siddiq, Gameweek reviews on twitter, #4 in world 14/15"
     },
     {
-        "id": 7685,
-        "Name": "Gianni Buttice (FPL Show)",
-        "PlayerName": "Gianni Buttice",
-        "Description": "Fpl show panelist and scout "
+        "id": 22383,
+        "Name": "FPL Nima (Locked in FPL + FPL Meets)",
+        "PlayerName": "Nima Kafai",
+        "Description": "Nima from youtube/pod Net That Haul"
     },
     {
         "id": 165,
         "Name": "BlackWolf (FPLUSA)",
         "PlayerName": "Dan (BlackWolf)",
         "Description": "BlackWolf (FPLUSA)"
+    },
+    {
+        "id": 7685,
+        "Name": "Gianni Buttice (FPL Show)",
+        "PlayerName": "Gianni Buttice",
+        "Description": "Fpl show panelist and scout "
     },
     {
         "id": 24194,
