@@ -24,28 +24,28 @@
         "Description": "FPL Harry"
     },
     {
-        "id": 13820,
-        "Name": "Ben (FPL Graduates)",
-        "PlayerName": "Ben Brown",
-        "Description": "Ben (FPL Graduates)"
-    },
-    {
         "id": 2869,
         "Name": "Ben Crellin (FF Hub)",
         "PlayerName": "Ben Crellin",
         "Description": "Reports about double/blank gameweek on twitter"
     },
     {
-        "id": 2974,
-        "Name": "FPL Goat",
-        "PlayerName": "Shaad Shaikh",
-        "Description": "FPL Goat"
+        "id": 13820,
+        "Name": "Ben (FPL Graduates)",
+        "PlayerName": "Ben Brown",
+        "Description": "Ben (FPL Graduates)"
     },
     {
         "id": 4673,
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
+    },
+    {
+        "id": 2974,
+        "Name": "FPL Goat",
+        "PlayerName": "Shaad Shaikh",
+        "Description": "FPL Goat"
     },
     {
         "id": 4805,
@@ -66,12 +66,6 @@
         "Description": "Clayton (Planet FPL)"
     },
     {
-        "id": 54296,
-        "Name": "Ash (FPL Juice)",
-        "PlayerName": "Ashley Nugent",
-        "Description": "Ash (FPL Juice)"
-    },
-    {
         "id": 5290,
         "Name": "FPL Olympian",
         "PlayerName": "Adrian I",
@@ -82,6 +76,12 @@
         "Name": "David (Dayvy FPL)",
         "PlayerName": "David (@DayvyFPL)",
         "Description": "David (Dayvy FPL)"
+    },
+    {
+        "id": 54296,
+        "Name": "Ash (FPL Juice)",
+        "PlayerName": "Ashley Nugent",
+        "Description": "Ash (FPL Juice)"
     },
     {
         "id": 20360,
@@ -102,22 +102,16 @@
         "Description": "Jian Batra (FF Hub)"
     },
     {
-        "id": 15360,
-        "Name": "Srini (All About FPL)",
-        "PlayerName": "Srinivasan Srini",
-        "Description": "Srini (All About FPL)"
-    },
-    {
         "id": 18339,
         "Name": "Leon (FPL Consult)",
         "PlayerName": "Leon Sim",
         "Description": "Leon (FPL Consult)"
     },
     {
-        "id": 2748,
-        "Name": "FPL Paz (All About FPL)",
-        "PlayerName": "Placido Antuan Zambrano",
-        "Description": "FPL Paz (All About FPL)"
+        "id": 15360,
+        "Name": "Srini (All About FPL)",
+        "PlayerName": "Srinivasan Srini",
+        "Description": "Srini (All About FPL)"
     },
     {
         "id": 4719275,
@@ -126,10 +120,10 @@
         "Description": "Scouts #1 Ranked Player in the world "
     },
     {
-        "id": 9,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
+        "id": 2748,
+        "Name": "FPL Paz (All About FPL)",
+        "PlayerName": "Placido Antuan Zambrano",
+        "Description": "FPL Paz (All About FPL)"
     },
     {
         "id": 79661,
@@ -138,10 +132,10 @@
         "Description": "Javed (FPLDagga)"
     },
     {
-        "id": 183425,
-        "Name": "Se\u00e1n (The Brentford Hive)",
-        "PlayerName": "Se\u00e1n Takeram",
-        "Description": "Se\u00e1n (The Brentford Hive)"
+        "id": 9,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
     },
     {
         "id": 50725,
@@ -150,16 +144,22 @@
         "Description": "FPL Plug"
     },
     {
-        "id": 738,
-        "Name": "Brandon (Always Cheating)",
-        "PlayerName": "Brandon Kelley",
-        "Description": "Brandon from the Always Cheating Podcast"
-    },
-    {
         "id": 266,
         "Name": "FPL Fran (The FPL Script)",
         "PlayerName": "Francisco MW",
         "Description": "FPL Fran (The FPL Script)"
+    },
+    {
+        "id": 183425,
+        "Name": "Se\u00e1n (The Brentford Hive)",
+        "PlayerName": "Se\u00e1n Takeram",
+        "Description": "Se\u00e1n (The Brentford Hive)"
+    },
+    {
+        "id": 738,
+        "Name": "Brandon (Always Cheating)",
+        "PlayerName": "Brandon Kelley",
+        "Description": "Brandon from the Always Cheating Podcast"
     },
     {
         "id": 14803,
@@ -282,16 +282,16 @@
         "Description": "Dan from the YouTube channel FPL Mate"
     },
     {
-        "id": 32260,
-        "Name": "Nick (FPL Juice)",
-        "PlayerName": "Nick Turner (FPL JUiCE)",
-        "Description": "Nick (FPL Juice)"
-    },
-    {
         "id": 2911,
         "Name": "FPL Architect",
         "PlayerName": "Gustav Stenberg",
         "Description": "FPL Architect"
+    },
+    {
+        "id": 32260,
+        "Name": "Nick (FPL Juice)",
+        "PlayerName": "Nick Turner (FPL JUiCE)",
+        "Description": "Nick (FPL Juice)"
     },
     {
         "id": 45957,
