@@ -318,16 +318,16 @@
         "Description": "Walsh from the FML FPL podcast"
     },
     {
-        "id": 2985,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
-    },
-    {
         "id": 5133,
         "Name": "Sam (WGTA)",
         "PlayerName": "Sam Price",
         "Description": "Sam from Who got the assist podcast"
+    },
+    {
+        "id": 2985,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
     },
     {
         "id": 45957,
