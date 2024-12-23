@@ -138,6 +138,12 @@
         "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
+        "id": 9,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
+    },
+    {
         "id": 2911,
         "Name": "FPL Architect",
         "PlayerName": "Gustav Stenberg",
@@ -148,12 +154,6 @@
         "Name": "Baker343 (Above Average)",
         "PlayerName": "Martin Baker",
         "Description": "Above Average FPL Podcast"
-    },
-    {
-        "id": 9,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
     },
     {
         "id": 2627,
@@ -228,16 +228,16 @@
         "Description": "Sujan from Planet Fpl pod"
     },
     {
-        "id": 5718,
-        "Name": "Lee (FPL Family)",
-        "PlayerName": "Lee Bonfield",
-        "Description": "Lee from FPL Family YouTube channel"
-    },
-    {
         "id": 18033,
         "Name": "FPL_Chai (FFScout)",
         "PlayerName": "Chai ^",
         "Description": "FPL_Chai from Scout"
+    },
+    {
+        "id": 5718,
+        "Name": "Lee (FPL Family)",
+        "PlayerName": "Lee Bonfield",
+        "Description": "Lee from FPL Family YouTube channel"
     },
     {
         "id": 5289,
@@ -336,6 +336,12 @@
         "Description": "Fantasy Football Scout and Blackbox"
     },
     {
+        "id": 5484,
+        "Name": "Rob (FPL Haul)",
+        "PlayerName": "Rob Haul",
+        "Description": "Rob (FPL Haul)"
+    },
+    {
         "id": 470,
         "Name": "Adam (Above Average FPL)",
         "PlayerName": "Adam Currier",
@@ -346,12 +352,6 @@
         "Name": "Fpl_Salah (FF Hub)",
         "PlayerName": "Abdul Rehman",
         "Description": "Fpl Salah on twitter and Writer at Fantasy Football Hub"
-    },
-    {
-        "id": 5484,
-        "Name": "Rob (FPL Haul)",
-        "PlayerName": "Rob Haul",
-        "Description": "Rob (FPL Haul)"
     },
     {
         "id": 7685,
@@ -378,6 +378,12 @@
         "Description": "Utkarsh (ZopharFPL)"
     },
     {
+        "id": 48986,
+        "Name": "Andy (FPLMonde)",
+        "PlayerName": "Andy North",
+        "Description": "Andy (FPLMonde)"
+    },
+    {
         "id": 154,
         "Name": "Luke (Inspected Goals)",
         "PlayerName": "Luke Williams",
@@ -388,12 +394,6 @@
         "Name": "Alon (FML FPL)",
         "PlayerName": "Alon Shapiro",
         "Description": "Alon from the FML FPL podcast"
-    },
-    {
-        "id": 48986,
-        "Name": "Andy (FPLMonde)",
-        "PlayerName": "Andy North",
-        "Description": "Andy (FPLMonde)"
     },
     {
         "id": 14803,
