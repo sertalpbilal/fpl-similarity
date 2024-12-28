@@ -192,16 +192,16 @@
         "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
-        "id": 151,
-        "Name": "Hibbo FPL (FFScout)",
-        "PlayerName": "Sean Jackson",
-        "Description": "Hibbo FPL from Scout"
-    },
-    {
         "id": 18033,
         "Name": "FPL_Chai (FFScout)",
         "PlayerName": "Chai ^",
         "Description": "FPL_Chai from Scout"
+    },
+    {
+        "id": 151,
+        "Name": "Hibbo FPL (FFScout)",
+        "PlayerName": "Sean Jackson",
+        "Description": "Hibbo FPL from Scout"
     },
     {
         "id": 63256,
