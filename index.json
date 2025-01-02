@@ -96,6 +96,12 @@
         "Description": "Oscar (FPL Focal)"
     },
     {
+        "id": 3462276,
+        "Name": "Aviral (The FPL Bois)",
+        "PlayerName": "Aviral Pushkarna",
+        "Description": "Aviral (The FPL Bois)"
+    },
+    {
         "id": 2087672,
         "Name": "David (Dayvy FPL)",
         "PlayerName": "David (@DayvyFPL)",
@@ -144,16 +150,16 @@
         "Description": "Dan from the YouTube channel FPL Mate"
     },
     {
-        "id": 18339,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
-    },
-    {
         "id": 5289,
         "Name": "Mark (FPL BlackBox)",
         "PlayerName": "Mark Sutherns",
         "Description": "Mark (FPL BlackBox)"
+    },
+    {
+        "id": 18339,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 5718,
