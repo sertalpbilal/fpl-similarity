@@ -18,16 +18,16 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
-        "id": 2869,
-        "Name": "Ben Crellin (FF Hub)",
-        "PlayerName": "Ben Crellin",
-        "Description": "Reports about double/blank gameweek on twitter"
-    },
-    {
         "id": 1000810,
         "Name": "FPL General",
         "PlayerName": "Mark McGettigan",
         "Description": "FPL General"
+    },
+    {
+        "id": 2869,
+        "Name": "Ben Crellin (FF Hub)",
+        "PlayerName": "Ben Crellin",
+        "Description": "Reports about double/blank gameweek on twitter"
     },
     {
         "id": 11539,
@@ -78,18 +78,6 @@
         "Description": "FPL Tom"
     },
     {
-        "id": 2911,
-        "Name": "FPL Architect",
-        "PlayerName": "Gustav Stenberg",
-        "Description": "FPL Architect"
-    },
-    {
-        "id": 17627,
-        "Name": "Clayton (Planet FPL)",
-        "PlayerName": "Clayton Fernandes",
-        "Description": "Clayton (Planet FPL)"
-    },
-    {
         "id": 1301,
         "Name": "Oscar (FPL Focal)",
         "PlayerName": "Oscar \u200e",
@@ -100,6 +88,18 @@
         "Name": "Aviral (The FPL Bois)",
         "PlayerName": "Aviral Pushkarna",
         "Description": "Aviral (The FPL Bois)"
+    },
+    {
+        "id": 2911,
+        "Name": "FPL Architect",
+        "PlayerName": "Gustav Stenberg",
+        "Description": "FPL Architect"
+    },
+    {
+        "id": 17627,
+        "Name": "Clayton (Planet FPL)",
+        "PlayerName": "Clayton Fernandes",
+        "Description": "Clayton (Planet FPL)"
     },
     {
         "id": 2087672,
@@ -216,16 +216,16 @@
         "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
-        "id": 22383,
-        "Name": "FPL Nima (Locked in FPL + FPL Meets)",
-        "PlayerName": "Nima Kafai",
-        "Description": "Nima from youtube/pod Net That Haul"
-    },
-    {
         "id": 183425,
         "Name": "Se\u00e1n (The Brentford Hive)",
         "PlayerName": "Se\u00e1n Takeram",
         "Description": "Se\u00e1n (The Brentford Hive)"
+    },
+    {
+        "id": 22383,
+        "Name": "FPL Nima (Locked in FPL + FPL Meets)",
+        "PlayerName": "Nima Kafai",
+        "Description": "Nima from youtube/pod Net That Haul"
     },
     {
         "id": 6939,
@@ -390,16 +390,16 @@
         "Description": "Utkarsh (ZopharFPL)"
     },
     {
-        "id": 14803,
-        "Name": "Walsh (FML FPL) ",
-        "PlayerName": "Adam Walsh",
-        "Description": "Walsh from the FML FPL podcast"
-    },
-    {
         "id": 48986,
         "Name": "Andy (FPLMonde)",
         "PlayerName": "Andy North",
         "Description": "Andy (FPLMonde)"
+    },
+    {
+        "id": 14803,
+        "Name": "Walsh (FML FPL) ",
+        "PlayerName": "Adam Walsh",
+        "Description": "Walsh from the FML FPL podcast"
     },
     {
         "id": 17731,
