@@ -72,16 +72,16 @@
         "Description": "FPL Calle"
     },
     {
-        "id": 1301,
-        "Name": "Oscar (FPL Focal)",
-        "PlayerName": "Oscar \u200e",
-        "Description": "Oscar (FPL Focal)"
-    },
-    {
         "id": 18339,
         "Name": "Leon (FPL Consult)",
         "PlayerName": "Leon Sim",
         "Description": "Leon (FPL Consult)"
+    },
+    {
+        "id": 1301,
+        "Name": "Oscar (FPL Focal)",
+        "PlayerName": "Oscar \u200e",
+        "Description": "Oscar (FPL Focal)"
     },
     {
         "id": 4916,
@@ -156,12 +156,6 @@
         "Description": "FPL Paz (All About FPL)"
     },
     {
-        "id": 24,
-        "Name": "Andy (Let's Talk FPL)",
-        "PlayerName": "Andy LTFPL",
-        "Description": "Andy from the YouTube channel Let's Talk FPL"
-    },
-    {
         "id": 2974,
         "Name": "FPL Goat",
         "PlayerName": "Shaad Shaikh",
@@ -172,6 +166,12 @@
         "Name": "Mark (FPL BlackBox)",
         "PlayerName": "Mark Sutherns",
         "Description": "Mark (FPL BlackBox)"
+    },
+    {
+        "id": 24,
+        "Name": "Andy (Let's Talk FPL)",
+        "PlayerName": "Andy LTFPL",
+        "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
         "id": 17627,
@@ -192,16 +192,16 @@
         "Description": "AbuBakar Siddiq, Gameweek reviews on twitter, #4 in world 14/15"
     },
     {
-        "id": 3462276,
-        "Name": "Aviral (The FPL Bois)",
-        "PlayerName": "Aviral Pushkarna",
-        "Description": "Aviral (The FPL Bois)"
-    },
-    {
         "id": 79661,
         "Name": "Javed (FPLDagga)",
         "PlayerName": "Javed Khan",
         "Description": "Javed (FPLDagga)"
+    },
+    {
+        "id": 3462276,
+        "Name": "Aviral (The FPL Bois)",
+        "PlayerName": "Aviral Pushkarna",
+        "Description": "Aviral (The FPL Bois)"
     },
     {
         "id": 63256,
@@ -246,12 +246,6 @@
         "Description": "FPL Plug"
     },
     {
-        "id": 2251,
-        "Name": "Jonas (ASC_FPL)",
-        "PlayerName": "Jonas Sand L\u00e5bakk",
-        "Description": "Winner of 23/24 season"
-    },
-    {
         "id": 151,
         "Name": "Hibbo FPL (FFScout)",
         "PlayerName": "Sean Jackson",
@@ -262,6 +256,12 @@
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
         "Description": "Tom from Who got the assist podcast"
+    },
+    {
+        "id": 2251,
+        "Name": "Jonas (ASC_FPL)",
+        "PlayerName": "Jonas Sand L\u00e5bakk",
+        "Description": "Winner of 23/24 season"
     },
     {
         "id": 18033,
@@ -318,12 +318,6 @@
         "Description": "Fantasy Football Scout"
     },
     {
-        "id": 2140,
-        "Name": "Sam (FPL Family)",
-        "PlayerName": "Sam Bonfield",
-        "Description": "Sam from FPL Family YouTube channel"
-    },
-    {
         "id": 165,
         "Name": "BlackWolf (FPLUSA)",
         "PlayerName": "Dan (BlackWolf)",
@@ -334,6 +328,12 @@
         "Name": "Andy (FPL Tactician)",
         "PlayerName": "Andrew Martin",
         "Description": "Andy (FPL Tactician)"
+    },
+    {
+        "id": 2140,
+        "Name": "Sam (FPL Family)",
+        "PlayerName": "Sam Bonfield",
+        "Description": "Sam from FPL Family YouTube channel"
     },
     {
         "id": 156,
@@ -372,16 +372,16 @@
         "Description": "@fpl.cim on TikTok"
     },
     {
-        "id": 24194,
-        "Name": "Lateriser12 (FPL Wire)",
-        "PlayerName": "Pranil Sheth",
-        "Description": "Lateriser12 on twitter"
-    },
-    {
         "id": 1536,
         "Name": "Ash (FPL Hints)",
         "PlayerName": "Ash, @FPLHints",
         "Description": "@FPLHints on Twitter"
+    },
+    {
+        "id": 24194,
+        "Name": "Lateriser12 (FPL Wire)",
+        "PlayerName": "Pranil Sheth",
+        "Description": "Lateriser12 on twitter"
     },
     {
         "id": 470,
