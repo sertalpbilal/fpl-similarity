@@ -228,16 +228,16 @@
         "Description": "Lee from FPL Family YouTube channel"
     },
     {
-        "id": 13820,
-        "Name": "Ben (FPL Graduates)",
-        "PlayerName": "Ben Brown",
-        "Description": "Ben (FPL Graduates)"
-    },
-    {
         "id": 275466,
         "Name": "Sertalp \u00c7ay (Fpl Optimized)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 13820,
+        "Name": "Ben (FPL Graduates)",
+        "PlayerName": "Ben Brown",
+        "Description": "Ben (FPL Graduates)"
     },
     {
         "id": 50725,
