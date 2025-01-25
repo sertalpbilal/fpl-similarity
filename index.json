@@ -48,6 +48,12 @@
         "Description": "FPL Harry"
     },
     {
+        "id": 266,
+        "Name": "FPL Fran (The FPL Script)",
+        "PlayerName": "Francisco MW",
+        "Description": "FPL Fran (The FPL Script)"
+    },
+    {
         "id": 4673,
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
@@ -60,28 +66,22 @@
         "Description": "FPL Tom"
     },
     {
-        "id": 266,
-        "Name": "FPL Fran (The FPL Script)",
-        "PlayerName": "Francisco MW",
-        "Description": "FPL Fran (The FPL Script)"
-    },
-    {
         "id": 10086,
         "Name": "FPL Calle",
         "PlayerName": "Calle Jonsson",
         "Description": "FPL Calle"
     },
     {
-        "id": 18339,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
-    },
-    {
         "id": 1301,
         "Name": "Oscar (FPL Focal)",
         "PlayerName": "Oscar \u200e",
         "Description": "Oscar (FPL Focal)"
+    },
+    {
+        "id": 18339,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 4916,
@@ -96,16 +96,16 @@
         "Description": "FPL \u00c9ire on Instagram and Twitter"
     },
     {
-        "id": 738,
-        "Name": "Brandon (Always Cheating)",
-        "PlayerName": "Brandon Kelley",
-        "Description": "Brandon from the Always Cheating Podcast"
-    },
-    {
         "id": 2911,
         "Name": "FPL Architect",
         "PlayerName": "Gustav Stenberg",
         "Description": "FPL Architect"
+    },
+    {
+        "id": 738,
+        "Name": "Brandon (Always Cheating)",
+        "PlayerName": "Brandon Kelley",
+        "Description": "Brandon from the Always Cheating Podcast"
     },
     {
         "id": 3108,
@@ -114,16 +114,16 @@
         "Description": "Hamza (FPL Pattern)"
     },
     {
-        "id": 2985,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
-    },
-    {
         "id": 183425,
         "Name": "Se\u00e1n (The Brentford Hive)",
         "PlayerName": "Se\u00e1n Takeram",
         "Description": "Se\u00e1n (The Brentford Hive)"
+    },
+    {
+        "id": 2985,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
     },
     {
         "id": 4719275,
@@ -144,16 +144,16 @@
         "Description": "Sam FPL"
     },
     {
-        "id": 96,
-        "Name": "Dan (FPL Mate)",
-        "PlayerName": "FPL Mate (Dan)",
-        "Description": "Dan from the YouTube channel FPL Mate"
-    },
-    {
         "id": 2748,
         "Name": "FPL Paz (All About FPL)",
         "PlayerName": "Placido Antuan Zambrano",
         "Description": "FPL Paz (All About FPL)"
+    },
+    {
+        "id": 96,
+        "Name": "Dan (FPL Mate)",
+        "PlayerName": "FPL Mate (Dan)",
+        "Description": "Dan from the YouTube channel FPL Mate"
     },
     {
         "id": 2974,
@@ -240,28 +240,28 @@
         "Description": "Ben (FPL Graduates)"
     },
     {
-        "id": 50725,
-        "Name": "FPL Plug",
-        "PlayerName": "Tom Jones",
-        "Description": "FPL Plug"
-    },
-    {
         "id": 151,
         "Name": "Hibbo FPL (FFScout)",
         "PlayerName": "Sean Jackson",
         "Description": "Hibbo FPL from Scout"
     },
     {
-        "id": 1844,
-        "Name": "Tom (WGTA)",
-        "PlayerName": "Tom C (WGTA)",
-        "Description": "Tom from Who got the assist podcast"
+        "id": 50725,
+        "Name": "FPL Plug",
+        "PlayerName": "Tom Jones",
+        "Description": "FPL Plug"
     },
     {
         "id": 2251,
         "Name": "Jonas (ASC_FPL)",
         "PlayerName": "Jonas Sand L\u00e5bakk",
         "Description": "Winner of 23/24 season"
+    },
+    {
+        "id": 1844,
+        "Name": "Tom (WGTA)",
+        "PlayerName": "Tom C (WGTA)",
+        "Description": "Tom from Who got the assist podcast"
     },
     {
         "id": 18033,
@@ -282,16 +282,16 @@
         "Description": "Sam from Who got the assist podcast"
     },
     {
-        "id": 5290,
-        "Name": "FPL Olympian",
-        "PlayerName": "Adrian I",
-        "Description": "FPL Olympian"
-    },
-    {
         "id": 45957,
         "Name": "Az (Blackbox)",
         "PlayerName": "Az Phillips",
         "Description": "Fantasy Football Scout and Blackbox"
+    },
+    {
+        "id": 5290,
+        "Name": "FPL Olympian",
+        "PlayerName": "Adrian I",
+        "Description": "FPL Olympian"
     },
     {
         "id": 54296,
@@ -372,16 +372,16 @@
         "Description": "@fpl.cim on TikTok"
     },
     {
-        "id": 1536,
-        "Name": "Ash (FPL Hints)",
-        "PlayerName": "Ash, @FPLHints",
-        "Description": "@FPLHints on Twitter"
-    },
-    {
         "id": 24194,
         "Name": "Lateriser12 (FPL Wire)",
         "PlayerName": "Pranil Sheth",
         "Description": "Lateriser12 on twitter"
+    },
+    {
+        "id": 1536,
+        "Name": "Ash (FPL Hints)",
+        "PlayerName": "Ash, @FPLHints",
+        "Description": "@FPLHints on Twitter"
     },
     {
         "id": 470,
