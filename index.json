@@ -216,12 +216,6 @@
         "Description": "Lee from FPL Family YouTube channel"
     },
     {
-        "id": 275466,
-        "Name": "Sertalp \u00c7ay (Fpl Optimized)",
-        "PlayerName": "Sertalp Cay",
-        "Description": "Fpl Optimized (podcast & tool)"
-    },
-    {
         "id": 271,
         "Name": "BigManBakar (FF Hub)",
         "PlayerName": "BigMan Bakar",
@@ -232,6 +226,12 @@
         "Name": "FPL Nima (Locked in FPL + FPL Meets)",
         "PlayerName": "Nima Kafai",
         "Description": "Nima from youtube/pod Net That Haul"
+    },
+    {
+        "id": 275466,
+        "Name": "Sertalp \u00c7ay (Fpl Optimized)",
+        "PlayerName": "Sertalp Cay",
+        "Description": "Fpl Optimized (podcast & tool)"
     },
     {
         "id": 151,
@@ -330,16 +330,16 @@
         "Description": "Ash (FPL Juice)"
     },
     {
-        "id": 1812,
-        "Name": "Tom (Scout)",
-        "PlayerName": "Tom Johnson",
-        "Description": "Fantasy Football Scout"
-    },
-    {
         "id": 48986,
         "Name": "Andy (FPLMode)",
         "PlayerName": "Andy North",
         "Description": "Andy (FPLMode)"
+    },
+    {
+        "id": 1812,
+        "Name": "Tom (Scout)",
+        "PlayerName": "Tom Johnson",
+        "Description": "Fantasy Football Scout"
     },
     {
         "id": 156,
