@@ -222,16 +222,16 @@
         "Description": "AbuBakar Siddiq, Gameweek reviews on twitter, #4 in world 14/15"
     },
     {
-        "id": 22383,
-        "Name": "FPL Nima (Locked in FPL + FPL Meets)",
-        "PlayerName": "Nima Kafai",
-        "Description": "Nima from youtube/pod Net That Haul"
-    },
-    {
         "id": 275466,
         "Name": "Sertalp \u00c7ay (Fpl Optimized)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 22383,
+        "Name": "FPL Nima (Locked in FPL + FPL Meets)",
+        "PlayerName": "Nima Kafai",
+        "Description": "Nima from youtube/pod Net That Haul"
     },
     {
         "id": 151,
