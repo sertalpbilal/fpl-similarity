@@ -360,12 +360,6 @@
         "Description": "Lateriser12 on twitter"
     },
     {
-        "id": 9505,
-        "Name": "Utkarsh (ZopharFPL)",
-        "PlayerName": "Utkarsh D",
-        "Description": "Utkarsh (ZopharFPL)"
-    },
-    {
         "id": 17731,
         "Name": "Josh (FPL Graduates)",
         "PlayerName": "Joshua Scott",
@@ -376,6 +370,12 @@
         "Name": "FPL Cim",
         "PlayerName": "Cim Diesel",
         "Description": "@fpl.cim on TikTok"
+    },
+    {
+        "id": 9505,
+        "Name": "Utkarsh (ZopharFPL)",
+        "PlayerName": "Utkarsh D",
+        "Description": "Utkarsh (ZopharFPL)"
     },
     {
         "id": 14803,
