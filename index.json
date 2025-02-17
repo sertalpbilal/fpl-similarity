@@ -204,16 +204,16 @@
         "Description": "Tom from Who got the assist podcast"
     },
     {
-        "id": 738,
-        "Name": "Brandon (Always Cheating)",
-        "PlayerName": "Brandon Kelley",
-        "Description": "Brandon from the Always Cheating Podcast"
-    },
-    {
         "id": 18033,
         "Name": "FPL_Chai (FFScout)",
         "PlayerName": "Chai ^",
         "Description": "FPL_Chai from Scout"
+    },
+    {
+        "id": 738,
+        "Name": "Brandon (Always Cheating)",
+        "PlayerName": "Brandon Kelley",
+        "Description": "Brandon from the Always Cheating Podcast"
     },
     {
         "id": 22383,
