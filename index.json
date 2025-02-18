@@ -156,16 +156,16 @@
         "Description": "Scouts #1 Ranked Player in the world "
     },
     {
-        "id": 183425,
-        "Name": "Se\u00e1n (The Brentford Hive)",
-        "PlayerName": "Se\u00e1n Takeram",
-        "Description": "Se\u00e1n (The Brentford Hive)"
-    },
-    {
         "id": 79661,
         "Name": "Javed (FPLDagga)",
         "PlayerName": "Javed Khan",
         "Description": "Javed (FPLDagga)"
+    },
+    {
+        "id": 183425,
+        "Name": "Se\u00e1n (The Brentford Hive)",
+        "PlayerName": "Se\u00e1n Takeram",
+        "Description": "Se\u00e1n (The Brentford Hive)"
     },
     {
         "id": 3108,
@@ -198,6 +198,12 @@
         "Description": "David (Dayvy FPL)"
     },
     {
+        "id": 738,
+        "Name": "Brandon (Always Cheating)",
+        "PlayerName": "Brandon Kelley",
+        "Description": "Brandon from the Always Cheating Podcast"
+    },
+    {
         "id": 1844,
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
@@ -208,12 +214,6 @@
         "Name": "FPL_Chai (FFScout)",
         "PlayerName": "Chai ^",
         "Description": "FPL_Chai from Scout"
-    },
-    {
-        "id": 738,
-        "Name": "Brandon (Always Cheating)",
-        "PlayerName": "Brandon Kelley",
-        "Description": "Brandon from the Always Cheating Podcast"
     },
     {
         "id": 22383,
@@ -294,16 +294,16 @@
         "Description": "Fantasy Football Scout and Blackbox"
     },
     {
-        "id": 1812,
-        "Name": "Tom (Scout)",
-        "PlayerName": "Tom Johnson",
-        "Description": "Fantasy Football Scout"
-    },
-    {
         "id": 156,
         "Name": "Fpl_Salah (FF Hub)",
         "PlayerName": "Abdul Rehman",
         "Description": "Fpl Salah on twitter and Writer at Fantasy Football Hub"
+    },
+    {
+        "id": 1812,
+        "Name": "Tom (Scout)",
+        "PlayerName": "Tom Johnson",
+        "Description": "Fantasy Football Scout"
     },
     {
         "id": 2140,
@@ -348,12 +348,6 @@
         "Description": "@fpl.cim on TikTok"
     },
     {
-        "id": 9505,
-        "Name": "Utkarsh (ZopharFPL)",
-        "PlayerName": "Utkarsh D",
-        "Description": "Utkarsh (ZopharFPL)"
-    },
-    {
         "id": 17731,
         "Name": "Josh (FPL Graduates)",
         "PlayerName": "Joshua Scott",
@@ -364,6 +358,12 @@
         "Name": "Ash (FPL Hints)",
         "PlayerName": "Ash, @FPLHints",
         "Description": "@FPLHints on Twitter"
+    },
+    {
+        "id": 9505,
+        "Name": "Utkarsh (ZopharFPL)",
+        "PlayerName": "Utkarsh D",
+        "Description": "Utkarsh (ZopharFPL)"
     },
     {
         "id": 54296,
@@ -378,16 +378,16 @@
         "Description": "Lateriser12 on twitter"
     },
     {
-        "id": 48986,
-        "Name": "Andy (FPLMode)",
-        "PlayerName": "Andy North",
-        "Description": "Andy (FPLMode)"
-    },
-    {
         "id": 655,
         "Name": "Yelena FPL",
         "PlayerName": "Yelena Cekerevac",
         "Description": "Yelena FPL"
+    },
+    {
+        "id": 48986,
+        "Name": "Andy (FPLMode)",
+        "PlayerName": "Andy North",
+        "Description": "Andy (FPLMode)"
     },
     {
         "id": 20183,
