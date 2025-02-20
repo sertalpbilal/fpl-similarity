@@ -198,16 +198,16 @@
         "Description": "David (Dayvy FPL)"
     },
     {
-        "id": 738,
-        "Name": "Brandon (Always Cheating)",
-        "PlayerName": "Brandon Kelley",
-        "Description": "Brandon from the Always Cheating Podcast"
-    },
-    {
         "id": 1844,
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
         "Description": "Tom from Who got the assist podcast"
+    },
+    {
+        "id": 738,
+        "Name": "Brandon (Always Cheating)",
+        "PlayerName": "Brandon Kelley",
+        "Description": "Brandon from the Always Cheating Podcast"
     },
     {
         "id": 18033,
@@ -366,16 +366,16 @@
         "Description": "Utkarsh (ZopharFPL)"
     },
     {
-        "id": 54296,
-        "Name": "Ash (FPL Juice)",
-        "PlayerName": "Ashley Nugent",
-        "Description": "Ash (FPL Juice)"
-    },
-    {
         "id": 24194,
         "Name": "Lateriser12 (FPL Wire)",
         "PlayerName": "Pranil Sheth",
         "Description": "Lateriser12 on twitter"
+    },
+    {
+        "id": 54296,
+        "Name": "Ash (FPL Juice)",
+        "PlayerName": "Ashley Nugent",
+        "Description": "Ash (FPL Juice)"
     },
     {
         "id": 655,
