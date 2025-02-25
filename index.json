@@ -48,12 +48,6 @@
         "Description": "Tom (Golden Goal Fantasy Football)"
     },
     {
-        "id": 2911,
-        "Name": "FPL Architect",
-        "PlayerName": "Gustav Stenberg",
-        "Description": "FPL Architect"
-    },
-    {
         "id": 28015,
         "Name": "James (Planet Fpl)",
         "PlayerName": "James Linden",
@@ -70,6 +64,12 @@
         "Name": "FPL General",
         "PlayerName": "Mark McGettigan",
         "Description": "FPL General"
+    },
+    {
+        "id": 2911,
+        "Name": "FPL Architect",
+        "PlayerName": "Gustav Stenberg",
+        "Description": "FPL Architect"
     },
     {
         "id": 11502,
@@ -96,22 +96,16 @@
         "Description": "FPL Calle"
     },
     {
-        "id": 746,
-        "Name": "Ross (FPL Raptor)",
-        "PlayerName": "FPL Raptor",
-        "Description": "Ross (FPL Raptor)"
-    },
-    {
-        "id": 298110,
-        "Name": "Sam FPL",
-        "PlayerName": "Sam Sherif",
-        "Description": "Sam FPL"
-    },
-    {
         "id": 18339,
         "Name": "Leon (FPL Consult)",
         "PlayerName": "Leon Sim",
         "Description": "Leon (FPL Consult)"
+    },
+    {
+        "id": 746,
+        "Name": "Ross (FPL Raptor)",
+        "PlayerName": "FPL Raptor",
+        "Description": "Ross (FPL Raptor)"
     },
     {
         "id": 4673,
@@ -120,16 +114,22 @@
         "Description": "@fpl_jimmyg on TikTok"
     },
     {
-        "id": 2748,
-        "Name": "FPL Paz (All About FPL)",
-        "PlayerName": "Placido Antuan Zambrano",
-        "Description": "FPL Paz (All About FPL)"
-    },
-    {
         "id": 2985,
         "Name": "Tom (FPLCruyff74)",
         "PlayerName": "Tom Freeman",
         "Description": "Tom from Fantasy Football Scout"
+    },
+    {
+        "id": 298110,
+        "Name": "Sam FPL",
+        "PlayerName": "Sam Sherif",
+        "Description": "Sam FPL"
+    },
+    {
+        "id": 2748,
+        "Name": "FPL Paz (All About FPL)",
+        "PlayerName": "Placido Antuan Zambrano",
+        "Description": "FPL Paz (All About FPL)"
     },
     {
         "id": 3462276,
@@ -174,16 +174,16 @@
         "Description": "Mark (FPL BlackBox)"
     },
     {
-        "id": 18033,
-        "Name": "FPL_Chai (FFScout)",
-        "PlayerName": "Chai ^",
-        "Description": "FPL_Chai from Scout"
-    },
-    {
         "id": 17627,
         "Name": "Clayton (Planet FPL)",
         "PlayerName": "Clayton Fernandes",
         "Description": "Clayton (Planet FPL)"
+    },
+    {
+        "id": 18033,
+        "Name": "FPL_Chai (FFScout)",
+        "PlayerName": "Chai ^",
+        "Description": "FPL_Chai from Scout"
     },
     {
         "id": 4719275,
@@ -234,12 +234,6 @@
         "Description": "Sam from FPL Family YouTube channel"
     },
     {
-        "id": 50725,
-        "Name": "FPL Plug",
-        "PlayerName": "Tom Jones",
-        "Description": "FPL Plug"
-    },
-    {
         "id": 271,
         "Name": "BigManBakar (FF Hub)",
         "PlayerName": "BigMan Bakar",
@@ -250,6 +244,12 @@
         "Name": "Sujan (Planet FPL)",
         "PlayerName": "Sujan Shah",
         "Description": "Sujan from Planet Fpl pod"
+    },
+    {
+        "id": 50725,
+        "Name": "FPL Plug",
+        "PlayerName": "Tom Jones",
+        "Description": "FPL Plug"
     },
     {
         "id": 96,
@@ -294,10 +294,10 @@
         "Description": "Sam from Who got the assist podcast"
     },
     {
-        "id": 45957,
-        "Name": "Az (Blackbox)",
-        "PlayerName": "Az Phillips",
-        "Description": "Fantasy Football Scout and Blackbox"
+        "id": 1812,
+        "Name": "Tom (Scout)",
+        "PlayerName": "Tom Johnson",
+        "Description": "Fantasy Football Scout"
     },
     {
         "id": 275466,
@@ -306,10 +306,10 @@
         "Description": "Fpl Optimized (podcast & tool)"
     },
     {
-        "id": 1812,
-        "Name": "Tom (Scout)",
-        "PlayerName": "Tom Johnson",
-        "Description": "Fantasy Football Scout"
+        "id": 45957,
+        "Name": "Az (Blackbox)",
+        "PlayerName": "Az Phillips",
+        "Description": "Fantasy Football Scout and Blackbox"
     },
     {
         "id": 275466,
@@ -402,6 +402,12 @@
         "Description": "Full-time FPL Content Creator"
     },
     {
+        "id": 5484,
+        "Name": "Rob (FPL Haul)",
+        "PlayerName": "Rob Haul",
+        "Description": "Rob (FPL Haul)"
+    },
+    {
         "id": 7685,
         "Name": "Gianni Buttice (FPL Show)",
         "PlayerName": "Gianni Buttice",
@@ -418,12 +424,6 @@
         "Name": "Walsh (FML FPL) ",
         "PlayerName": "Adam Walsh",
         "Description": "Walsh from the FML FPL podcast"
-    },
-    {
-        "id": 5484,
-        "Name": "Rob (FPL Haul)",
-        "PlayerName": "Rob Haul",
-        "Description": "Rob (FPL Haul)"
     },
     {
         "id": 15360,
