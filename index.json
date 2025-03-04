@@ -222,12 +222,6 @@
         "Description": "Fpl Optimized (podcast & tool)"
     },
     {
-        "id": 79661,
-        "Name": "Javed (FPLDagga)",
-        "PlayerName": "Javed Khan",
-        "Description": "Javed (FPLDagga)"
-    },
-    {
         "id": 1844,
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
@@ -238,6 +232,12 @@
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
         "Description": "Fantasy Football Scout"
+    },
+    {
+        "id": 79661,
+        "Name": "Javed (FPLDagga)",
+        "PlayerName": "Javed Khan",
+        "Description": "Javed (FPLDagga)"
     },
     {
         "id": 50725,
