@@ -18,16 +18,16 @@
         "Description": "FPLtips YouTube channel"
     },
     {
-        "id": 8765,
-        "Name": "FPL Updates & Tips (FF Scout)",
-        "PlayerName": "Haythem IlBanney",
-        "Description": "FPL Updates & Tips (FF Scout)"
-    },
-    {
         "id": 2869,
         "Name": "Ben Crellin (FF Hub)",
         "PlayerName": "Ben Crellin",
         "Description": "Reports about double/blank gameweek on twitter"
+    },
+    {
+        "id": 8765,
+        "Name": "FPL Updates & Tips (FF Scout)",
+        "PlayerName": "Haythem IlBanney",
+        "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
         "id": 3544,
