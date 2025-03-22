@@ -96,16 +96,16 @@
         "Description": "FPL General"
     },
     {
-        "id": 9,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
-    },
-    {
         "id": 4673,
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
+    },
+    {
+        "id": 9,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
     },
     {
         "id": 183425,
@@ -354,16 +354,16 @@
         "Description": "Fantasy Football Scout and Blackbox"
     },
     {
-        "id": 6939,
-        "Name": "Josh (Always Cheating)",
-        "PlayerName": "Joshua Landon",
-        "Description": "Josh from the Always Cheating podcast"
-    },
-    {
         "id": 20360,
         "Name": "Andy (FPL Tactician)",
         "PlayerName": "Andrew Martin",
         "Description": "Andy (FPL Tactician)"
+    },
+    {
+        "id": 6939,
+        "Name": "Josh (Always Cheating)",
+        "PlayerName": "Joshua Landon",
+        "Description": "Josh from the Always Cheating podcast"
     },
     {
         "id": 154,
