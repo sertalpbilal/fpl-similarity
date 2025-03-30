@@ -60,16 +60,16 @@
         "Description": "FPL Architect"
     },
     {
-        "id": 28015,
-        "Name": "James (Planet Fpl)",
-        "PlayerName": "James Linden",
-        "Description": "James from Planet Fpl pod"
-    },
-    {
         "id": 4581,
         "Name": "Tom (Golden Goal Fantasy Football)",
         "PlayerName": "Thomas Hartnell",
         "Description": "Tom (Golden Goal Fantasy Football)"
+    },
+    {
+        "id": 28015,
+        "Name": "James (Planet Fpl)",
+        "PlayerName": "James Linden",
+        "Description": "James from Planet Fpl pod"
     },
     {
         "id": 746,
@@ -120,22 +120,16 @@
         "Description": "Jian Batra (FF Hub)"
     },
     {
-        "id": 18339,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
-    },
-    {
         "id": 298110,
         "Name": "Sam FPL",
         "PlayerName": "Sam Sherif",
         "Description": "Sam FPL"
     },
     {
-        "id": 2748,
-        "Name": "FPL Paz (All About FPL)",
-        "PlayerName": "Placido Antuan Zambrano",
-        "Description": "FPL Paz (All About FPL)"
+        "id": 18339,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 2087672,
@@ -148,6 +142,12 @@
         "Name": "Sertalp \u00c7ay (Fpl Optimized)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 2748,
+        "Name": "FPL Paz (All About FPL)",
+        "PlayerName": "Placido Antuan Zambrano",
+        "Description": "FPL Paz (All About FPL)"
     },
     {
         "id": 11502,
@@ -192,16 +192,16 @@
         "Description": "Javed (FPLDagga)"
     },
     {
-        "id": 3108,
-        "Name": "Hamza (FPL Pattern)",
-        "PlayerName": "Hamza Siddiqui",
-        "Description": "Hamza (FPL Pattern)"
-    },
-    {
         "id": 13820,
         "Name": "Ben (FPL Graduates)",
         "PlayerName": "Ben Brown",
         "Description": "Ben (FPL Graduates)"
+    },
+    {
+        "id": 3108,
+        "Name": "Hamza (FPL Pattern)",
+        "PlayerName": "Hamza Siddiqui",
+        "Description": "Hamza (FPL Pattern)"
     },
     {
         "id": 738,
@@ -222,12 +222,6 @@
         "Description": "FPL_Chai from Scout"
     },
     {
-        "id": 17627,
-        "Name": "Clayton (Planet FPL)",
-        "PlayerName": "Clayton Fernandes",
-        "Description": "Clayton (Planet FPL)"
-    },
-    {
         "id": 1812,
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
@@ -238,6 +232,12 @@
         "Name": "BigManBakar (FF Hub)",
         "PlayerName": "BigMan Bakar",
         "Description": "AbuBakar Siddiq, Gameweek reviews on twitter, #4 in world 14/15"
+    },
+    {
+        "id": 17627,
+        "Name": "Clayton (Planet FPL)",
+        "PlayerName": "Clayton Fernandes",
+        "Description": "Clayton (Planet FPL)"
     },
     {
         "id": 24,
@@ -342,16 +342,16 @@
         "Description": "@FPLHints on Twitter"
     },
     {
-        "id": 45957,
-        "Name": "Az (Blackbox)",
-        "PlayerName": "Az Phillips",
-        "Description": "Fantasy Football Scout and Blackbox"
-    },
-    {
         "id": 24194,
         "Name": "Lateriser12 (FPL Wire)",
         "PlayerName": "Pranil Sheth",
         "Description": "Lateriser12 on twitter"
+    },
+    {
+        "id": 45957,
+        "Name": "Az (Blackbox)",
+        "PlayerName": "Az Phillips",
+        "Description": "Fantasy Football Scout and Blackbox"
     },
     {
         "id": 6939,
