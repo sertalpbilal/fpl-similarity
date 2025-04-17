@@ -186,16 +186,16 @@
         "Description": "Ben (FPL Graduates)"
     },
     {
-        "id": 24,
-        "Name": "Andy (Let's Talk FPL)",
-        "PlayerName": "Andy LTFPL",
-        "Description": "Andy from the YouTube channel Let's Talk FPL"
-    },
-    {
         "id": 17627,
         "Name": "Clayton (Planet FPL)",
         "PlayerName": "Clayton Fernandes",
         "Description": "Clayton (Planet FPL)"
+    },
+    {
+        "id": 24,
+        "Name": "Andy (Let's Talk FPL)",
+        "PlayerName": "Andy LTFPL",
+        "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
         "id": 79661,
@@ -264,16 +264,16 @@
         "Description": "Fpl Salah on twitter and Writer at Fantasy Football Hub"
     },
     {
-        "id": 18033,
-        "Name": "FPL_Chai (FFScout)",
-        "PlayerName": "Chai ^",
-        "Description": "FPL_Chai from Scout"
-    },
-    {
         "id": 2140,
         "Name": "Sam (FPL Family)",
         "PlayerName": "Sam Bonfield",
         "Description": "Sam from FPL Family YouTube channel"
+    },
+    {
+        "id": 18033,
+        "Name": "FPL_Chai (FFScout)",
+        "PlayerName": "Chai ^",
+        "Description": "FPL_Chai from Scout"
     },
     {
         "id": 165,
