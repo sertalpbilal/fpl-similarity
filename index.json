@@ -72,16 +72,16 @@
         "Description": "Ross (FPL Raptor)"
     },
     {
-        "id": 10086,
-        "Name": "FPL Calle",
-        "PlayerName": "Calle Jonsson",
-        "Description": "FPL Calle"
-    },
-    {
         "id": 1000810,
         "Name": "FPL General",
         "PlayerName": "Mark McGettigan",
         "Description": "FPL General"
+    },
+    {
+        "id": 10086,
+        "Name": "FPL Calle",
+        "PlayerName": "Calle Jonsson",
+        "Description": "FPL Calle"
     },
     {
         "id": 28015,
