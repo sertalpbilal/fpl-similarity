@@ -132,16 +132,16 @@
         "Description": "Scouts #1 Ranked Player in the world "
     },
     {
-        "id": 18339,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
-    },
-    {
         "id": 298110,
         "Name": "Sam FPL",
         "PlayerName": "Sam Sherif",
         "Description": "Sam FPL"
+    },
+    {
+        "id": 18339,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 4673,
