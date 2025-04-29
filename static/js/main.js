@@ -312,7 +312,8 @@ function fetch_team_picks() {
     let c = new Promise((resolve, reject) => {
         $.ajax({
             type: "GET",
-            url: `https://alpscode.com/fpl-fetch/fpl_data?id=${tid}&gw=${gw}`,
+            // url: `https://alpscode.com/fpl-fetch/fpl_data?id=${tid}&gw=${gw}`,
+            url: `https://fpl-fetch.onrender.com/fpl_data?id=${tid}&gw=${gw}`,
             dataType: 'json',
             async: true,
             headers: {
