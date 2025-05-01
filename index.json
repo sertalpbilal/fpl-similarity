@@ -156,6 +156,12 @@
         "Description": "Scouts #1 Ranked Player in the world "
     },
     {
+        "id": 271,
+        "Name": "BigManBakar (FF Hub)",
+        "PlayerName": "BigMan Bakar",
+        "Description": "AbuBakar Siddiq, Gameweek reviews on twitter, #4 in world 14/15"
+    },
+    {
         "id": 13820,
         "Name": "Ben (FPL Graduates)",
         "PlayerName": "Ben Brown",
@@ -166,12 +172,6 @@
         "Name": "FPL Nima (Locked in FPL + FPL Meets)",
         "PlayerName": "Nima Kafai",
         "Description": "Nima from youtube/pod Net That Haul"
-    },
-    {
-        "id": 271,
-        "Name": "BigManBakar (FF Hub)",
-        "PlayerName": "BigMan Bakar",
-        "Description": "AbuBakar Siddiq, Gameweek reviews on twitter, #4 in world 14/15"
     },
     {
         "id": 151,
@@ -198,16 +198,22 @@
         "Description": "Javed (FPLDagga)"
     },
     {
+        "id": 24,
+        "Name": "Andy (Let's Talk FPL)",
+        "PlayerName": "Andy LTFPL",
+        "Description": "Andy from the YouTube channel Let's Talk FPL"
+    },
+    {
         "id": 1812,
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
         "Description": "Fantasy Football Scout"
     },
     {
-        "id": 24,
-        "Name": "Andy (Let's Talk FPL)",
-        "PlayerName": "Andy LTFPL",
-        "Description": "Andy from the YouTube channel Let's Talk FPL"
+        "id": 17627,
+        "Name": "Clayton (Planet FPL)",
+        "PlayerName": "Clayton Fernandes",
+        "Description": "Clayton (Planet FPL)"
     },
     {
         "id": 17731,
@@ -222,10 +228,10 @@
         "Description": "Brandon from the Always Cheating Podcast"
     },
     {
-        "id": 17627,
-        "Name": "Clayton (Planet FPL)",
-        "PlayerName": "Clayton Fernandes",
-        "Description": "Clayton (Planet FPL)"
+        "id": 266,
+        "Name": "FPL Fran (The FPL Script)",
+        "PlayerName": "Francisco MW",
+        "Description": "FPL Fran (The FPL Script)"
     },
     {
         "id": 5289,
@@ -238,12 +244,6 @@
         "Name": "Sujan (Planet FPL)",
         "PlayerName": "Sujan Shah",
         "Description": "Sujan from Planet Fpl pod"
-    },
-    {
-        "id": 266,
-        "Name": "FPL Fran (The FPL Script)",
-        "PlayerName": "Francisco MW",
-        "Description": "FPL Fran (The FPL Script)"
     },
     {
         "id": 156,
