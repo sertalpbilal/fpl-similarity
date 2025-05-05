@@ -204,6 +204,12 @@
         "Description": "Hamza (FPL Pattern)"
     },
     {
+        "id": 2985,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
+    },
+    {
         "id": 738,
         "Name": "Brandon (Always Cheating)",
         "PlayerName": "Brandon Kelley",
@@ -214,12 +220,6 @@
         "Name": "Clayton (Planet FPL)",
         "PlayerName": "Clayton Fernandes",
         "Description": "Clayton (Planet FPL)"
-    },
-    {
-        "id": 2985,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
     },
     {
         "id": 11539,
