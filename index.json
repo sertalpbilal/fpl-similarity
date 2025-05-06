@@ -228,6 +228,12 @@
         "Description": "Jian Batra (FF Hub)"
     },
     {
+        "id": 32260,
+        "Name": "Nick (FPL Juice)",
+        "PlayerName": "Nick Turner (FPL JUiCE)",
+        "Description": "Nick (FPL Juice)"
+    },
+    {
         "id": 50725,
         "Name": "FPL Plug",
         "PlayerName": "Tom Jones",
@@ -238,12 +244,6 @@
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
         "Description": "Fantasy Football Scout"
-    },
-    {
-        "id": 32260,
-        "Name": "Nick (FPL Juice)",
-        "PlayerName": "Nick Turner (FPL JUiCE)",
-        "Description": "Nick (FPL Juice)"
     },
     {
         "id": 156,
