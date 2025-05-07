@@ -84,16 +84,16 @@
         "Description": "@fpl_jimmyg on TikTok"
     },
     {
-        "id": 298110,
-        "Name": "Sam FPL",
-        "PlayerName": "Sam Sherif",
-        "Description": "Sam FPL"
-    },
-    {
         "id": 1000810,
         "Name": "FPL General",
         "PlayerName": "Mark McGettigan",
         "Description": "FPL General"
+    },
+    {
+        "id": 298110,
+        "Name": "Sam FPL",
+        "PlayerName": "Sam Sherif",
+        "Description": "Sam FPL"
     },
     {
         "id": 4581,
@@ -174,16 +174,16 @@
         "Description": "Ben (FPL Graduates)"
     },
     {
-        "id": 24,
-        "Name": "Andy (Let's Talk FPL)",
-        "PlayerName": "Andy LTFPL",
-        "Description": "Andy from the YouTube channel Let's Talk FPL"
-    },
-    {
         "id": 17731,
         "Name": "Josh (FPL Graduates)",
         "PlayerName": "Joshua Scott",
         "Description": "@fplgraduates on TikTok"
+    },
+    {
+        "id": 24,
+        "Name": "Andy (Let's Talk FPL)",
+        "PlayerName": "Andy LTFPL",
+        "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
         "id": 79661,
@@ -204,28 +204,10 @@
         "Description": "Hamza (FPL Pattern)"
     },
     {
-        "id": 2985,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
-    },
-    {
         "id": 738,
         "Name": "Brandon (Always Cheating)",
         "PlayerName": "Brandon Kelley",
         "Description": "Brandon from the Always Cheating Podcast"
-    },
-    {
-        "id": 17627,
-        "Name": "Clayton (Planet FPL)",
-        "PlayerName": "Clayton Fernandes",
-        "Description": "Clayton (Planet FPL)"
-    },
-    {
-        "id": 11539,
-        "Name": "Jian Batra (FF Hub)",
-        "PlayerName": "Jian Batra",
-        "Description": "Jian Batra (FF Hub)"
     },
     {
         "id": 32260,
@@ -244,6 +226,24 @@
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
         "Description": "Fantasy Football Scout"
+    },
+    {
+        "id": 11539,
+        "Name": "Jian Batra (FF Hub)",
+        "PlayerName": "Jian Batra",
+        "Description": "Jian Batra (FF Hub)"
+    },
+    {
+        "id": 2985,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
+    },
+    {
+        "id": 17627,
+        "Name": "Clayton (Planet FPL)",
+        "PlayerName": "Clayton Fernandes",
+        "Description": "Clayton (Planet FPL)"
     },
     {
         "id": 156,
