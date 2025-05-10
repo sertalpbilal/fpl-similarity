@@ -186,16 +186,16 @@
         "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
-        "id": 79661,
-        "Name": "Javed (FPLDagga)",
-        "PlayerName": "Javed Khan",
-        "Description": "Javed (FPLDagga)"
-    },
-    {
         "id": 3462276,
         "Name": "Aviral (The FPL Bois)",
         "PlayerName": "Aviral Pushkarna",
         "Description": "Aviral (The FPL Bois)"
+    },
+    {
+        "id": 79661,
+        "Name": "Javed (FPLDagga)",
+        "PlayerName": "Javed Khan",
+        "Description": "Javed (FPLDagga)"
     },
     {
         "id": 3108,
@@ -210,10 +210,22 @@
         "Description": "Brandon from the Always Cheating Podcast"
     },
     {
+        "id": 2985,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
+    },
+    {
         "id": 32260,
         "Name": "Nick (FPL Juice)",
         "PlayerName": "Nick Turner (FPL JUiCE)",
         "Description": "Nick (FPL Juice)"
+    },
+    {
+        "id": 17627,
+        "Name": "Clayton (Planet FPL)",
+        "PlayerName": "Clayton Fernandes",
+        "Description": "Clayton (Planet FPL)"
     },
     {
         "id": 50725,
@@ -232,18 +244,6 @@
         "Name": "Jian Batra (FF Hub)",
         "PlayerName": "Jian Batra",
         "Description": "Jian Batra (FF Hub)"
-    },
-    {
-        "id": 2985,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
-    },
-    {
-        "id": 17627,
-        "Name": "Clayton (Planet FPL)",
-        "PlayerName": "Clayton Fernandes",
-        "Description": "Clayton (Planet FPL)"
     },
     {
         "id": 156,
