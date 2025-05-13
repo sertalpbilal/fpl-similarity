@@ -150,16 +150,16 @@
         "Description": "Aviral (The FPL Bois)"
     },
     {
-        "id": 183425,
-        "Name": "Se\u00e1n (The Brentford Hive)",
-        "PlayerName": "Se\u00e1n Takeram",
-        "Description": "Se\u00e1n (The Brentford Hive)"
-    },
-    {
         "id": 24,
         "Name": "Andy (Let's Talk FPL)",
         "PlayerName": "Andy LTFPL",
         "Description": "Andy from the YouTube channel Let's Talk FPL"
+    },
+    {
+        "id": 183425,
+        "Name": "Se\u00e1n (The Brentford Hive)",
+        "PlayerName": "Se\u00e1n Takeram",
+        "Description": "Se\u00e1n (The Brentford Hive)"
     },
     {
         "id": 11502,
@@ -210,12 +210,6 @@
         "Description": "Nick (FPL Juice)"
     },
     {
-        "id": 63256,
-        "Name": "Sujan (Planet FPL)",
-        "PlayerName": "Sujan Shah",
-        "Description": "Sujan from Planet Fpl pod"
-    },
-    {
         "id": 3108,
         "Name": "Hamza (FPL Pattern)",
         "PlayerName": "Hamza Siddiqui",
@@ -226,6 +220,12 @@
         "Name": "FPL Plug",
         "PlayerName": "Tom Jones",
         "Description": "FPL Plug"
+    },
+    {
+        "id": 63256,
+        "Name": "Sujan (Planet FPL)",
+        "PlayerName": "Sujan Shah",
+        "Description": "Sujan from Planet Fpl pod"
     },
     {
         "id": 17627,
