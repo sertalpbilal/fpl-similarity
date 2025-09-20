@@ -3,7 +3,7 @@ import requests
 import json
 import pathlib
 
-season = '2024-2025'
+season = '2025-2026'
 
 headers = {
     'Accept': '*/*',
