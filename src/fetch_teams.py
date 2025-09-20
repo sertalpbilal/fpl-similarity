@@ -6,7 +6,7 @@ import pathlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-season = '2024-2025'
+season = '2025-2026'
 
 picks_url = "https://fantasy.premierleague.com/api/entry/{team_id}/event/{gameweek}/picks/"
 transfer_url = "https://fantasy.premierleague.com/api/entry/{team_id}/transfers/"
