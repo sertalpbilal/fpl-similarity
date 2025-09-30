@@ -42,6 +42,12 @@
         "Description": "Leon (FPL Consult)"
     },
     {
+        "id": 4783108,
+        "Name": "F\u00e1bio Borges",
+        "PlayerName": "F\u00e1bio Borges",
+        "Description": "Scouts #1 Ranked Player in the world"
+    },
+    {
         "id": 341,
         "Name": "Lee (FPL Family)",
         "PlayerName": "Lee Bonfield",
@@ -54,28 +60,22 @@
         "Description": "Rob (FPL Haul)"
     },
     {
+        "id": 59811,
+        "Name": "Walsh (FML FPL)",
+        "PlayerName": "Adam Walsh",
+        "Description": "Walsh from the FML FPL podcast"
+    },
+    {
         "id": 48973,
         "Name": "James (Planet Fpl)",
         "PlayerName": "James Linden",
         "Description": "James from Planet Fpl pod"
     },
     {
-        "id": 4783108,
-        "Name": "F\u00e1bio Borges",
-        "PlayerName": "F\u00e1bio Borges",
-        "Description": "Scouts #1 Ranked Player in the world"
-    },
-    {
         "id": 33231,
         "Name": "FPL Goat",
         "PlayerName": "Shaad Shaikh",
         "Description": "FPL Goat"
-    },
-    {
-        "id": 59811,
-        "Name": "Walsh (FML FPL)",
-        "PlayerName": "Adam Walsh",
-        "Description": "Walsh from the FML FPL podcast"
     },
     {
         "id": 41,
@@ -102,16 +102,16 @@
         "Description": "FPL Fran (The FPL Script)"
     },
     {
-        "id": 8631,
-        "Name": "Fergi Time (The Green Arrow)",
-        "PlayerName": "Andrew Ferguson",
-        "Description": "@FFH_Fergi on X"
-    },
-    {
         "id": 170843,
         "Name": "Alon (FML FPL)",
         "PlayerName": "Alon Shapiro",
         "Description": "Alon from the FML FPL podcast"
+    },
+    {
+        "id": 8631,
+        "Name": "Fergi Time (The Green Arrow)",
+        "PlayerName": "Andrew Ferguson",
+        "Description": "@FFH_Fergi on X"
     },
     {
         "id": 3314,
@@ -342,16 +342,16 @@
         "Description": "Fantasy Football Scout"
     },
     {
-        "id": 1587,
-        "Name": "Ross (FPL Raptor)",
-        "PlayerName": "FPL Raptor",
-        "Description": "Ross (FPL Raptor)"
-    },
-    {
         "id": 135,
         "Name": "Holly Shand (FPL Show)",
         "PlayerName": "Holly Shand",
         "Description": "FPL Show Panelist"
+    },
+    {
+        "id": 1587,
+        "Name": "Ross (FPL Raptor)",
+        "PlayerName": "FPL Raptor",
+        "Description": "Ross (FPL Raptor)"
     },
     {
         "id": 17614,
