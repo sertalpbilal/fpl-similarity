@@ -42,12 +42,6 @@
         "Description": "Leon (FPL Consult)"
     },
     {
-        "id": 4783108,
-        "Name": "F\u00e1bio Borges",
-        "PlayerName": "F\u00e1bio Borges",
-        "Description": "Scouts #1 Ranked Player in the world"
-    },
-    {
         "id": 341,
         "Name": "Lee (FPL Family)",
         "PlayerName": "Lee Bonfield",
@@ -60,10 +54,10 @@
         "Description": "Rob (FPL Haul)"
     },
     {
-        "id": 59811,
-        "Name": "Walsh (FML FPL)",
-        "PlayerName": "Adam Walsh",
-        "Description": "Walsh from the FML FPL podcast"
+        "id": 4783108,
+        "Name": "F\u00e1bio Borges",
+        "PlayerName": "F\u00e1bio Borges",
+        "Description": "Scouts #1 Ranked Player in the world"
     },
     {
         "id": 48973,
@@ -76,6 +70,12 @@
         "Name": "FPL Goat",
         "PlayerName": "Shaad Shaikh",
         "Description": "FPL Goat"
+    },
+    {
+        "id": 59811,
+        "Name": "Walsh (FML FPL)",
+        "PlayerName": "Adam Walsh",
+        "Description": "Walsh from the FML FPL podcast"
     },
     {
         "id": 41,
@@ -102,16 +102,16 @@
         "Description": "FPL Fran (The FPL Script)"
     },
     {
-        "id": 170843,
-        "Name": "Alon (FML FPL)",
-        "PlayerName": "Alon Shapiro",
-        "Description": "Alon from the FML FPL podcast"
-    },
-    {
         "id": 8631,
         "Name": "Fergi Time (The Green Arrow)",
         "PlayerName": "Andrew Ferguson",
         "Description": "@FFH_Fergi on X"
+    },
+    {
+        "id": 170843,
+        "Name": "Alon (FML FPL)",
+        "PlayerName": "Alon Shapiro",
+        "Description": "Alon from the FML FPL podcast"
     },
     {
         "id": 3314,
