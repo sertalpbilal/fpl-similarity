@@ -54,16 +54,16 @@
         "Description": "Rob (FPL Haul)"
     },
     {
-        "id": 4783108,
-        "Name": "F\u00e1bio Borges",
-        "PlayerName": "F\u00e1bio Borges",
-        "Description": "Scouts #1 Ranked Player in the world"
-    },
-    {
         "id": 48973,
         "Name": "James (Planet Fpl)",
         "PlayerName": "James Linden",
         "Description": "James from Planet Fpl pod"
+    },
+    {
+        "id": 4783108,
+        "Name": "F\u00e1bio Borges",
+        "PlayerName": "F\u00e1bio Borges",
+        "Description": "Scouts #1 Ranked Player in the world"
     },
     {
         "id": 33231,
