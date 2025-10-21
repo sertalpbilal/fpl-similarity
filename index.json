@@ -120,12 +120,6 @@
         "Description": "FPL Calle"
     },
     {
-        "id": 129799,
-        "Name": "Sam (FPL Banger)",
-        "PlayerName": "Sam Chew",
-        "Description": "FPL Banger Podcast"
-    },
-    {
         "id": 2960608,
         "Name": "Aviral (The FPL Bois)",
         "PlayerName": "Aviral Pushkarna",
@@ -138,10 +132,10 @@
         "Description": "@fpl.cim on TikTok"
     },
     {
-        "id": 5959,
-        "Name": "Baker343 (Above Average)",
-        "PlayerName": "Martin Baker",
-        "Description": "Above Average FPL Podcast"
+        "id": 129799,
+        "Name": "Sam (FPL Banger)",
+        "PlayerName": "Sam Chew",
+        "Description": "FPL Banger Podcast"
     },
     {
         "id": 1403,
@@ -154,6 +148,12 @@
         "Name": "Ben (FPL Graduates)",
         "PlayerName": "Ben Brown",
         "Description": "Ben (FPL Graduates)"
+    },
+    {
+        "id": 5959,
+        "Name": "Baker343 (Above Average)",
+        "PlayerName": "Martin Baker",
+        "Description": "Above Average FPL Podcast"
     },
     {
         "id": 172,
@@ -354,12 +354,6 @@
         "Description": "Ross (FPL Raptor)"
     },
     {
-        "id": 275466,
-        "Name": "Deamteam2025",
-        "PlayerName": "Gary Deam",
-        "Description": null
-    },
-    {
         "id": 3576,
         "Name": "Fpltips__ (Anshuman Deswal)",
         "PlayerName": "Anshuman Deswal",
@@ -382,6 +376,12 @@
         "Name": "Mark Sutherns (FPL Blackbox)",
         "PlayerName": "Mark Sutherns",
         "Description": "FPL Blackbox podcast and scout creator"
+    },
+    {
+        "id": 275466,
+        "Name": "Deamteam2025",
+        "PlayerName": "Gary Deam",
+        "Description": null
     },
     {
         "id": 315,
