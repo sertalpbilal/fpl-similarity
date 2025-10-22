@@ -198,16 +198,16 @@
         "Description": "Hibbo FPL from Scout"
     },
     {
-        "id": 1000002,
-        "Name": "FPL Spaceman (Solio Analytics)",
-        "PlayerName": "Jonny Currie",
-        "Description": "@FPL_Spaceman on X"
-    },
-    {
         "id": 23662,
         "Name": "FPL Rockstar",
         "PlayerName": "FPL Rockstar",
         "Description": "FPL Rockstar"
+    },
+    {
+        "id": 1000002,
+        "Name": "FPL Spaceman (Solio Analytics)",
+        "PlayerName": "Jonny Currie",
+        "Description": "@FPL_Spaceman on X"
     },
     {
         "id": 17653,
