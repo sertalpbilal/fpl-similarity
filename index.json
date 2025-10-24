@@ -114,12 +114,6 @@
         "Description": "Leon (FPL Consult)"
     },
     {
-        "id": 17942,
-        "Name": "FPL Calle",
-        "PlayerName": "Calle Jonsson",
-        "Description": "FPL Calle"
-    },
-    {
         "id": 2960608,
         "Name": "Aviral (The FPL Bois)",
         "PlayerName": "Aviral Pushkarna",
@@ -130,6 +124,12 @@
         "Name": "FPL Cim",
         "PlayerName": "Cim Diesel",
         "Description": "@fpl.cim on TikTok"
+    },
+    {
+        "id": 17942,
+        "Name": "FPL Calle",
+        "PlayerName": "Calle Jonsson",
+        "Description": "FPL Calle"
     },
     {
         "id": 129799,
@@ -312,12 +312,6 @@
         "Description": "The FPL Wire"
     },
     {
-        "id": 5050,
-        "Name": "Hamza (FPL Pattern)",
-        "PlayerName": "Hamza Siddiqui",
-        "Description": "Hamza (FPL Pattern)"
-    },
-    {
         "id": 5469,
         "Name": "Lateriser12 (FPL Wire)",
         "PlayerName": "Pranil Sheth",
@@ -328,6 +322,12 @@
         "Name": "FPL Pickle",
         "PlayerName": "FPL Pickle",
         "Description": "FPL Pickle"
+    },
+    {
+        "id": 5050,
+        "Name": "Hamza (FPL Pattern)",
+        "PlayerName": "Hamza Siddiqui",
+        "Description": "Hamza (FPL Pattern)"
     },
     {
         "id": 1982,
@@ -372,16 +372,16 @@
         "Description": "Reports about double/blank gameweek on twitter"
     },
     {
-        "id": 795,
-        "Name": "Mark Sutherns (FPL Blackbox)",
-        "PlayerName": "Mark Sutherns",
-        "Description": "FPL Blackbox podcast and scout creator"
-    },
-    {
         "id": 275466,
         "Name": "Deamteam2025",
         "PlayerName": "Gary Deam",
         "Description": null
+    },
+    {
+        "id": 795,
+        "Name": "Mark Sutherns (FPL Blackbox)",
+        "PlayerName": "Mark Sutherns",
+        "Description": "FPL Blackbox podcast and scout creator"
     },
     {
         "id": 315,
@@ -414,16 +414,16 @@
         "Description": "@FPLHints on Twitter"
     },
     {
-        "id": 103234,
-        "Name": "FPL Olympian",
-        "PlayerName": "Adrian I",
-        "Description": "FPL Olympian"
-    },
-    {
         "id": 3333333,
         "Name": "Sertalp \u00c7ay (Solio Analytics)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 103234,
+        "Name": "FPL Olympian",
+        "PlayerName": "Adrian I",
+        "Description": "FPL Olympian"
     },
     {
         "id": 223,
