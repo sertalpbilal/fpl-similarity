@@ -156,6 +156,12 @@
         "Description": "FPL Banger Podcast"
     },
     {
+        "id": 170843,
+        "Name": "Alon (FML FPL)",
+        "PlayerName": "Alon Shapiro",
+        "Description": "Alon from the FML FPL podcast"
+    },
+    {
         "id": 4783108,
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
@@ -172,12 +178,6 @@
         "Name": "FPL Pricey (WGTA)",
         "PlayerName": "Sam Price",
         "Description": "FPL Pricey from Who Got The Assist podcast"
-    },
-    {
-        "id": 170843,
-        "Name": "Alon (FML FPL)",
-        "PlayerName": "Alon Shapiro",
-        "Description": "Alon from the FML FPL podcast"
     },
     {
         "id": 8142,
@@ -324,6 +324,12 @@
         "Description": "FPL Show Panelist"
     },
     {
+        "id": 59811,
+        "Name": "Walsh (FML FPL)",
+        "PlayerName": "Adam Walsh",
+        "Description": "Walsh from the FML FPL podcast"
+    },
+    {
         "id": 3570,
         "Name": "Pras (The FPL Wire)",
         "PlayerName": "Pras United",
@@ -336,22 +342,16 @@
         "Description": "FPL Olympian"
     },
     {
-        "id": 8631,
-        "Name": "Fergi Time (The Green Arrow)",
-        "PlayerName": "Andrew Ferguson",
-        "Description": "@FFH_Fergi on X"
-    },
-    {
-        "id": 59811,
-        "Name": "Walsh (FML FPL)",
-        "PlayerName": "Adam Walsh",
-        "Description": "Walsh from the FML FPL podcast"
-    },
-    {
         "id": 223,
         "Name": "Luke (Inspected Goals)",
         "PlayerName": "Luke Williams",
         "Description": "Inspected Goals"
+    },
+    {
+        "id": 8631,
+        "Name": "Fergi Time (The Green Arrow)",
+        "PlayerName": "Andrew Ferguson",
+        "Description": "@FFH_Fergi on X"
     },
     {
         "id": 341,
@@ -456,16 +456,16 @@
         "Description": "Fantasy Football Scout and Blackbox"
     },
     {
-        "id": 1919,
-        "Name": "Rob T (Solio Analytics)",
-        "PlayerName": "Rob T",
-        "Description": "@robtfpl on X"
-    },
-    {
         "id": 3333333,
         "Name": "Sertalp \u00c7ay (Solio Analytics)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 1919,
+        "Name": "Rob T (Solio Analytics)",
+        "PlayerName": "Rob T",
+        "Description": "@robtfpl on X"
     },
     {
         "id": 18708,
