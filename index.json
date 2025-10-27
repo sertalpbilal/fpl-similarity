@@ -156,12 +156,6 @@
         "Description": "FPL Banger Podcast"
     },
     {
-        "id": 170843,
-        "Name": "Alon (FML FPL)",
-        "PlayerName": "Alon Shapiro",
-        "Description": "Alon from the FML FPL podcast"
-    },
-    {
         "id": 4783108,
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
@@ -180,6 +174,12 @@
         "Description": "FPL Pricey from Who Got The Assist podcast"
     },
     {
+        "id": 170843,
+        "Name": "Alon (FML FPL)",
+        "PlayerName": "Alon Shapiro",
+        "Description": "Alon from the FML FPL podcast"
+    },
+    {
         "id": 8142,
         "Name": "Andy (FPLMode)",
         "PlayerName": "Andy North",
@@ -192,12 +192,6 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
-        "id": 1403,
-        "Name": "Fpltips__ (Akhilesh)",
-        "PlayerName": "Akhilesh Kumar V",
-        "Description": "Fpltips__ on twitter and instagram"
-    },
-    {
         "id": 2960608,
         "Name": "Aviral (The FPL Bois)",
         "PlayerName": "Aviral Pushkarna",
@@ -208,6 +202,12 @@
         "Name": "FPL Paz (All About FPL)",
         "PlayerName": "Placido Antuan Zambrano",
         "Description": "All About FPL Contributor"
+    },
+    {
+        "id": 1403,
+        "Name": "Fpltips__ (Akhilesh)",
+        "PlayerName": "Akhilesh Kumar V",
+        "Description": "Fpltips__ on twitter and instagram"
     },
     {
         "id": 124,
@@ -312,22 +312,16 @@
         "Description": "Javed (FPLDagga)"
     },
     {
-        "id": 15878,
-        "Name": "Se\u00e1n (The Brentford Hive)",
-        "PlayerName": "Se\u00e1n Takeram",
-        "Description": "Se\u00e1n (The Brentford Hive)"
-    },
-    {
         "id": 135,
         "Name": "Holly Shand (FPL Show)",
         "PlayerName": "Holly Shand",
         "Description": "FPL Show Panelist"
     },
     {
-        "id": 59811,
-        "Name": "Walsh (FML FPL)",
-        "PlayerName": "Adam Walsh",
-        "Description": "Walsh from the FML FPL podcast"
+        "id": 15878,
+        "Name": "Se\u00e1n (The Brentford Hive)",
+        "PlayerName": "Se\u00e1n Takeram",
+        "Description": "Se\u00e1n (The Brentford Hive)"
     },
     {
         "id": 3570,
@@ -340,6 +334,12 @@
         "Name": "FPL Olympian",
         "PlayerName": "Adrian I",
         "Description": "FPL Olympian"
+    },
+    {
+        "id": 59811,
+        "Name": "Walsh (FML FPL)",
+        "PlayerName": "Adam Walsh",
+        "Description": "Walsh from the FML FPL podcast"
     },
     {
         "id": 223,
@@ -384,6 +384,12 @@
         "Description": "Reports about double/blank gameweek on twitter"
     },
     {
+        "id": 74925,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
+    },
+    {
         "id": 1511,
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
@@ -394,12 +400,6 @@
         "Name": "Ross (FPL Raptor)",
         "PlayerName": "FPL Raptor",
         "Description": "Ross (FPL Raptor)"
-    },
-    {
-        "id": 74925,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
     },
     {
         "id": 315,
@@ -432,16 +432,22 @@
         "Description": "@FPLHints on Twitter"
     },
     {
+        "id": 4163,
+        "Name": "Andy (FPL Tactician)",
+        "PlayerName": "Andrew Martin",
+        "Description": "Andy (FPL Tactician)"
+    },
+    {
         "id": 5867,
         "Name": "Charlie (FPL Meerkat)",
         "PlayerName": "Charlie Noakes",
         "Description": "Charlie (FPL Meerkat)"
     },
     {
-        "id": 4163,
-        "Name": "Andy (FPL Tactician)",
-        "PlayerName": "Andrew Martin",
-        "Description": "Andy (FPL Tactician)"
+        "id": 3333333,
+        "Name": "Sertalp \u00c7ay (Solio Analytics)",
+        "PlayerName": "Sertalp Cay",
+        "Description": "Fpl Optimized (podcast & tool)"
     },
     {
         "id": 11338,
@@ -454,12 +460,6 @@
         "Name": "Az (Blackbox)",
         "PlayerName": "Az Phillips",
         "Description": "Fantasy Football Scout and Blackbox"
-    },
-    {
-        "id": 3333333,
-        "Name": "Sertalp \u00c7ay (Solio Analytics)",
-        "PlayerName": "Sertalp Cay",
-        "Description": "Fpl Optimized (podcast & tool)"
     },
     {
         "id": 1919,
@@ -486,16 +486,16 @@
         "Description": "Brian (FPLUSA)"
     },
     {
-        "id": 3576,
-        "Name": "Fpltips__ (Anshuman Deswal)",
-        "PlayerName": "Anshuman Deswal",
-        "Description": "Fpltips__ on twitter and instagram"
-    },
-    {
         "id": 3218,
         "Name": "Jian Batra (FF Hub)",
         "PlayerName": "Jian Batra",
         "Description": "Jian Batra (FF Hub)"
+    },
+    {
+        "id": 3576,
+        "Name": "Fpltips__ (Anshuman Deswal)",
+        "PlayerName": "Anshuman Deswal",
+        "Description": "Fpltips__ on twitter and instagram"
     },
     {
         "id": 7159,
