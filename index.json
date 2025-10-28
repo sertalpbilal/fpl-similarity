@@ -294,10 +294,10 @@
         "Description": "Lateriser12 on twitter"
     },
     {
-        "id": 580,
-        "Name": "Neale (Scout)",
-        "PlayerName": "Neale Rigg",
-        "Description": "Fantasy Football Scout"
+        "id": 135,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
     },
     {
         "id": 275466,
@@ -306,22 +306,28 @@
         "Description": null
     },
     {
-        "id": 229255,
-        "Name": "Javed (FPLDagga)",
-        "PlayerName": "Javed Khan",
-        "Description": "Javed (FPLDagga)"
-    },
-    {
-        "id": 135,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
+        "id": 580,
+        "Name": "Neale (Scout)",
+        "PlayerName": "Neale Rigg",
+        "Description": "Fantasy Football Scout"
     },
     {
         "id": 15878,
         "Name": "Se\u00e1n (The Brentford Hive)",
         "PlayerName": "Se\u00e1n Takeram",
         "Description": "Se\u00e1n (The Brentford Hive)"
+    },
+    {
+        "id": 229255,
+        "Name": "Javed (FPLDagga)",
+        "PlayerName": "Javed Khan",
+        "Description": "Javed (FPLDagga)"
+    },
+    {
+        "id": 59811,
+        "Name": "Walsh (FML FPL)",
+        "PlayerName": "Adam Walsh",
+        "Description": "Walsh from the FML FPL podcast"
     },
     {
         "id": 3570,
@@ -336,22 +342,16 @@
         "Description": "FPL Olympian"
     },
     {
-        "id": 59811,
-        "Name": "Walsh (FML FPL)",
-        "PlayerName": "Adam Walsh",
-        "Description": "Walsh from the FML FPL podcast"
+        "id": 8631,
+        "Name": "Fergi Time (The Green Arrow)",
+        "PlayerName": "Andrew Ferguson",
+        "Description": "@FFH_Fergi on X"
     },
     {
         "id": 223,
         "Name": "Luke (Inspected Goals)",
         "PlayerName": "Luke Williams",
         "Description": "Inspected Goals"
-    },
-    {
-        "id": 8631,
-        "Name": "Fergi Time (The Green Arrow)",
-        "PlayerName": "Andrew Ferguson",
-        "Description": "@FFH_Fergi on X"
     },
     {
         "id": 341,
@@ -414,12 +414,6 @@
         "Description": "Yelena FPL"
     },
     {
-        "id": 275466,
-        "Name": "Deamteam2025",
-        "PlayerName": "Gary Deam",
-        "Description": null
-    },
-    {
         "id": 1033,
         "Name": "Emma (Jumpthewave)",
         "PlayerName": "Em - Ellia",
@@ -430,6 +424,12 @@
         "Name": "Ash (FPL Hints)",
         "PlayerName": "Ash FPLHints",
         "Description": "@FPLHints on Twitter"
+    },
+    {
+        "id": 275466,
+        "Name": "Deamteam2025",
+        "PlayerName": "Gary Deam",
+        "Description": null
     },
     {
         "id": 4163,
