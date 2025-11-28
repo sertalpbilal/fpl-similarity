@@ -414,16 +414,16 @@
         "Description": "Andy (FPL Tactician)"
     },
     {
-        "id": 251,
-        "Name": "Yelena FPL",
-        "PlayerName": "Yelena Cekerevac",
-        "Description": "Yelena FPL"
-    },
-    {
         "id": 1587,
         "Name": "Ross (FPL Raptor)",
         "PlayerName": "FPL Raptor",
         "Description": "Ross (FPL Raptor)"
+    },
+    {
+        "id": 251,
+        "Name": "Yelena FPL",
+        "PlayerName": "Yelena Cekerevac",
+        "Description": "Yelena FPL"
     },
     {
         "id": 229255,
