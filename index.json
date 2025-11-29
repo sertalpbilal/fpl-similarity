@@ -108,16 +108,16 @@
         "Description": "FPLtips YouTube channel"
     },
     {
-        "id": 56228,
-        "Name": "FPL Cim",
-        "PlayerName": "Cim Diesel",
-        "Description": "@fpl.cim on TikTok"
-    },
-    {
         "id": 46055,
         "Name": "FPL Paz (All About FPL)",
         "PlayerName": "Placido Antuan Zambrano",
         "Description": "All About FPL Contributor"
+    },
+    {
+        "id": 56228,
+        "Name": "FPL Cim",
+        "PlayerName": "Cim Diesel",
+        "Description": "@fpl.cim on TikTok"
     },
     {
         "id": 1982,
@@ -258,12 +258,6 @@
         "Description": "Se\u00e1n (The Brentford Hive)"
     },
     {
-        "id": 5469,
-        "Name": "Lateriser12 (FPL Wire)",
-        "PlayerName": "Pranil Sheth",
-        "Description": "Lateriser12 on twitter"
-    },
-    {
         "id": 16701,
         "Name": "Hibbo FPL (FFScout)",
         "PlayerName": "Sean Jackson",
@@ -280,6 +274,12 @@
         "Name": "FPL Rockstar",
         "PlayerName": "FPL Rockstar",
         "Description": "FPL Rockstar"
+    },
+    {
+        "id": 5469,
+        "Name": "Lateriser12 (FPL Wire)",
+        "PlayerName": "Pranil Sheth",
+        "Description": "Lateriser12 on twitter"
     },
     {
         "id": 59811,
