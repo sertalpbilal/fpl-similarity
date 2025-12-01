@@ -36,16 +36,16 @@
         "Description": "FPL Fran (The FPL Script)"
     },
     {
-        "id": 44,
-        "Name": "Andy (Let's Talk FPL)",
-        "PlayerName": "Andy LTFPL",
-        "Description": "Andy from the YouTube channel Let's Talk FPL"
-    },
-    {
         "id": 5496,
         "Name": "FPLFella",
         "PlayerName": "Dan H",
         "Description": "FPLFella"
+    },
+    {
+        "id": 44,
+        "Name": "Andy (Let's Talk FPL)",
+        "PlayerName": "Andy LTFPL",
+        "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
         "id": 19727,
@@ -108,16 +108,16 @@
         "Description": "FPL Harry"
     },
     {
-        "id": 23715,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
-    },
-    {
         "id": 56228,
         "Name": "FPL Cim",
         "PlayerName": "Cim Diesel",
         "Description": "@fpl.cim on TikTok"
+    },
+    {
+        "id": 23715,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 1982,
@@ -126,16 +126,16 @@
         "Description": "FPL Tom"
     },
     {
-        "id": 53792,
-        "Name": "FPl Matt",
-        "PlayerName": "Matt Withers",
-        "Description": "@FPLMattQ on X"
-    },
-    {
         "id": 73574,
         "Name": "Ash (FPL Juice)",
         "PlayerName": "Ashley Nugent",
         "Description": "Ash (FPL Juice)"
+    },
+    {
+        "id": 53792,
+        "Name": "FPl Matt",
+        "PlayerName": "Matt Withers",
+        "Description": "@FPLMattQ on X"
     },
     {
         "id": 46055,
@@ -168,12 +168,6 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
-        "id": 223,
-        "Name": "Luke (Inspected Goals)",
-        "PlayerName": "Luke Williams",
-        "Description": "Inspected Goals"
-    },
-    {
         "id": 2960608,
         "Name": "Aviral (The FPL Bois)",
         "PlayerName": "Aviral Pushkarna",
@@ -186,10 +180,22 @@
         "Description": "FPL Olympian"
     },
     {
+        "id": 223,
+        "Name": "Luke (Inspected Goals)",
+        "PlayerName": "Luke Williams",
+        "Description": "Inspected Goals"
+    },
+    {
         "id": 14501,
         "Name": "FPL Pickle",
         "PlayerName": "FPL Pickle",
         "Description": "FPL Pickle"
+    },
+    {
+        "id": 21950,
+        "Name": "FPL Architect",
+        "PlayerName": "Gustav Stenberg",
+        "Description": "FPL Architect"
     },
     {
         "id": 26436,
@@ -214,12 +220,6 @@
         "Name": "Dan (FPL Mate)",
         "PlayerName": "FPL Mate -Dan-",
         "Description": "Dan from the YouTube channel FPL Mate"
-    },
-    {
-        "id": 21950,
-        "Name": "FPL Architect",
-        "PlayerName": "Gustav Stenberg",
-        "Description": "FPL Architect"
     },
     {
         "id": 6827,
@@ -348,16 +348,16 @@
         "Description": "Walsh from the FML FPL podcast"
     },
     {
-        "id": 135,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
-    },
-    {
         "id": 3333333,
         "Name": "Sertalp \u00c7ay (Solio Analytics)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 135,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
     },
     {
         "id": 4163,
@@ -426,16 +426,16 @@
         "Description": "@FPLHints on Twitter"
     },
     {
-        "id": 1919,
-        "Name": "Rob T (Solio Analytics)",
-        "PlayerName": "Rob T",
-        "Description": "@robtfpl on X"
-    },
-    {
         "id": 5867,
         "Name": "Charlie (FPL Meerkat)",
         "PlayerName": "Charlie Noakes",
         "Description": "Charlie (FPL Meerkat)"
+    },
+    {
+        "id": 1919,
+        "Name": "Rob T (Solio Analytics)",
+        "PlayerName": "Rob T",
+        "Description": "@robtfpl on X"
     },
     {
         "id": 229255,
