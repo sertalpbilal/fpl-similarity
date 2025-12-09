@@ -132,12 +132,6 @@
         "Description": "FPL Tom"
     },
     {
-        "id": 580,
-        "Name": "Neale (Scout)",
-        "PlayerName": "Neale Rigg",
-        "Description": "Fantasy Football Scout"
-    },
-    {
         "id": 21950,
         "Name": "FPL Architect",
         "PlayerName": "Gustav Stenberg",
@@ -148,6 +142,12 @@
         "Name": "Dan (FPL Mate)",
         "PlayerName": "FPL Mate -Dan-",
         "Description": "Dan from the YouTube channel FPL Mate"
+    },
+    {
+        "id": 580,
+        "Name": "Neale (Scout)",
+        "PlayerName": "Neale Rigg",
+        "Description": "Fantasy Football Scout"
     },
     {
         "id": 26436,
@@ -186,12 +186,6 @@
         "Description": "Winner of 23/24 season"
     },
     {
-        "id": 56228,
-        "Name": "FPL Cim",
-        "PlayerName": "Cim Diesel",
-        "Description": "@fpl.cim on TikTok"
-    },
-    {
         "id": 1511,
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
@@ -204,22 +198,28 @@
         "Description": "FPL Pricey from Who Got The Assist podcast"
     },
     {
+        "id": 56228,
+        "Name": "FPL Cim",
+        "PlayerName": "Cim Diesel",
+        "Description": "@fpl.cim on TikTok"
+    },
+    {
         "id": 4783108,
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
         "Description": "Scouts #1 Ranked Player in the world"
     },
     {
-        "id": 48973,
-        "Name": "James (Planet Fpl)",
-        "PlayerName": "James Linden",
-        "Description": "James from Planet Fpl pod"
-    },
-    {
         "id": 3333333,
         "Name": "Sertalp \u00c7ay (Solio Analytics)",
         "PlayerName": "Sertalp Cay",
         "Description": "Fpl Optimized (podcast & tool)"
+    },
+    {
+        "id": 48973,
+        "Name": "James (Planet Fpl)",
+        "PlayerName": "James Linden",
+        "Description": "James from Planet Fpl pod"
     },
     {
         "id": 223,
@@ -264,28 +264,28 @@
         "Description": "@ZopharFPL on X"
     },
     {
-        "id": 17614,
-        "Name": "Gianni Buttice (FPL Show)",
-        "PlayerName": "Gianni Buttice",
-        "Description": "Fpl show panelist and scout"
-    },
-    {
         "id": 124,
         "Name": "Fpl_Salah (FF Hub)",
         "PlayerName": "Abdul Rehman",
         "Description": "Fpl Salah on twitter and Writer at Fantasy Football Hub"
     },
     {
-        "id": 4163,
-        "Name": "Andy (FPL Tactician)",
-        "PlayerName": "Andrew Martin",
-        "Description": "Andy (FPL Tactician)"
+        "id": 17614,
+        "Name": "Gianni Buttice (FPL Show)",
+        "PlayerName": "Gianni Buttice",
+        "Description": "Fpl show panelist and scout"
     },
     {
         "id": 16701,
         "Name": "Hibbo FPL (FFScout)",
         "PlayerName": "Sean Jackson",
         "Description": "Hibbo FPL from Scout"
+    },
+    {
+        "id": 4163,
+        "Name": "Andy (FPL Tactician)",
+        "PlayerName": "Andrew Martin",
+        "Description": "Andy (FPL Tactician)"
     },
     {
         "id": 135,
@@ -336,6 +336,12 @@
         "Description": "BlackWolf (FPLUSA)"
     },
     {
+        "id": 23662,
+        "Name": "FPL Rockstar",
+        "PlayerName": "FPL Rockstar",
+        "Description": "FPL Rockstar"
+    },
+    {
         "id": 5469,
         "Name": "Lateriser12 (FPL Wire)",
         "PlayerName": "Pranil Sheth",
@@ -352,12 +358,6 @@
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
-    },
-    {
-        "id": 23662,
-        "Name": "FPL Rockstar",
-        "PlayerName": "FPL Rockstar",
-        "Description": "FPL Rockstar"
     },
     {
         "id": 1000002,
@@ -378,12 +378,6 @@
         "Description": "Lee from FPL Family YouTube channel"
     },
     {
-        "id": 8631,
-        "Name": "Fergi Time (The Green Arrow)",
-        "PlayerName": "Andrew Ferguson",
-        "Description": "@FFH_Fergi on X"
-    },
-    {
         "id": 3570,
         "Name": "Pras (The FPL Wire)",
         "PlayerName": "Pras United",
@@ -394,6 +388,12 @@
         "Name": "Hamza (FPL Pattern)",
         "PlayerName": "Hamza Siddiqui",
         "Description": "Hamza (FPL Pattern)"
+    },
+    {
+        "id": 8631,
+        "Name": "Fergi Time (The Green Arrow)",
+        "PlayerName": "Andrew Ferguson",
+        "Description": "@FFH_Fergi on X"
     },
     {
         "id": 1587,
@@ -450,16 +450,16 @@
         "Description": "Above Average FPL Podcast"
     },
     {
-        "id": 170843,
-        "Name": "Alon (FML FPL)",
-        "PlayerName": "Alon Shapiro",
-        "Description": "Alon from the FML FPL podcast"
-    },
-    {
         "id": 18708,
         "Name": "David (Dayvy FPL)",
         "PlayerName": "David (@DayvyFPL)",
         "Description": "David (Dayvy FPL)"
+    },
+    {
+        "id": 170843,
+        "Name": "Alon (FML FPL)",
+        "PlayerName": "Alon Shapiro",
+        "Description": "Alon from the FML FPL podcast"
     },
     {
         "id": 9363,
@@ -504,16 +504,16 @@
         "Description": "Fantasy Football Scout and Blackbox"
     },
     {
-        "id": 275466,
-        "Name": "Deamteam2025",
-        "PlayerName": "Gary Deam",
-        "Description": null
-    },
-    {
         "id": 292394,
         "Name": "Brian (FPLUSA)",
         "PlayerName": "-FPLUSA Brian",
         "Description": "Brian (FPLUSA)"
+    },
+    {
+        "id": 275466,
+        "Name": "Deamteam2025",
+        "PlayerName": "Gary Deam",
+        "Description": null
     },
     {
         "id": 7159,
