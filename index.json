@@ -168,6 +168,12 @@
         "Description": "Winner of 23/24 season"
     },
     {
+        "id": 56228,
+        "Name": "FPL Cim",
+        "PlayerName": "Cim Diesel",
+        "Description": "@fpl.cim on TikTok"
+    },
+    {
         "id": 4783108,
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
@@ -178,12 +184,6 @@
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
         "Description": "Tom from Who got the assist podcast"
-    },
-    {
-        "id": 56228,
-        "Name": "FPL Cim",
-        "PlayerName": "Cim Diesel",
-        "Description": "@fpl.cim on TikTok"
     },
     {
         "id": 3333333,
@@ -288,16 +288,16 @@
         "Description": "@fplgraduates on TikTok"
     },
     {
-        "id": 14501,
-        "Name": "FPL Pickle",
-        "PlayerName": "FPL Pickle",
-        "Description": "FPL Pickle"
-    },
-    {
         "id": 1033,
         "Name": "Emma (Jumpthewave)",
         "PlayerName": "Em - Ellia",
         "Description": "Line-ups prediction on X"
+    },
+    {
+        "id": 14501,
+        "Name": "FPL Pickle",
+        "PlayerName": "FPL Pickle",
+        "Description": "FPL Pickle"
     },
     {
         "id": 275466,
@@ -306,16 +306,16 @@
         "Description": null
     },
     {
-        "id": 15878,
-        "Name": "Se\u00e1n (The Brentford Hive)",
-        "PlayerName": "Se\u00e1n Takeram",
-        "Description": "Se\u00e1n (The Brentford Hive)"
-    },
-    {
         "id": 23662,
         "Name": "FPL Rockstar",
         "PlayerName": "FPL Rockstar",
         "Description": "FPL Rockstar"
+    },
+    {
+        "id": 15878,
+        "Name": "Se\u00e1n (The Brentford Hive)",
+        "PlayerName": "Se\u00e1n Takeram",
+        "Description": "Se\u00e1n (The Brentford Hive)"
     },
     {
         "id": 17614,
@@ -390,16 +390,16 @@
         "Description": "@FFH_Fergi on X"
     },
     {
-        "id": 5469,
-        "Name": "Lateriser12 (FPL Wire)",
-        "PlayerName": "Pranil Sheth",
-        "Description": "Lateriser12 on twitter"
-    },
-    {
         "id": 73574,
         "Name": "Ash (FPL Juice)",
         "PlayerName": "Ashley Nugent",
         "Description": "Ash (FPL Juice)"
+    },
+    {
+        "id": 5469,
+        "Name": "Lateriser12 (FPL Wire)",
+        "PlayerName": "Pranil Sheth",
+        "Description": "Lateriser12 on twitter"
     },
     {
         "id": 5050,
@@ -492,10 +492,10 @@
         "Description": "Alon from the FML FPL podcast"
     },
     {
-        "id": 7159,
-        "Name": "Mark (FPL General)",
-        "PlayerName": "Mark McGettigan",
-        "Description": "FPL General on Twitter"
+        "id": 292394,
+        "Name": "Brian (FPLUSA)",
+        "PlayerName": "-FPLUSA Brian",
+        "Description": "Brian (FPLUSA)"
     },
     {
         "id": 260,
@@ -504,10 +504,10 @@
         "Description": "Sam (FPL Family)"
     },
     {
-        "id": 292394,
-        "Name": "Brian (FPLUSA)",
-        "PlayerName": "-FPLUSA Brian",
-        "Description": "Brian (FPLUSA)"
+        "id": 7159,
+        "Name": "Mark (FPL General)",
+        "PlayerName": "Mark McGettigan",
+        "Description": "FPL General on Twitter"
     },
     {
         "id": 441,
