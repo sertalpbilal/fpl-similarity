@@ -72,16 +72,16 @@
         "Description": "@FPLOsama on X"
     },
     {
-        "id": 33231,
-        "Name": "FPL Goat",
-        "PlayerName": "Shaad Shaikh",
-        "Description": "FPL Goat"
-    },
-    {
         "id": 1320,
         "Name": "FPL Harry",
         "PlayerName": "Harry Daniels",
         "Description": "FPL Harry"
+    },
+    {
+        "id": 33231,
+        "Name": "FPL Goat",
+        "PlayerName": "Shaad Shaikh",
+        "Description": "FPL Goat"
     },
     {
         "id": 103234,
@@ -114,12 +114,6 @@
         "Description": "Adam Hopcroft (Green Arrow)"
     },
     {
-        "id": 5959,
-        "Name": "Baker343 (Above Average)",
-        "PlayerName": "Martin Baker",
-        "Description": "Above Average FPL Podcast"
-    },
-    {
         "id": 10263,
         "Name": "Siva (FPL Banger)",
         "PlayerName": "Sivaram Prasad",
@@ -130,6 +124,12 @@
         "Name": "Ben (FPL Graduates)",
         "PlayerName": "Ben Brown",
         "Description": "Ben (FPL Graduates)"
+    },
+    {
+        "id": 5959,
+        "Name": "Baker343 (Above Average)",
+        "PlayerName": "Martin Baker",
+        "Description": "Above Average FPL Podcast"
     },
     {
         "id": 5496,
