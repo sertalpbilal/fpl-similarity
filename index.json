@@ -96,6 +96,12 @@
         "Description": "FPL Harry"
     },
     {
+        "id": 56228,
+        "Name": "FPL Cim",
+        "PlayerName": "Cim Diesel",
+        "Description": "@fpl.cim on TikTok"
+    },
+    {
         "id": 33231,
         "Name": "FPL Goat",
         "PlayerName": "Shaad Shaikh",
@@ -114,22 +120,10 @@
         "Description": "Tom from Who got the assist podcast"
     },
     {
-        "id": 56228,
-        "Name": "FPL Cim",
-        "PlayerName": "Cim Diesel",
-        "Description": "@fpl.cim on TikTok"
-    },
-    {
         "id": 103234,
         "Name": "FPL Olympian",
         "PlayerName": "Adrian I",
         "Description": "FPL Olympian"
-    },
-    {
-        "id": 53792,
-        "Name": "FPl Matt",
-        "PlayerName": "Matt Withers",
-        "Description": "@FPLMattQ on X"
     },
     {
         "id": 34391,
@@ -144,6 +138,18 @@
         "Description": "Above Average FPL Podcast"
     },
     {
+        "id": 53792,
+        "Name": "FPl Matt",
+        "PlayerName": "Matt Withers",
+        "Description": "@FPLMattQ on X"
+    },
+    {
+        "id": 16519,
+        "Name": "Ben (FPL Graduates)",
+        "PlayerName": "Ben Brown",
+        "Description": "Ben (FPL Graduates)"
+    },
+    {
         "id": 21950,
         "Name": "FPL Architect",
         "PlayerName": "Gustav Stenberg",
@@ -154,12 +160,6 @@
         "Name": "Dan (FPL Mate)",
         "PlayerName": "FPL Mate -Dan-",
         "Description": "Dan from the YouTube channel FPL Mate"
-    },
-    {
-        "id": 16519,
-        "Name": "Ben (FPL Graduates)",
-        "PlayerName": "Ben Brown",
-        "Description": "Ben (FPL Graduates)"
     },
     {
         "id": 5496,
@@ -186,12 +186,6 @@
         "Description": "FPL Pricey from Who Got The Assist podcast"
     },
     {
-        "id": 6586,
-        "Name": "Ben Crellin (FF Hub)",
-        "PlayerName": "Ben Crellin",
-        "Description": "Reports about double/blank gameweek on twitter"
-    },
-    {
         "id": 34748,
         "Name": "Midnight Mule FPL",
         "PlayerName": "Midnight Mule",
@@ -202,6 +196,12 @@
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
         "Description": "Scouts #1 Ranked Player in the world"
+    },
+    {
+        "id": 6586,
+        "Name": "Ben Crellin (FF Hub)",
+        "PlayerName": "Ben Crellin",
+        "Description": "Reports about double/blank gameweek on twitter"
     },
     {
         "id": 17653,
@@ -258,16 +258,16 @@
         "Description": "FPL Pickle"
     },
     {
-        "id": 3314,
-        "Name": "Josh (FPL Graduates)",
-        "PlayerName": "Joshua Scott",
-        "Description": "@fplgraduates on TikTok"
-    },
-    {
         "id": 580,
         "Name": "Neale (Scout)",
         "PlayerName": "Neale Rigg",
         "Description": "Fantasy Football Scout"
+    },
+    {
+        "id": 3314,
+        "Name": "Josh (FPL Graduates)",
+        "PlayerName": "Joshua Scott",
+        "Description": "@fplgraduates on TikTok"
     },
     {
         "id": 16701,
@@ -330,6 +330,12 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
+        "id": 23715,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
+    },
+    {
         "id": 8142,
         "Name": "Andy (FPLMode)",
         "PlayerName": "Andy North",
@@ -340,12 +346,6 @@
         "Name": "BlackWolf (FPLUSA)",
         "PlayerName": "Dan (BlackWolf)",
         "Description": "BlackWolf (FPLUSA)"
-    },
-    {
-        "id": 23715,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 15878,
