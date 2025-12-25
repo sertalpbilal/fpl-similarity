@@ -126,12 +126,6 @@
         "Description": "FPL Olympian"
     },
     {
-        "id": 34391,
-        "Name": "FPL Denis",
-        "PlayerName": "Oprea Denis",
-        "Description": "FPL Denis on Youtube"
-    },
-    {
         "id": 5959,
         "Name": "Baker343 (Above Average)",
         "PlayerName": "Martin Baker",
@@ -142,6 +136,12 @@
         "Name": "FPl Matt",
         "PlayerName": "Matt Withers",
         "Description": "@FPLMattQ on X"
+    },
+    {
+        "id": 34391,
+        "Name": "FPL Denis",
+        "PlayerName": "Oprea Denis",
+        "Description": "FPL Denis on Youtube"
     },
     {
         "id": 16519,
@@ -330,16 +330,16 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
-        "id": 23715,
-        "Name": "Leon (FPL Consult)",
-        "PlayerName": "Leon Sim",
-        "Description": "Leon (FPL Consult)"
-    },
-    {
         "id": 8142,
         "Name": "Andy (FPLMode)",
         "PlayerName": "Andy North",
         "Description": "Andy (FPLMode)"
+    },
+    {
+        "id": 23715,
+        "Name": "Leon (FPL Consult)",
+        "PlayerName": "Leon Sim",
+        "Description": "Leon (FPL Consult)"
     },
     {
         "id": 207920,
@@ -378,16 +378,16 @@
         "Description": "@FFH_Fergi on X"
     },
     {
-        "id": 1000002,
-        "Name": "FPL Spaceman (Solio Analytics)",
-        "PlayerName": "Jonny Currie",
-        "Description": "@FPL_Spaceman on X"
-    },
-    {
         "id": 5050,
         "Name": "Hamza (FPL Pattern)",
         "PlayerName": "Hamza Siddiqui",
         "Description": "Hamza (FPL Pattern)"
+    },
+    {
+        "id": 1000002,
+        "Name": "FPL Spaceman (Solio Analytics)",
+        "PlayerName": "Jonny Currie",
+        "Description": "@FPL_Spaceman on X"
     },
     {
         "id": 2960608,
