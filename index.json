@@ -228,6 +228,12 @@
         "Description": "Scouts #1 Ranked Player in the world"
     },
     {
+        "id": 34748,
+        "Name": "Midnight Mule FPL",
+        "PlayerName": "Midnight Mule",
+        "Description": "Midnight Mule FPL on Youtube"
+    },
+    {
         "id": 35840,
         "Name": "FPL_Chai (FFScout)",
         "PlayerName": "Chai -",
@@ -238,12 +244,6 @@
         "Name": "FPL Spaceman (Solio Analytics)",
         "PlayerName": "Jonny Currie",
         "Description": "@FPL_Spaceman on X"
-    },
-    {
-        "id": 34748,
-        "Name": "Midnight Mule FPL",
-        "PlayerName": "Midnight Mule",
-        "Description": "Midnight Mule FPL on Youtube"
     },
     {
         "id": 580,
