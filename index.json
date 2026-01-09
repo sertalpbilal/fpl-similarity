@@ -228,16 +228,16 @@
         "Description": "FPLFella"
     },
     {
-        "id": 6586,
-        "Name": "Ben Crellin (FF Hub)",
-        "PlayerName": "Ben Crellin",
-        "Description": "Reports about double/blank gameweek on twitter"
-    },
-    {
         "id": 35840,
         "Name": "FPL_Chai (FFScout)",
         "PlayerName": "Chai -",
         "Description": "FPL_Chai from Scout"
+    },
+    {
+        "id": 6586,
+        "Name": "Ben Crellin (FF Hub)",
+        "PlayerName": "Ben Crellin",
+        "Description": "Reports about double/blank gameweek on twitter"
     },
     {
         "id": 16701,
