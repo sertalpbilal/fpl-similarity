@@ -42,16 +42,22 @@
         "Description": "Oscar (FPL Focal)"
     },
     {
+        "id": 103234,
+        "Name": "FPL Olympian",
+        "PlayerName": "Adrian I",
+        "Description": "FPL Olympian"
+    },
+    {
         "id": 1982,
         "Name": "FPL Tom",
         "PlayerName": "Tom L",
         "Description": "FPL Tom"
     },
     {
-        "id": 103234,
-        "Name": "FPL Olympian",
-        "PlayerName": "Adrian I",
-        "Description": "FPL Olympian"
+        "id": 56228,
+        "Name": "FPL Cim",
+        "PlayerName": "Cim Diesel",
+        "Description": "@fpl.cim on TikTok"
     },
     {
         "id": 3333333,
@@ -66,22 +72,16 @@
         "Description": "Tom from Who got the assist podcast"
     },
     {
-        "id": 56228,
-        "Name": "FPL Cim",
-        "PlayerName": "Cim Diesel",
-        "Description": "@fpl.cim on TikTok"
+        "id": 46055,
+        "Name": "FPL Paz (All About FPL)",
+        "PlayerName": "Placido Antuan Zambrano",
+        "Description": "All About FPL Contributor"
     },
     {
         "id": 1320,
         "Name": "FPL Harry",
         "PlayerName": "Harry Daniels",
         "Description": "FPL Harry"
-    },
-    {
-        "id": 46055,
-        "Name": "FPL Paz (All About FPL)",
-        "PlayerName": "Placido Antuan Zambrano",
-        "Description": "All About FPL Contributor"
     },
     {
         "id": 16519,
@@ -120,6 +120,12 @@
         "Description": "Line-ups prediction on X"
     },
     {
+        "id": 41,
+        "Name": "Tom (Scout)",
+        "PlayerName": "Tom Johnson",
+        "Description": "Fantasy Football Scout"
+    },
+    {
         "id": 216508,
         "Name": "FPL_Pig",
         "PlayerName": "FPL Pig",
@@ -132,22 +138,10 @@
         "Description": "Dan from the YouTube channel FPL Mate"
     },
     {
-        "id": 41,
-        "Name": "Tom (Scout)",
-        "PlayerName": "Tom Johnson",
-        "Description": "Fantasy Football Scout"
-    },
-    {
         "id": 4783108,
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
         "Description": "Scouts #1 Ranked Player in the world"
-    },
-    {
-        "id": 1000002,
-        "Name": "FPL Spaceman (Solio Analytics)",
-        "PlayerName": "Jonny Currie",
-        "Description": "@FPL_Spaceman on X"
     },
     {
         "id": 23662,
@@ -160,6 +154,12 @@
         "Name": "FPL Calle",
         "PlayerName": "Calle Jonsson",
         "Description": "FPL Calle"
+    },
+    {
+        "id": 1000002,
+        "Name": "FPL Spaceman (Solio Analytics)",
+        "PlayerName": "Jonny Currie",
+        "Description": "@FPL_Spaceman on X"
     },
     {
         "id": 5959,
@@ -246,12 +246,6 @@
         "Description": "FPL Pricey from Who Got The Assist podcast"
     },
     {
-        "id": 16701,
-        "Name": "Hibbo FPL (FFScout)",
-        "PlayerName": "Sean Jackson",
-        "Description": "Hibbo FPL from Scout"
-    },
-    {
         "id": 14501,
         "Name": "FPL Pickle",
         "PlayerName": "FPL Pickle",
@@ -264,10 +258,22 @@
         "Description": "Aviral (The FPL Bois)"
     },
     {
+        "id": 16701,
+        "Name": "Hibbo FPL (FFScout)",
+        "PlayerName": "Sean Jackson",
+        "Description": "Hibbo FPL from Scout"
+    },
+    {
         "id": 21950,
         "Name": "FPL Architect",
         "PlayerName": "Gustav Stenberg",
         "Description": "FPL Architect"
+    },
+    {
+        "id": 4163,
+        "Name": "Andy (FPL Tactician)",
+        "PlayerName": "Andrew Martin",
+        "Description": "Andy (FPL Tactician)"
     },
     {
         "id": 795,
@@ -280,12 +286,6 @@
         "Name": "Ross (FPL Raptor)",
         "PlayerName": "FPL Raptor",
         "Description": "Ross (FPL Raptor)"
-    },
-    {
-        "id": 4163,
-        "Name": "Andy (FPL Tactician)",
-        "PlayerName": "Andrew Martin",
-        "Description": "Andy (FPL Tactician)"
     },
     {
         "id": 35840,
@@ -366,16 +366,16 @@
         "Description": "Charlie (FPL Meerkat)"
     },
     {
-        "id": 11709,
-        "Name": "Rob (FPL Haul)",
-        "PlayerName": "Rob Haul",
-        "Description": "Rob (FPL Haul)"
-    },
-    {
         "id": 8631,
         "Name": "Fergi Time (The Green Arrow)",
         "PlayerName": "Andrew Ferguson",
         "Description": "@FFH_Fergi on X"
+    },
+    {
+        "id": 11709,
+        "Name": "Rob (FPL Haul)",
+        "PlayerName": "Rob Haul",
+        "Description": "Rob (FPL Haul)"
     },
     {
         "id": 1919,
@@ -402,10 +402,10 @@
         "Description": "Tom from Fantasy Football Scout"
     },
     {
-        "id": 170843,
-        "Name": "Alon (FML FPL)",
-        "PlayerName": "Alon Shapiro",
-        "Description": "Alon from the FML FPL podcast"
+        "id": 5050,
+        "Name": "Hamza (FPL Pattern)",
+        "PlayerName": "Hamza Siddiqui",
+        "Description": "Hamza (FPL Pattern)"
     },
     {
         "id": 73574,
@@ -414,10 +414,10 @@
         "Description": "Ash (FPL Juice)"
     },
     {
-        "id": 5050,
-        "Name": "Hamza (FPL Pattern)",
-        "PlayerName": "Hamza Siddiqui",
-        "Description": "Hamza (FPL Pattern)"
+        "id": 170843,
+        "Name": "Alon (FML FPL)",
+        "PlayerName": "Alon Shapiro",
+        "Description": "Alon from the FML FPL podcast"
     },
     {
         "id": 5218,
@@ -480,16 +480,16 @@
         "Description": "Fantasy Football Scout and Blackbox"
     },
     {
-        "id": 7159,
-        "Name": "Mark (FPL General)",
-        "PlayerName": "Mark McGettigan",
-        "Description": "FPL General on Twitter"
-    },
-    {
         "id": 13710,
         "Name": "FPL Plug",
         "PlayerName": "Tom Jones",
         "Description": "FPL Plug"
+    },
+    {
+        "id": 7159,
+        "Name": "Mark (FPL General)",
+        "PlayerName": "Mark McGettigan",
+        "Description": "FPL General on Twitter"
     },
     {
         "id": 229255,
