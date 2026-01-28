@@ -150,16 +150,16 @@
         "Description": "FPL Rockstar"
     },
     {
-        "id": 17942,
-        "Name": "FPL Calle",
-        "PlayerName": "Calle Jonsson",
-        "Description": "FPL Calle"
-    },
-    {
         "id": 1000002,
         "Name": "FPL Spaceman (Solio Analytics)",
         "PlayerName": "Jonny Currie",
         "Description": "@FPL_Spaceman on X"
+    },
+    {
+        "id": 17942,
+        "Name": "FPL Calle",
+        "PlayerName": "Calle Jonsson",
+        "Description": "FPL Calle"
     },
     {
         "id": 5959,
