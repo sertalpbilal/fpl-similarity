@@ -84,12 +84,6 @@
         "Description": "Tom from Who got the assist podcast"
     },
     {
-        "id": 23662,
-        "Name": "FPL Rockstar",
-        "PlayerName": "FPL Rockstar",
-        "Description": "FPL Rockstar"
-    },
-    {
         "id": 29987,
         "Name": "FPL \u00c9ire",
         "PlayerName": "Niall Crossan",
@@ -102,22 +96,28 @@
         "Description": "@FPL_Spaceman on X"
     },
     {
+        "id": 23662,
+        "Name": "FPL Rockstar",
+        "PlayerName": "FPL Rockstar",
+        "Description": "FPL Rockstar"
+    },
+    {
         "id": 41,
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
         "Description": "Fantasy Football Scout"
     },
     {
-        "id": 3333333,
-        "Name": "Sertalp \u00c7ay (Solio Analytics)",
-        "PlayerName": "Sertalp Cay",
-        "Description": "Fpl Optimized (podcast & tool)"
-    },
-    {
         "id": 1033,
         "Name": "Emma (Jumpthewave)",
         "PlayerName": "Em - Ellia",
         "Description": "Line-ups prediction on X"
+    },
+    {
+        "id": 3333333,
+        "Name": "Sertalp \u00c7ay (Solio Analytics)",
+        "PlayerName": "Sertalp Cay",
+        "Description": "Fpl Optimized (podcast & tool)"
     },
     {
         "id": 1320,
@@ -174,12 +174,6 @@
         "Description": "@FPLMattQ on X"
     },
     {
-        "id": 16267,
-        "Name": "Dan (FPL Mate)",
-        "PlayerName": "FPL Mate -Dan-",
-        "Description": "Dan from the YouTube channel FPL Mate"
-    },
-    {
         "id": 34391,
         "Name": "FPL Denis",
         "PlayerName": "Oprea Denis",
@@ -190,6 +184,12 @@
         "Name": "Jonas (ASC_FPL)",
         "PlayerName": "Jonas Sand L\u00e5bakk",
         "Description": "Winner of 23/24 season"
+    },
+    {
+        "id": 16267,
+        "Name": "Dan (FPL Mate)",
+        "PlayerName": "FPL Mate -Dan-",
+        "Description": "Dan from the YouTube channel FPL Mate"
     },
     {
         "id": 4783108,
