@@ -6,16 +6,16 @@
         "Description": "Andy from the YouTube channel Let's Talk FPL"
     },
     {
-        "id": 190,
-        "Name": "FPL Fran (The FPL Script)",
-        "PlayerName": "Francisco MW",
-        "Description": "FPL Fran (The FPL Script)"
-    },
-    {
         "id": 7020472,
         "Name": "FPL The English Aussie",
         "PlayerName": "Youtube FPL TheEnglishAussie",
         "Description": "FPL The English Aussie on YouTube"
+    },
+    {
+        "id": 190,
+        "Name": "FPL Fran (The FPL Script)",
+        "PlayerName": "Francisco MW",
+        "Description": "FPL Fran (The FPL Script)"
     },
     {
         "id": 963,
@@ -54,16 +54,16 @@
         "Description": "Flapjack FPL at Scoutcast pod"
     },
     {
-        "id": 4464,
-        "Name": "FPLtips",
-        "PlayerName": "FPLtips (YouTube)",
-        "Description": "FPLtips YouTube channel"
-    },
-    {
         "id": 23662,
         "Name": "FPL Rockstar",
         "PlayerName": "FPL Rockstar",
         "Description": "FPL Rockstar"
+    },
+    {
+        "id": 4464,
+        "Name": "FPLtips",
+        "PlayerName": "FPLtips (YouTube)",
+        "Description": "FPLtips YouTube channel"
     },
     {
         "id": 29987,
@@ -120,6 +120,12 @@
         "Description": "Line-ups prediction on X"
     },
     {
+        "id": 41,
+        "Name": "Tom (Scout)",
+        "PlayerName": "Tom Johnson",
+        "Description": "Fantasy Football Scout"
+    },
+    {
         "id": 3333333,
         "Name": "Sertalp \u00c7ay (Solio Analytics)",
         "PlayerName": "Sertalp Cay",
@@ -130,12 +136,6 @@
         "Name": "Tom (WGTA)",
         "PlayerName": "Tom C (WGTA)",
         "Description": "Tom from Who got the assist podcast"
-    },
-    {
-        "id": 41,
-        "Name": "Tom (Scout)",
-        "PlayerName": "Tom Johnson",
-        "Description": "Fantasy Football Scout"
     },
     {
         "id": 1982,
@@ -180,12 +180,6 @@
         "Description": "Trigger Talks FPL on Youtube"
     },
     {
-        "id": 315,
-        "Name": "Jonas (ASC_FPL)",
-        "PlayerName": "Jonas Sand L\u00e5bakk",
-        "Description": "Winner of 23/24 season"
-    },
-    {
         "id": 10263,
         "Name": "Siva (FPL Banger)",
         "PlayerName": "Sivaram Prasad",
@@ -198,16 +192,22 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
-        "id": 6586,
-        "Name": "Ben Crellin (FF Hub)",
-        "PlayerName": "Ben Crellin",
-        "Description": "Reports about double/blank gameweek on twitter"
+        "id": 315,
+        "Name": "Jonas (ASC_FPL)",
+        "PlayerName": "Jonas Sand L\u00e5bakk",
+        "Description": "Winner of 23/24 season"
     },
     {
         "id": 5959,
         "Name": "Baker343 (Above Average)",
         "PlayerName": "Martin Baker",
         "Description": "Above Average FPL Podcast"
+    },
+    {
+        "id": 6586,
+        "Name": "Ben Crellin (FF Hub)",
+        "PlayerName": "Ben Crellin",
+        "Description": "Reports about double/blank gameweek on twitter"
     },
     {
         "id": 5496,
@@ -252,16 +252,16 @@
         "Description": "FPL Pricey from Who Got The Assist podcast"
     },
     {
-        "id": 4783108,
-        "Name": "F\u00e1bio Borges",
-        "PlayerName": "F\u00e1bio Borges",
-        "Description": "Scouts #1 Ranked Player in the world"
-    },
-    {
         "id": 34748,
         "Name": "Midnight Mule FPL",
         "PlayerName": "Midnight Mule",
         "Description": "Midnight Mule FPL on Youtube"
+    },
+    {
+        "id": 4783108,
+        "Name": "F\u00e1bio Borges",
+        "PlayerName": "F\u00e1bio Borges",
+        "Description": "Scouts #1 Ranked Player in the world"
     },
     {
         "id": 16701,
@@ -366,22 +366,28 @@
         "Description": "Yelena FPL"
     },
     {
-        "id": 1587,
-        "Name": "Ross (FPL Raptor)",
-        "PlayerName": "FPL Raptor",
-        "Description": "Ross (FPL Raptor)"
-    },
-    {
         "id": 3314,
         "Name": "Josh (FPL Graduates)",
         "PlayerName": "Joshua Scott",
         "Description": "@fplgraduates on TikTok"
     },
     {
+        "id": 1587,
+        "Name": "Ross (FPL Raptor)",
+        "PlayerName": "FPL Raptor",
+        "Description": "Ross (FPL Raptor)"
+    },
+    {
         "id": 1919,
         "Name": "Rob T (Solio Analytics)",
         "PlayerName": "Rob T",
         "Description": "@robtfpl on X"
+    },
+    {
+        "id": 5050,
+        "Name": "Hamza (FPL Pattern)",
+        "PlayerName": "Hamza Siddiqui",
+        "Description": "Hamza (FPL Pattern)"
     },
     {
         "id": 8631,
@@ -394,12 +400,6 @@
         "Name": "Se\u00e1n (The Brentford Hive)",
         "PlayerName": "Se\u00e1n Takeram",
         "Description": "Se\u00e1n (The Brentford Hive)"
-    },
-    {
-        "id": 5050,
-        "Name": "Hamza (FPL Pattern)",
-        "PlayerName": "Hamza Siddiqui",
-        "Description": "Hamza (FPL Pattern)"
     },
     {
         "id": 135,
