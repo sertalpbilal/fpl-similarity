@@ -198,16 +198,16 @@
         "Description": "Reports about double/blank gameweek on twitter"
     },
     {
-        "id": 16701,
-        "Name": "Hibbo FPL (FFScout)",
-        "PlayerName": "Sean Jackson",
-        "Description": "Hibbo FPL from Scout"
-    },
-    {
         "id": 6827,
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
+    },
+    {
+        "id": 16701,
+        "Name": "Hibbo FPL (FFScout)",
+        "PlayerName": "Sean Jackson",
+        "Description": "Hibbo FPL from Scout"
     },
     {
         "id": 5496,
