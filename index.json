@@ -120,12 +120,6 @@
         "Description": "FPL Rockstar"
     },
     {
-        "id": 16519,
-        "Name": "Ben (FPL Graduates)",
-        "PlayerName": "Ben Brown",
-        "Description": "Ben (FPL Graduates)"
-    },
-    {
         "id": 53792,
         "Name": "FPl Matt",
         "PlayerName": "Matt Withers",
@@ -136,6 +130,12 @@
         "Name": "FPL Osama",
         "PlayerName": "Muhammed Osama",
         "Description": "@FPLOsama on X"
+    },
+    {
+        "id": 16519,
+        "Name": "Ben (FPL Graduates)",
+        "PlayerName": "Ben Brown",
+        "Description": "Ben (FPL Graduates)"
     },
     {
         "id": 34391,
