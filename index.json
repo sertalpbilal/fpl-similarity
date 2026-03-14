@@ -108,28 +108,22 @@
         "Description": "@FPLMattQ on X"
     },
     {
-        "id": 23662,
-        "Name": "FPL Rockstar",
-        "PlayerName": "FPL Rockstar",
-        "Description": "FPL Rockstar"
-    },
-    {
         "id": 1320,
         "Name": "FPL Harry",
         "PlayerName": "Harry Daniels",
         "Description": "FPL Harry"
     },
     {
+        "id": 23662,
+        "Name": "FPL Rockstar",
+        "PlayerName": "FPL Rockstar",
+        "Description": "FPL Rockstar"
+    },
+    {
         "id": 56228,
         "Name": "FPL Cim",
         "PlayerName": "Cim Diesel",
         "Description": "@fpl.cim on TikTok"
-    },
-    {
-        "id": 5496,
-        "Name": "FPLFella",
-        "PlayerName": "Dan H",
-        "Description": "FPLFella"
     },
     {
         "id": 16519,
@@ -142,6 +136,12 @@
         "Name": "Ben Crellin (FF Hub)",
         "PlayerName": "Ben Crellin",
         "Description": "Reports about double/blank gameweek on twitter"
+    },
+    {
+        "id": 5496,
+        "Name": "FPLFella",
+        "PlayerName": "Dan H",
+        "Description": "FPLFella"
     },
     {
         "id": 16267,
@@ -192,12 +192,6 @@
         "Description": "Line-ups prediction on X"
     },
     {
-        "id": 1511,
-        "Name": "Tom (WGTA)",
-        "PlayerName": "Tom C (WGTA)",
-        "Description": "Tom from Who got the assist podcast"
-    },
-    {
         "id": 18783,
         "Name": "FPL Osama",
         "PlayerName": "Muhammed Osama",
@@ -208,6 +202,12 @@
         "Name": "Tom (Scout)",
         "PlayerName": "Tom Johnson",
         "Description": "Fantasy Football Scout"
+    },
+    {
+        "id": 1511,
+        "Name": "Tom (WGTA)",
+        "PlayerName": "Tom C (WGTA)",
+        "Description": "Tom from Who got the assist podcast"
     },
     {
         "id": 34391,
@@ -246,22 +246,16 @@
         "Description": "Lee from FPL Family YouTube channel"
     },
     {
-        "id": 17942,
-        "Name": "FPL Calle",
-        "PlayerName": "Calle Jonsson",
-        "Description": "FPL Calle"
-    },
-    {
         "id": 6827,
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
     },
     {
-        "id": 74925,
-        "Name": "Tom (FPLCruyff74)",
-        "PlayerName": "Tom Freeman",
-        "Description": "Tom from Fantasy Football Scout"
+        "id": 17942,
+        "Name": "FPL Calle",
+        "PlayerName": "Calle Jonsson",
+        "Description": "FPL Calle"
     },
     {
         "id": 8142,
@@ -270,16 +264,22 @@
         "Description": "Andy (FPLMode)"
     },
     {
-        "id": 11719,
-        "Name": "FPL Updates & Tips (FF Scout)",
-        "PlayerName": "Haythem IlBanney",
-        "Description": "FPL Updates & Tips (FF Scout)"
+        "id": 74925,
+        "Name": "Tom (FPLCruyff74)",
+        "PlayerName": "Tom Freeman",
+        "Description": "Tom from Fantasy Football Scout"
     },
     {
         "id": 5149,
         "Name": "Zophar (FPL Wire)",
         "PlayerName": "Utkarsh D",
         "Description": "@ZopharFPL on X"
+    },
+    {
+        "id": 11719,
+        "Name": "FPL Updates & Tips (FF Scout)",
+        "PlayerName": "Haythem IlBanney",
+        "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
         "id": 135,
@@ -318,16 +318,16 @@
         "Description": "FPL Pricey from Who Got The Assist podcast"
     },
     {
-        "id": 34748,
-        "Name": "Midnight Mule FPL",
-        "PlayerName": "Midnight Mule",
-        "Description": "Midnight Mule FPL on Youtube"
-    },
-    {
         "id": 17653,
         "Name": "FPL Nima (FPL Meets)",
         "PlayerName": "Nima Kafai",
         "Description": "FPL Nima (FPL Meets)"
+    },
+    {
+        "id": 34748,
+        "Name": "Midnight Mule FPL",
+        "PlayerName": "Midnight Mule",
+        "Description": "Midnight Mule FPL on Youtube"
     },
     {
         "id": 2960608,
@@ -342,16 +342,16 @@
         "Description": "@robtfpl on X"
     },
     {
-        "id": 207920,
-        "Name": "BlackWolf (FPLUSA)",
-        "PlayerName": "Dan (BlackWolf)",
-        "Description": "BlackWolf (FPLUSA)"
-    },
-    {
         "id": 5867,
         "Name": "Charlie (FPL Meerkat)",
         "PlayerName": "Charlie Noakes",
         "Description": "Charlie (FPL Meerkat)"
+    },
+    {
+        "id": 207920,
+        "Name": "BlackWolf (FPLUSA)",
+        "PlayerName": "Dan (BlackWolf)",
+        "Description": "BlackWolf (FPLUSA)"
     },
     {
         "id": 4783108,
@@ -384,16 +384,16 @@
         "Description": "@FFH_Fergi on X"
     },
     {
-        "id": 5218,
-        "Name": "Ash (FPL Hints)",
-        "PlayerName": "Ash FPLHints",
-        "Description": "@FPLHints on Twitter"
-    },
-    {
         "id": 1587,
         "Name": "Ross (FPL Raptor)",
         "PlayerName": "FPL Raptor",
         "Description": "Ross (FPL Raptor)"
+    },
+    {
+        "id": 5218,
+        "Name": "Ash (FPL Hints)",
+        "PlayerName": "Ash FPLHints",
+        "Description": "@FPLHints on Twitter"
     },
     {
         "id": 223,
@@ -486,16 +486,16 @@
         "Description": "FPL Plug"
     },
     {
-        "id": 15878,
-        "Name": "Se\u00e1n (The Brentford Hive)",
-        "PlayerName": "Se\u00e1n Takeram",
-        "Description": "Se\u00e1n (The Brentford Hive)"
-    },
-    {
         "id": 170843,
         "Name": "Alon (FML FPL)",
         "PlayerName": "Alon Shapiro",
         "Description": "Alon from the FML FPL podcast"
+    },
+    {
+        "id": 15878,
+        "Name": "Se\u00e1n (The Brentford Hive)",
+        "PlayerName": "Se\u00e1n Takeram",
+        "Description": "Se\u00e1n (The Brentford Hive)"
     },
     {
         "id": 260,
