@@ -102,16 +102,16 @@
         "Description": "FPL Harry"
     },
     {
-        "id": 103234,
-        "Name": "FPL Olympian",
-        "PlayerName": "Adrian I",
-        "Description": "FPL Olympian"
-    },
-    {
         "id": 16519,
         "Name": "Ben (FPL Graduates)",
         "PlayerName": "Ben Brown",
         "Description": "Ben (FPL Graduates)"
+    },
+    {
+        "id": 103234,
+        "Name": "FPL Olympian",
+        "PlayerName": "Adrian I",
+        "Description": "FPL Olympian"
     },
     {
         "id": 18783,
@@ -120,16 +120,16 @@
         "Description": "@FPLOsama on X"
     },
     {
-        "id": 5496,
-        "Name": "FPLFella",
-        "PlayerName": "Dan H",
-        "Description": "FPLFella"
-    },
-    {
         "id": 29987,
         "Name": "FPL \u00c9ire",
         "PlayerName": "Niall Crossan",
         "Description": "FPL \u00c9ire on Instagram and Twitter"
+    },
+    {
+        "id": 5496,
+        "Name": "FPLFella",
+        "PlayerName": "Dan H",
+        "Description": "FPLFella"
     },
     {
         "id": 21950,
@@ -174,16 +174,16 @@
         "Description": "All About FPL Contributor"
     },
     {
-        "id": 41,
-        "Name": "Tom (Scout)",
-        "PlayerName": "Tom Johnson",
-        "Description": "Fantasy Football Scout"
-    },
-    {
         "id": 16267,
         "Name": "Dan (FPL Mate)",
         "PlayerName": "FPL Mate -Dan-",
         "Description": "Dan from the YouTube channel FPL Mate"
+    },
+    {
+        "id": 41,
+        "Name": "Tom (Scout)",
+        "PlayerName": "Tom Johnson",
+        "Description": "Fantasy Football Scout"
     },
     {
         "id": 6586,
@@ -192,10 +192,10 @@
         "Description": "Reports about double/blank gameweek on twitter"
     },
     {
-        "id": 8142,
-        "Name": "Andy (FPLMode)",
-        "PlayerName": "Andy North",
-        "Description": "Andy (FPLMode)"
+        "id": 16701,
+        "Name": "Hibbo FPL (FFScout)",
+        "PlayerName": "Sean Jackson",
+        "Description": "Hibbo FPL from Scout"
     },
     {
         "id": 1033,
@@ -204,16 +204,10 @@
         "Description": "Line-ups prediction on X"
     },
     {
-        "id": 16701,
-        "Name": "Hibbo FPL (FFScout)",
-        "PlayerName": "Sean Jackson",
-        "Description": "Hibbo FPL from Scout"
-    },
-    {
-        "id": 17614,
-        "Name": "Gianni Buttice (FPL Show)",
-        "PlayerName": "Gianni Buttice",
-        "Description": "Fpl show panelist and scout"
+        "id": 8142,
+        "Name": "Andy (FPLMode)",
+        "PlayerName": "Andy North",
+        "Description": "Andy (FPLMode)"
     },
     {
         "id": 341,
@@ -226,6 +220,12 @@
         "Name": "FPL JimmyG",
         "PlayerName": "James Glaze",
         "Description": "@fpl_jimmyg on TikTok"
+    },
+    {
+        "id": 17614,
+        "Name": "Gianni Buttice (FPL Show)",
+        "PlayerName": "Gianni Buttice",
+        "Description": "Fpl show panelist and scout"
     },
     {
         "id": 23662,
@@ -282,6 +282,12 @@
         "Description": "FPL Nima (FPL Meets)"
     },
     {
+        "id": 35840,
+        "Name": "FPL_Chai (FFScout)",
+        "PlayerName": "Chai -",
+        "Description": "FPL_Chai from Scout"
+    },
+    {
         "id": 5218,
         "Name": "Ash (FPL Hints)",
         "PlayerName": "Ash FPLHints",
@@ -294,22 +300,16 @@
         "Description": "@ZopharFPL on X"
     },
     {
-        "id": 207920,
-        "Name": "BlackWolf (FPLUSA)",
-        "PlayerName": "Dan (BlackWolf)",
-        "Description": "BlackWolf (FPLUSA)"
-    },
-    {
         "id": 275466,
         "Name": "Deamteam2025",
         "PlayerName": "Gary Deam",
         "Description": null
     },
     {
-        "id": 35840,
-        "Name": "FPL_Chai (FFScout)",
-        "PlayerName": "Chai -",
-        "Description": "FPL_Chai from Scout"
+        "id": 207920,
+        "Name": "BlackWolf (FPLUSA)",
+        "PlayerName": "Dan (BlackWolf)",
+        "Description": "BlackWolf (FPLUSA)"
     },
     {
         "id": 172,
@@ -354,16 +354,16 @@
         "Description": "FPL Goat"
     },
     {
-        "id": 1587,
-        "Name": "Ross (FPL Raptor)",
-        "PlayerName": "FPL Raptor",
-        "Description": "Ross (FPL Raptor)"
-    },
-    {
         "id": 8631,
         "Name": "Fergi Time (The Green Arrow)",
         "PlayerName": "Andrew Ferguson",
         "Description": "@FFH_Fergi on X"
+    },
+    {
+        "id": 1587,
+        "Name": "Ross (FPL Raptor)",
+        "PlayerName": "FPL Raptor",
+        "Description": "Ross (FPL Raptor)"
     },
     {
         "id": 251,
