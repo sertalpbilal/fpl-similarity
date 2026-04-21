@@ -282,16 +282,16 @@
         "Description": "FPL Nima (FPL Meets)"
     },
     {
-        "id": 35840,
-        "Name": "FPL_Chai (FFScout)",
-        "PlayerName": "Chai -",
-        "Description": "FPL_Chai from Scout"
-    },
-    {
         "id": 5218,
         "Name": "Ash (FPL Hints)",
         "PlayerName": "Ash FPLHints",
         "Description": "@FPLHints on Twitter"
+    },
+    {
+        "id": 35840,
+        "Name": "FPL_Chai (FFScout)",
+        "PlayerName": "Chai -",
+        "Description": "FPL_Chai from Scout"
     },
     {
         "id": 5149,
