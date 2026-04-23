@@ -438,16 +438,16 @@
         "Description": "Rob (FPL Haul)"
     },
     {
-        "id": 18708,
-        "Name": "David (Dayvy FPL)",
-        "PlayerName": "David (@DayvyFPL)",
-        "Description": "David (Dayvy FPL)"
-    },
-    {
         "id": 59811,
         "Name": "Walsh (FML FPL)",
         "PlayerName": "Adam Walsh",
         "Description": "Walsh from the FML FPL podcast"
+    },
+    {
+        "id": 18708,
+        "Name": "David (Dayvy FPL)",
+        "PlayerName": "David (@DayvyFPL)",
+        "Description": "David (Dayvy FPL)"
     },
     {
         "id": 2960608,
