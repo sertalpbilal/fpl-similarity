@@ -90,16 +90,16 @@
         "Description": "FPL Harry"
     },
     {
-        "id": 1000002,
-        "Name": "FPL Spaceman (Solio Analytics)",
-        "PlayerName": "Jonny Currie",
-        "Description": "@FPL_Spaceman on X"
-    },
-    {
         "id": 315,
         "Name": "Jonas (ASC_FPL)",
         "PlayerName": "Jonas Sand L\u00e5bakk",
         "Description": "Winner of 23/24 season"
+    },
+    {
+        "id": 1000002,
+        "Name": "FPL Spaceman (Solio Analytics)",
+        "PlayerName": "Jonny Currie",
+        "Description": "@FPL_Spaceman on X"
     },
     {
         "id": 29987,
@@ -180,16 +180,16 @@
         "Description": "Dan from the YouTube channel FPL Mate"
     },
     {
-        "id": 103234,
-        "Name": "FPL Olympian",
-        "PlayerName": "Adrian I",
-        "Description": "FPL Olympian"
-    },
-    {
         "id": 18783,
         "Name": "FPL Osama",
         "PlayerName": "Muhammed Osama",
         "Description": "@FPLOsama on X"
+    },
+    {
+        "id": 103234,
+        "Name": "FPL Olympian",
+        "PlayerName": "Adrian I",
+        "Description": "FPL Olympian"
     },
     {
         "id": 21950,
