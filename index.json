@@ -342,16 +342,16 @@
         "Description": "@ZopharFPL on X"
     },
     {
-        "id": 1587,
-        "Name": "Ross (FPL Raptor)",
-        "PlayerName": "FPL Raptor",
-        "Description": "Ross (FPL Raptor)"
-    },
-    {
         "id": 135,
         "Name": "Holly Shand (FPL Show)",
         "PlayerName": "Holly Shand",
         "Description": "FPL Show Panelist"
+    },
+    {
+        "id": 1587,
+        "Name": "Ross (FPL Raptor)",
+        "PlayerName": "FPL Raptor",
+        "Description": "Ross (FPL Raptor)"
     },
     {
         "id": 124,
@@ -378,28 +378,28 @@
         "Description": "The FPL Wire"
     },
     {
-        "id": 1919,
-        "Name": "Rob T (Solio Analytics)",
-        "PlayerName": "Rob T",
-        "Description": "@robtfpl on X"
-    },
-    {
         "id": 14501,
         "Name": "FPL Pickle",
         "PlayerName": "FPL Pickle",
         "Description": "FPL Pickle"
     },
     {
-        "id": 18708,
-        "Name": "David (Dayvy FPL)",
-        "PlayerName": "David (@DayvyFPL)",
-        "Description": "David (Dayvy FPL)"
+        "id": 1919,
+        "Name": "Rob T (Solio Analytics)",
+        "PlayerName": "Rob T",
+        "Description": "@robtfpl on X"
     },
     {
         "id": 17653,
         "Name": "FPL Nima (FPL Meets)",
         "PlayerName": "Nima Kafai",
         "Description": "FPL Nima (FPL Meets)"
+    },
+    {
+        "id": 18708,
+        "Name": "David (Dayvy FPL)",
+        "PlayerName": "David (@DayvyFPL)",
+        "Description": "David (Dayvy FPL)"
     },
     {
         "id": 34748,
