@@ -234,6 +234,12 @@
         "Description": "Lee from FPL Family YouTube channel"
     },
     {
+        "id": 8142,
+        "Name": "Andy (FPLMode)",
+        "PlayerName": "Andy North",
+        "Description": "Andy (FPLMode)"
+    },
+    {
         "id": 4783108,
         "Name": "F\u00e1bio Borges",
         "PlayerName": "F\u00e1bio Borges",
@@ -244,12 +250,6 @@
         "Name": "FPL Denis",
         "PlayerName": "Oprea Denis",
         "Description": "FPL Denis on Youtube"
-    },
-    {
-        "id": 8142,
-        "Name": "Andy (FPLMode)",
-        "PlayerName": "Andy North",
-        "Description": "Andy (FPLMode)"
     },
     {
         "id": 23715,
