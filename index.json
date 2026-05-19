@@ -84,6 +84,12 @@
         "Description": "Trigger Talks FPL on Youtube"
     },
     {
+        "id": 1320,
+        "Name": "FPL Harry",
+        "PlayerName": "Harry Daniels",
+        "Description": "FPL Harry"
+    },
+    {
         "id": 315,
         "Name": "Jonas (ASC_FPL)",
         "PlayerName": "Jonas Sand L\u00e5bakk",
@@ -94,12 +100,6 @@
         "Name": "FPl Matt",
         "PlayerName": "Matt Withers",
         "Description": "@FPLMattQ on X"
-    },
-    {
-        "id": 1320,
-        "Name": "FPL Harry",
-        "PlayerName": "Harry Daniels",
-        "Description": "FPL Harry"
     },
     {
         "id": 29987,
@@ -138,28 +138,28 @@
         "Description": "Fantasy Football Scout"
     },
     {
-        "id": 46055,
-        "Name": "FPL Paz (All About FPL)",
-        "PlayerName": "Placido Antuan Zambrano",
-        "Description": "All About FPL Contributor"
-    },
-    {
         "id": 5496,
         "Name": "FPLFella",
         "PlayerName": "Dan H",
         "Description": "FPLFella"
     },
     {
-        "id": 18783,
-        "Name": "FPL Osama",
-        "PlayerName": "Muhammed Osama",
-        "Description": "@FPLOsama on X"
+        "id": 46055,
+        "Name": "FPL Paz (All About FPL)",
+        "PlayerName": "Placido Antuan Zambrano",
+        "Description": "All About FPL Contributor"
     },
     {
         "id": 26436,
         "Name": "Adam (Green Arrow)",
         "PlayerName": "Adam Hopcroft",
         "Description": "Adam Hopcroft (Green Arrow)"
+    },
+    {
+        "id": 18783,
+        "Name": "FPL Osama",
+        "PlayerName": "Muhammed Osama",
+        "Description": "@FPLOsama on X"
     },
     {
         "id": 1511,
@@ -270,6 +270,12 @@
         "Description": "Leon (FPL Consult)"
     },
     {
+        "id": 5218,
+        "Name": "Ash (FPL Hints)",
+        "PlayerName": "Ash FPLHints",
+        "Description": "@FPLHints on Twitter"
+    },
+    {
         "id": 207920,
         "Name": "BlackWolf (FPLUSA)",
         "PlayerName": "Dan (BlackWolf)",
@@ -282,22 +288,16 @@
         "Description": "FPL Tom"
     },
     {
-        "id": 5218,
-        "Name": "Ash (FPL Hints)",
-        "PlayerName": "Ash FPLHints",
-        "Description": "@FPLHints on Twitter"
+        "id": 5149,
+        "Name": "Zophar (FPL Wire)",
+        "PlayerName": "Utkarsh D",
+        "Description": "@ZopharFPL on X"
     },
     {
         "id": 580,
         "Name": "Neale (Scout)",
         "PlayerName": "Neale Rigg",
         "Description": "Fantasy Football Scout"
-    },
-    {
-        "id": 5149,
-        "Name": "Zophar (FPL Wire)",
-        "PlayerName": "Utkarsh D",
-        "Description": "@ZopharFPL on X"
     },
     {
         "id": 275466,
@@ -336,16 +336,16 @@
         "Description": "The FPL Wire"
     },
     {
-        "id": 135,
-        "Name": "Holly Shand (FPL Show)",
-        "PlayerName": "Holly Shand",
-        "Description": "FPL Show Panelist"
-    },
-    {
         "id": 33231,
         "Name": "FPL Goat",
         "PlayerName": "Shaad Shaikh",
         "Description": "FPL Goat"
+    },
+    {
+        "id": 135,
+        "Name": "Holly Shand (FPL Show)",
+        "PlayerName": "Holly Shand",
+        "Description": "FPL Show Panelist"
     },
     {
         "id": 1919,
@@ -438,16 +438,16 @@
         "Description": "FPL_Chai from Scout"
     },
     {
-        "id": 260,
-        "Name": "Sam (FPL Family)",
-        "PlayerName": "Sam Bonfield",
-        "Description": "Sam (FPL Family)"
-    },
-    {
         "id": 59811,
         "Name": "Walsh (FML FPL)",
         "PlayerName": "Adam Walsh",
         "Description": "Walsh from the FML FPL podcast"
+    },
+    {
+        "id": 260,
+        "Name": "Sam (FPL Family)",
+        "PlayerName": "Sam Bonfield",
+        "Description": "Sam (FPL Family)"
     },
     {
         "id": 13710,
@@ -468,16 +468,16 @@
         "Description": "FPL Updates & Tips (FF Scout)"
     },
     {
-        "id": 441,
-        "Name": "Az (Blackbox)",
-        "PlayerName": "Az Phillips",
-        "Description": "Fantasy Football Scout and Blackbox"
-    },
-    {
         "id": 9363,
         "Name": "TrophyFPL",
         "PlayerName": "Mohamed Dream",
         "Description": "TrophyFPL on Youtube"
+    },
+    {
+        "id": 441,
+        "Name": "Az (Blackbox)",
+        "PlayerName": "Az Phillips",
+        "Description": "Fantasy Football Scout and Blackbox"
     },
     {
         "id": 1403,
