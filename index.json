@@ -84,16 +84,16 @@
         "Description": "Trigger Talks FPL on Youtube"
     },
     {
-        "id": 1320,
-        "Name": "FPL Harry",
-        "PlayerName": "Harry Daniels",
-        "Description": "FPL Harry"
-    },
-    {
         "id": 315,
         "Name": "Jonas (ASC_FPL)",
         "PlayerName": "Jonas Sand L\u00e5bakk",
         "Description": "Winner of 23/24 season"
+    },
+    {
+        "id": 1320,
+        "Name": "FPL Harry",
+        "PlayerName": "Harry Daniels",
+        "Description": "FPL Harry"
     },
     {
         "id": 53792,
@@ -420,6 +420,12 @@
         "Description": "Lateriser12 on twitter"
     },
     {
+        "id": 35840,
+        "Name": "FPL_Chai (FFScout)",
+        "PlayerName": "Chai -",
+        "Description": "FPL_Chai from Scout"
+    },
+    {
         "id": 3314,
         "Name": "Josh (FPL Graduates)",
         "PlayerName": "Joshua Scott",
@@ -430,12 +436,6 @@
         "Name": "Andy (FPL Tactician)",
         "PlayerName": "Andrew Martin",
         "Description": "Andy (FPL Tactician)"
-    },
-    {
-        "id": 35840,
-        "Name": "FPL_Chai (FFScout)",
-        "PlayerName": "Chai -",
-        "Description": "FPL_Chai from Scout"
     },
     {
         "id": 59811,
