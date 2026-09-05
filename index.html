@@ -11,79 +11,73 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=IBM+Plex+Mono:wght@400;600&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;1,400&family=Public+Sans:wght@400;500;600&display=swap">
     <link rel="stylesheet" href="static/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="static/css/main.css?v=4">
+    <link rel="stylesheet" href="static/css/main.css?v=5">
 </head>
 
 <body>
-    <div id="app" :style="{'overflow': taking_screenshot ? 'hidden' : undefined}">
+    <div id="app">
         <div class="fill-screen" v-if="taking_screenshot">
             Downloading the image...
         </div>
 
-        <div class="ticker" v-if="cc_index" v-cloak aria-hidden="true">
-            <div class="ticker-track">
-                <span v-for="cc in cc_index.concat(cc_index)" class="ticker-item">{{ cc.Name }}</span>
+        <header class="band">
+            <div class="band-in">
+                <h1>fpl <em>similarity</em> tool<span class="gw-badge" v-cloak><span class="gw-l">GW</span><span class="gw-n">{{ String(max_gw || 0).padStart(2, '0') }}</span></span></h1>
+                <p class="tagline">Which content creator does your Fantasy Premier League team look like?</p>
             </div>
-        </div>
+            <div class="ticker" v-if="cc_index" v-cloak aria-hidden="true">
+                <div class="ticker-track"><span v-for="cc in cc_index.concat(cc_index)" class="ticker-item">{{ cc.Name }}</span></div>
+            </div>
+        </header>
 
-        <main class="col-wrap">
-            <header class="masthead">
-                <div class="numerals" v-cloak>
-                    <template v-if="info">
-                        <span class="num-label">GW</span>
-                        <span class="num-big">{{ String(max_gw || 0).padStart(2, '0') }}</span>
-                        <span class="num-season">{{ season_label }}</span>
-                    </template>
-                    <template v-else>
-                        <span class="num-label">GW</span>
-                        <span class="num-big">--</span>
-                        <span class="num-season">----</span>
-                    </template>
-                </div>
-                <div class="masthead-text">
-                    <h1 class="title">FPL<br>Similarity<br>Tool</h1>
-                    <p class="tagline">which content creator does your team look like?</p>
-                </div>
-            </header>
+        <div class="grid">
+            <aside class="rail">
+                <section class="panel ledger-panel fade">
+                    <table class="ledger" v-cloak>
+                        <thead><tr><th colspan="2">Data on file</th></tr></thead>
+                        <tbody>
+                            <tr><td>season</td><td><b>{{ info ? season_label : '…' }}</b></td></tr>
+                            <tr><td>gameweeks</td><td><b v-if="max_gw >= 1">1 – {{ max_gw }}</b><b v-else>none yet</b></td></tr>
+                            <tr><td>creators</td><td><b>{{ cc_index ? cc_index.length : '…' }}</b></td></tr>
+                            <tr><td>updated</td><td><b>{{ last_updated_label || '…' }}</b></td></tr>
+                        </tbody>
+                    </table>
+                </section>
+                <section class="panel fade">
+                    <h2 class="h-small">How it's scored</h2>
+                    <dl class="how">
+                        <div><dt>Team</dt><dd>Your XI, bench and captain against each creator's, every gameweek.</dd></div>
+                        <div><dt>Transfers</dt><dd>Same transfer in the same gameweek. Wildcard and free hit weeks are skipped.</dd></div>
+                        <div><dt>Copycat</dt><dd>Those shared transfers, counted only when you made them after the creator did.</dd></div>
+                    </dl>
+                </section>
+            </aside>
 
-            <pre class="readout" v-cloak><span class="readout-line"><span class="prompt">&gt;</span> season    <b>{{ info ? season_label : '...' }}</b></span>
-<span class="readout-line"><span class="prompt">&gt;</span> data      <b v-if="max_gw >= 1">GW01 to GW{{ String(max_gw).padStart(2, '0') }}</b><b v-else>none yet</b></span>
-<span class="readout-line"><span class="prompt">&gt;</span> creators  <b>{{ cc_index ? cc_index.length : '...' }}</b></span>
-<span class="readout-line"><span class="prompt">&gt;</span> updated   <b>{{ last_updated_label || '...' }}</b><span class="cursor">_</span></span></pre>
-
-            <section class="box input-box">
-                <label for="tid" class="box-label">// your fpl team id</label>
-                <div class="id-row">
-                    <input type="number" id="tid" class="id-input" placeholder="3333334" inputmode="numeric" :disabled="loading" aria-label="FPL team ID">
-                    <button class="btn-hard" type="button" @click="fetch_team_picks" :disabled="loading || !data_ready">
-                        <span v-if="loading">...</span>
-                        <span v-else>fetch</span>
-                    </button>
-                </div>
-                <div class="hint">it's the number in your Points page URL: fantasy.premierleague.com/entry/<b>ID</b>/event/…</div>
-
-                <div class="loading" v-if="loading" v-cloak>
-                    <div class="loading-bar"><div class="loading-fill"></div></div>
-                    <div class="loading-text">
-                        pulling GW01 to GW{{ String(max_gw).padStart(2, '0') }} picks + transfers
-                        <span v-if="slow_fetch"><br>server is waking up, first call can take up to a minute</span>
+            <main class="col">
+                <section class="panel fade">
+                    <h2>Your FPL team ID</h2>
+                    <div class="id-row">
+                        <input type="number" id="tid" class="id-input" placeholder="3333334" inputmode="numeric" :disabled="loading" aria-label="FPL team ID">
+                        <button class="btn-main" type="button" @click="fetch_team_picks" :disabled="loading || !data_ready"><span v-if="loading">Loading…</span><span v-else>Compare</span></button>
                     </div>
-                </div>
+                    <p class="hint">It's the number in your Points page URL: fantasy.premierleague.com/entry/<b>ID</b>/event/…</p>
+                    <div class="loading" v-if="loading" v-cloak>
+                        <div class="loading-bar"><div class="loading-fill"></div></div>
+                        <p class="loading-text">Fetching GW1–GW{{ max_gw }} picks and transfers<span v-if="slow_fetch"><br>The server is waking up, the first call can take up to a minute.</span></p>
+                    </div>
+                    <p class="err" v-if="error_message" v-cloak>{{ error_message }}</p>
+                </section>
 
-                <div class="err" v-if="error_message" v-cloak>!! {{ error_message }}</div>
-            </section>
-
-            <section class="result" v-show="ready" v-cloak>
-                <div class="result-head">
-                    <span class="box-label">// result</span>
-                    <button class="btn-hard btn-small" @click="download">save jpg</button>
-                </div>
-
-                <div class="banner-frame">
-                    <div id="gradient_bg" v-show="ready" v-cloak>
+                <section class="result fade" v-show="ready" v-cloak>
+                    <div class="res-head">
+                        <h2>Most similar creator</h2>
+                        <button class="btn-dl" @click="download">Download JPG</button>
+                    </div>
+                    <div class="banner-frame">
+                        <div id="gradient_bg" v-show="ready" v-cloak>
                 <div id="banner_bg">
                     <div id="tool-title"><span class="main-title">CONTENT CREATOR SIMILARITY RATING</span><br>GW1-GW{{ max_gw }}</div>
                     <div id="tool-version">v0.5</div>
@@ -125,89 +119,52 @@
                     </div>
                     <div id="signature">
                         <div>
-                            <span>Data by Official FPL and FPLGameweek. Tool by <bsky style="filter: hue-rotate(185deg)">🦋</bsky>@sertalpbilal.com and <i style="color: #26a7de;" class="fab fa-twitter"></i> FPL_Spaceman 👨‍🚀.</span><br>
+                            <span>Data by Official FPL and FPLGameweek. Tool by <i style="color: #26a7de;" class="fab fa-twitter"></i> @sertalpbilal and <i style="color: #26a7de;" class="fab fa-twitter"></i> @FPL_Spaceman 👨‍🚀.</span><br>
                             https://sertalpbilal.github.io/fpl-similarity/
                         </div>
                     </div>
                 </div>
             </div>
-                </div>
-
-                <div class="accordion details-accordion" id="details">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">// gameweek breakdown</button>
-                        </h2>
-                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#details">
-                            <div class="accordion-body detail-body">
-                                <div class="table-title">single gameweek</div>
+                    </div>
+                    <div class="accordion details-accordion" id="details">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">Gameweek breakdown</button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#details">
+                                <div class="accordion-body">
+                                <div class="tt">Single gameweek</div>
                                 <div class="table-responsive">
-                                    <table class="table table-sm ledger">
-                                        <thead>
-                                            <tr>
-                                                <th>gw</th>
-                                                <th>most similar creator</th>
-                                                <th class="text-end">team</th>
-                                                <th class="text-end">trs</th>
-                                            </tr>
-                                        </thead>
+                                    <table class="table table-sm tbl">
+                                        <thead><tr><th>GW</th><th>Most similar creator</th><th class="text-end">Team</th><th class="text-end">Transfers</th></tr></thead>
                                         <tbody>
-                                            <tr v-for="gw in detail_gws">
-                                                <td>{{ String(gw).padStart(2, '0') }}</td>
-                                                <td>{{ most_similar_by_gw?.[gw + '_' + gw]?.cc?.Name }}</td>
-                                                <td class="text-end">{{ _.round((most_similar_by_gw?.[gw + '_' + gw]?.perc || 0)*100,1)}}%</td>
-                                                <td class="text-end">{{ _.round((most_similar_by_gw?.[gw + '_' + gw]?.tr_perc || 0)*100,1)}}%</td>
-                                            </tr>
+                                            <tr v-for="gw in detail_gws"><td class="num">{{ gw }}</td><td>{{ most_similar_by_gw?.[gw + '_' + gw]?.cc?.Name }}</td><td class="text-end num">{{ _.round((most_similar_by_gw?.[gw + '_' + gw]?.perc || 0)*100,1)}}%</td><td class="text-end num">{{ _.round((most_similar_by_gw?.[gw + '_' + gw]?.tr_perc || 0)*100,1)}}%</td></tr>
                                         </tbody>
                                     </table>
                                 </div>
-                                <div class="table-title">cumulative from gw01</div>
+                                <div class="tt">Cumulative from GW1</div>
                                 <div class="table-responsive">
-                                    <table class="table table-sm ledger">
-                                        <thead>
-                                            <tr>
-                                                <th>range</th>
-                                                <th>most similar creator</th>
-                                                <th class="text-end">team</th>
-                                                <th class="text-end">trs</th>
-                                            </tr>
-                                        </thead>
+                                    <table class="table table-sm tbl">
+                                        <thead><tr><th>Range</th><th>Most similar creator</th><th class="text-end">Team</th><th class="text-end">Transfers</th></tr></thead>
                                         <tbody>
-                                            <tr v-for="gw in detail_gws">
-                                                <td>01–{{ String(gw).padStart(2, '0') }}</td>
-                                                <td>{{ most_similar_by_gw?.['1_' + gw]?.cc?.Name }}</td>
-                                                <td class="text-end">{{ _.round((most_similar_by_gw?.['1_' + gw]?.perc || 0)*100,1)}}%</td>
-                                                <td class="text-end">{{ _.round((most_similar_by_gw?.['1_' + gw]?.tr_perc || 0)*100,1)}}%</td>
-                                            </tr>
+                                            <tr v-for="gw in detail_gws"><td class="num">1–{{ gw }}</td><td>{{ most_similar_by_gw?.['1_' + gw]?.cc?.Name }}</td><td class="text-end num">{{ _.round((most_similar_by_gw?.['1_' + gw]?.perc || 0)*100,1)}}%</td><td class="text-end num">{{ _.round((most_similar_by_gw?.['1_' + gw]?.tr_perc || 0)*100,1)}}%</td></tr>
                                         </tbody>
                                     </table>
+                                </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section class="box notes" v-if="!ready" v-cloak>
-                <div class="box-label">// how it's scored</div>
-                <dl>
-                    <dt>team</dt>
-                    <dd>your XI, bench and captain vs each creator's, every gameweek</dd>
-                    <dt>transfers</dt>
-                    <dd>same transfer in the same gameweek (wildcard and free hit weeks skipped)</dd>
-                    <dt>copycat</dt>
-                    <dd>those same transfers, but only the ones you made <em>after</em> the creator did</dd>
-                </dl>
-                <p>creator squads come from the FPLGameweek content creator league, refreshed nightly.</p>
-            </section>
-
-            <footer class="foot">
-                data: official FPL + <a href="https://www.fplgameweek.com/" target="_blank" rel="noopener">FPLGameweek</a> ·
-                tool: <a href="https://bsky.app/profile/sertalpbilal.com" target="_blank" rel="noopener">@sertalpbilal.com</a> +
-                <a href="https://x.com/FPL_Spaceman" target="_blank" rel="noopener">FPL_Spaceman</a> ·
-                <a href="https://github.com/sertalpbilal/fpl-similarity" target="_blank" rel="noopener">source</a>
-            </footer>
-        </main>
+                <footer class="foot fade">
+                    Data from the official FPL API and <a href="https://www.fplgameweek.com/" target="_blank" rel="noopener">FPLGameweek</a>.
+                    Built by <a href="https://x.com/sertalpbilal" target="_blank" rel="noopener">@sertalpbilal</a>
+                    and <a href="https://x.com/FPL_Spaceman" target="_blank" rel="noopener">@FPL_Spaceman</a>.
+                    <a href="https://github.com/sertalpbilal/fpl-similarity" target="_blank" rel="noopener">Source</a>.
+                </footer>
+            </main>
+        </div>
 
         <div style="display:none">{{ most_similar }}</div>
 
@@ -219,7 +176,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@3.1.1/dist/dom-to-image-more.min.js"></script>
-    <script src="static/js/main.js?v=4"></script>
+    <script src="static/js/main.js?v=5"></script>
 </body>
 
 </html>
