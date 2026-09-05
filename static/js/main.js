@@ -109,6 +109,11 @@ var app = new Vue({
         }
     },
     methods: {
+        pct(value, digits) {
+            // '67.5%' for a ratio, an en dash when there is no data
+            if (value == null || isNaN(value)) { return '–' }
+            return _.round(value * 100, digits == undefined ? 1 : digits) + '%'
+        },
         download() {
             
             app.taking_screenshot = true
@@ -214,8 +219,9 @@ var app = new Vue({
                 tr_similarity_count,
                 tr_time_similarity_count,
                 total_tr_count,
-                'tr_perc': tr_similarity_count/total_tr_count,
-                'tr_time_perc': tr_time_similarity_count/total_tr_count
+                // no transfers in the window means no data, not 0%
+                'tr_perc': total_tr_count > 0 ? tr_similarity_count/total_tr_count : null,
+                'tr_time_perc': total_tr_count > 0 ? tr_time_similarity_count/total_tr_count : null
             }
 
         }

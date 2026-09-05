@@ -101,18 +101,20 @@
                             </div>
                             <div class="text-center">
                                 <div class="sim-title">Team Similarity</div>
-                                <div class="sim-value">{{ _.round((most_similar_cached?.perc || 0)*100,2)}}%</div>
+                                <div class="sim-value">{{ pct(most_similar_cached?.perc, 2) }}</div>
                                 <div class="sim-footnote">Percentage of similar lineup and captain picks</div>
                             </div>
                             <div class="text-center">
                                 <div class="sim-title">Transfer Similarity</div>
-                                <div class="sim-value">{{ _.round((most_similar_cached?.tr_perc || 0)*100,2)}}%</div>
-                                <div class="sim-footnote">Percentage of same transfers in same GWs</div>
+                                <div class="sim-value">{{ pct(most_similar_cached?.tr_perc, 2) }}</div>
+                                <div class="sim-footnote" v-if="most_similar_cached?.total_tr_count > 0">Percentage of same transfers in same GWs</div>
+                                <div class="sim-footnote" v-else>No transfers yet, nothing to compare</div>
                             </div>
                             <div class="text-center">
                                 <div class="sim-title">Copycat Similarity</div>
-                                <div class="sim-value">{{ _.round((most_similar_cached?.tr_time_perc || 0)*100,2)}}%</div>
-                                <div class="sim-footnote">Percentage of same transfers in same GWs after Content Creator has done</div>
+                                <div class="sim-value">{{ pct(most_similar_cached?.tr_time_perc, 2) }}</div>
+                                <div class="sim-footnote" v-if="most_similar_cached?.total_tr_count > 0">Percentage of same transfers in same GWs after Content Creator has done</div>
+                                <div class="sim-footnote" v-else>No transfers yet, nothing to compare</div>
                             </div>
                         </div>
                     </div>
@@ -137,7 +139,7 @@
                                     <table class="table table-sm tbl">
                                         <thead><tr><th>GW</th><th>Most similar creator</th><th class="text-end">Team</th><th class="text-end">Transfers</th></tr></thead>
                                         <tbody>
-                                            <tr v-for="gw in detail_gws"><td class="num">{{ gw }}</td><td>{{ most_similar_by_gw?.[gw + '_' + gw]?.cc?.Name }}</td><td class="text-end num">{{ _.round((most_similar_by_gw?.[gw + '_' + gw]?.perc || 0)*100,1)}}%</td><td class="text-end num">{{ _.round((most_similar_by_gw?.[gw + '_' + gw]?.tr_perc || 0)*100,1)}}%</td></tr>
+                                            <tr v-for="gw in detail_gws"><td class="num">{{ gw }}</td><td>{{ most_similar_by_gw?.[gw + '_' + gw]?.cc?.Name }}</td><td class="text-end num">{{ pct(most_similar_by_gw?.[gw + '_' + gw]?.perc) }}</td><td class="text-end num">{{ pct(most_similar_by_gw?.[gw + '_' + gw]?.tr_perc) }}</td></tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -146,7 +148,7 @@
                                     <table class="table table-sm tbl">
                                         <thead><tr><th>Range</th><th>Most similar creator</th><th class="text-end">Team</th><th class="text-end">Transfers</th></tr></thead>
                                         <tbody>
-                                            <tr v-for="gw in detail_gws"><td class="num">1–{{ gw }}</td><td>{{ most_similar_by_gw?.['1_' + gw]?.cc?.Name }}</td><td class="text-end num">{{ _.round((most_similar_by_gw?.['1_' + gw]?.perc || 0)*100,1)}}%</td><td class="text-end num">{{ _.round((most_similar_by_gw?.['1_' + gw]?.tr_perc || 0)*100,1)}}%</td></tr>
+                                            <tr v-for="gw in detail_gws"><td class="num">1–{{ gw }}</td><td>{{ most_similar_by_gw?.['1_' + gw]?.cc?.Name }}</td><td class="text-end num">{{ pct(most_similar_by_gw?.['1_' + gw]?.perc) }}</td><td class="text-end num">{{ pct(most_similar_by_gw?.['1_' + gw]?.tr_perc) }}</td></tr>
                                         </tbody>
                                     </table>
                                 </div>
@@ -175,7 +177,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@3.1.1/dist/dom-to-image-more.min.js"></script>
-    <script src="static/js/main.js?v=6"></script>
+    <script src="static/js/main.js?v=7"></script>
 </body>
 
 </html>
