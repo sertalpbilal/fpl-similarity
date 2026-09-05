@@ -107,7 +107,8 @@ h1 em { font-style: italic; color: var(--acc); }
     align-items: start;
 }
 
-.rail { position: sticky; top: 16px; display: flex; flex-direction: column; gap: 12px; }
+.rail { position: sticky; top: 16px; display: flex; flex-direction: column; gap: 12px; min-width: 0; }
+.col { min-width: 0; }
 
 .panel {
     background-color: var(--panel);
@@ -131,7 +132,7 @@ h1 em { font-style: italic; color: var(--acc); }
 /* ---- ledger ---- */
 .ledger-panel { padding: 0; overflow: hidden; }
 
-.ledger { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+.ledger { width: 100%; table-layout: fixed; border-collapse: collapse; font-size: 13.5px; }
 .ledger th {
     font-family: var(--serif);
     font-weight: 400;
@@ -277,7 +278,7 @@ h2 { font-size: 21px; margin: 0 0 10px; }
     .tagline { text-align: left; max-width: none; }
     h1 { font-size: 36px; }
     .gw-badge { margin-left: 10px; }
-    .grid { grid-template-columns: 1fr; padding: 16px 16px 48px; gap: 12px; }
+    .grid { grid-template-columns: minmax(0, 1fr); padding: 16px 16px 48px; gap: 12px; }
     .rail { position: static; order: 2; }
     .col { order: 1; }
 }
