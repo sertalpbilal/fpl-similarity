@@ -23,11 +23,31 @@ var app = new Vue({
         taking_screenshot: false,
         excluding_yourself: false,
         image_dir: image_dir,
-        error_message: undefined
+        error_message: undefined,
+        info: undefined,
+        fetch_started: undefined,
+        slow_fetch: false
     },
     computed: {
         completed() {
             return _.size(this.team_data)
+        },
+        season_label() {
+            let s = this.info?.season || this_season
+            let m = String(s).match(/^(\d{4})-(\d{2})?(\d{2})$/)
+            return m ? `${m[1]}/${m[3]}` : s
+        },
+        last_updated_label() {
+            if (!this.info?.last_updated) { return undefined }
+            let d = new Date(this.info.last_updated)
+            if (isNaN(d)) { return this.info.last_updated }
+            return d.toLocaleString(undefined, { day: 'numeric', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit' })
+        },
+        data_ready() {
+            return this.max_gw != undefined && !_.isEmpty(this.cc_index) && !_.isEmpty(this.cc_data)
+        },
+        detail_gws() {
+            return _.range(1, (this.max_gw || 0) + 1)
         },
         chip_gws() {
             if (_.isEmpty(this.team_data)) { return {}}
@@ -124,7 +144,7 @@ var app = new Vue({
                             link.click();
                             document.body.removeChild(link);
                             node.style.transform = ''
-                            node.style['transform-origin'] = 'top'
+                            node.style['transform-origin'] = ''
                             node.style['background'] = 'linear-gradient(135deg, #963cfe 0%, #04f0fe 100%)'
                             app.taking_screenshot = false
                         }, 300);
@@ -307,22 +327,28 @@ function fetch_team_transfers({ team_id }) {
 function fetch_team_picks() {
     app.error_message = undefined
     let gw = app.max_gw
-    let tid = document.querySelector("#tid").value
-    if (tid == '') { return }
+    let tid = (document.querySelector("#tid").value || '').trim()
+    if (tid == '') {
+        app.error_message = 'Please enter your FPL team ID.'
+        return
+    }
     if (!(gw >= 1)) {
         app.error_message = 'The season has not started yet, or gameweek data is not available.'
         return
     }
     app.loading = true
     app.ready = false
+    app.slow_fetch = false
+    app.fetch_started = Date.now()
+    let slow_timer = setTimeout(() => { app.slow_fetch = true }, 8000)
 
     let c = new Promise((resolve, reject) => {
         $.ajax({
             type: "GET",
-            // url: `https://alpscode.com/fpl-fetch/fpl_data?id=${tid}&gw=${gw}`,
             url: `https://fpl-fetch.onrender.com/fpl_data?id=${tid}&gw=${gw}`,
             dataType: 'json',
             async: true,
+            timeout: 120000,
             headers: {
                 'Access-Control-Allow-Origin': '*',
                 'Access-Control-Allow-Headers': "X-Requested-With",
@@ -340,12 +366,19 @@ function fetch_team_picks() {
     })
 
     c.then((e) => {
+        clearTimeout(slow_timer)
+        app.slow_fetch = false
+        if (!e.body || !e.body.info || _.isEmpty(e.body.picks)) {
+            throw new Error('Empty response')
+        }
         app.team_info = e.body.info
         app.team_data = e.body.picks
         app.team_transfers = e.body.trs
         app.loading = false
         app.ready = true
     }).catch((e) => {
+        clearTimeout(slow_timer)
+        app.slow_fetch = false
         console.error(e)
         app.loading = false
         app.ready = false
@@ -454,15 +487,17 @@ let debug = false
 $(document).ready(() => {
 
     // get max gw
-    read_local_file("data/info.json?cache=0").then((e) => {
+    read_local_file("data/info.json?v=" + Date.now()).then((e) => {
 
+        app.info = e
         app.max_gw = parseInt(e.next_gw) - 1
+        let v = encodeURIComponent(e.last_updated || e.next_gw)
 
-        read_local_file("index.json?cache=0").then((d) => {
+        read_local_file("index.json?v=" + v).then((d) => {
             app.cc_index = d
             app.cc_data = undefined
 
-            read_local_file('data/combined.json?cache=0').then((d) => {
+            read_local_file('data/combined.json?v=' + v).then((d) => {
                 app.cc_data = Object.freeze(d)
                 if (debug) {
                     document.querySelector("#tid").value = '4789442'
@@ -477,7 +512,11 @@ $(document).ready(() => {
                     }
                 }
                 
-            })
-        })
+            }).catch(() => { app.error_message = 'Could not load content creator data. Please refresh the page.' })
+        }).catch(() => { app.error_message = 'Could not load content creator list. Please refresh the page.' })
+    }).catch(() => { app.error_message = 'Could not load season info. Please refresh the page.' })
+
+    document.querySelector("#tid").addEventListener('keyup', (e) => {
+        if (e.key == 'Enter') { fetch_team_picks() }
     })
 })

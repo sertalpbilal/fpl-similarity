@@ -5,6 +5,7 @@ import time
 import pathlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
+from datetime import datetime, timezone
 
 season = '2026-2027'
 
@@ -22,7 +23,12 @@ def get_next_gw():
     else:
         next_gw = 39
 
-    ng = {'next_gw': next_gw}
+    ng = {
+        'season': season,
+        'next_gw': next_gw,
+        'last_gw': next_gw - 1,
+        'last_updated': datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
+    }
     with open('../data/info.json', 'w') as f:
         json.dump(ng, f, indent=4)
     return next_gw
@@ -114,8 +120,9 @@ def combine_all():
 
         all_entries.append(entry)
 
+    # compact output: this file is downloaded by every visitor
     with open('../data/combined.json', 'w') as f:
-        json.dump(all_entries, f, indent=4)
+        json.dump(all_entries, f, separators=(',', ':'))
 
 
 if __name__ == "__main__":
