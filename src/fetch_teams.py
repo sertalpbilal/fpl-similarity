@@ -6,7 +6,7 @@ import pathlib
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
-season = '2025-2026'
+season = '2026-2027'
 
 picks_url = "https://fantasy.premierleague.com/api/entry/{team_id}/event/{gameweek}/picks/"
 transfer_url = "https://fantasy.premierleague.com/api/entry/{team_id}/transfers/"
@@ -101,13 +101,16 @@ def combine_all():
             if os.path.exists(fname):
                 with open(fname) as f:
                     gw_picks = json.load(f)
-                entry['picks'][gw] = [[e['element'], e['multiplier']] for e in gw_picks['picks']]
+                if gw_picks.get('picks'):
+                    entry['picks'][gw] = [[e['element'], e['multiplier']] for e in gw_picks['picks']]
 
         tr_fname = f"../data/entries/{season}/{cc_id}_tr.json"
         if os.path.exists(tr_fname):
             with open(tr_fname) as f:
                 transfers = json.load(f)
             entry['trs'] = [[e['element_out'], e['element_in'], e['event'], e['time']] for e in transfers]
+        else:
+            entry['trs'] = []
 
         all_entries.append(entry)
 
