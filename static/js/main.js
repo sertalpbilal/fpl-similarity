@@ -50,36 +50,28 @@ var app = new Vue({
             return _.range(1, (this.max_gw || 0) + 1)
         },
         chip_gws() {
+            // 2026-27: every chip is available twice (one per half of the season).
+            // Slots fill in the order the chips were played: WC1/WC2, FH1/FH2, TC1/TC2, BB1/BB2.
             if (_.isEmpty(this.team_data)) { return {}}
-            // go over GWs to find
-            chips = {'WC1': undefined, 'WC2': undefined, 'TC': undefined, 'BB': undefined, 'FH': undefined}
-            let gws = _.range(1, this.max_gw+1)
-            for (let gw of gws) {
-                let gw_data = this.team_data['GW'+gw]
-                if (gw_data?.active_chip != null) {
-                    if (gw_data?.active_chip == 'wildcard') {
-                        if (chips['WC1'] == undefined) {
-                            chips['WC1'] = gw
-                        }
-                        else {
-                            chips['WC2'] = gw
-                        }
-                    }
-                    else if (gw_data.active_chip == '3xc') {
-                        chips['TC'] = gw
-                    }
-                    else if (gw_data.active_chip == 'bboost') {
-                        chips['BB'] = gw
-                    }
-                    else if (gw_data.active_chip == 'freehit') {
-                        chips['FH'] = gw
-                    }
-                    else {
-                        // debugger
-                    }
-                }
+            let names = {'wildcard': 'WC', 'freehit': 'FH', '3xc': 'TC', 'bboost': 'BB'}
+            let chips = {}
+            for (let code of _.values(names)) { chips[code + '1'] = undefined; chips[code + '2'] = undefined }
+            for (let gw of _.range(1, this.max_gw + 1)) {
+                let code = names[this.team_data['GW' + gw]?.active_chip]
+                if (!code) { continue }
+                if (chips[code + '1'] == undefined) { chips[code + '1'] = gw }
+                else if (chips[code + '2'] == undefined) { chips[code + '2'] = gw }
             }
             return chips
+        },
+        chip_label() {
+            // "GW3 · GW20", "GW3 · –" or "–" for the two slots of one chip type
+            let chips = this.chip_gws
+            return (code) => {
+                let slots = [chips[code + '1'], chips[code + '2']]
+                if (slots.every(g => g == undefined)) { return '–' }
+                return slots.map(g => g ? 'GW' + g : '–').join(' · ')
+            }
         },
         most_similar() {
             if (!this.ready) { return {}}
@@ -196,7 +188,8 @@ var app = new Vue({
             let cc_trs = most_similar ? (this.cc_data.find(i => i.id == most_similar.id)?.['trs'] || []) : []
 
             for (let tr of this.team_transfers.filter(i => i.event >= start_gw && i.event <= last_gw)) {
-                if (tr.event == this.chip_gws['WC1'] || tr.event == this.chip_gws['WC2'] || tr.event == this.chip_gws['FH']) { continue }
+                let squad_reset_gws = [this.chip_gws['WC1'], this.chip_gws['WC2'], this.chip_gws['FH1'], this.chip_gws['FH2']]
+                if (squad_reset_gws.includes(tr.event)) { continue }
                 let match = cc_trs.find(i => i[2] == tr.event && i[1] == tr.element_in && i[0] == tr.element_out)
                 if (match) {
                     // check timings

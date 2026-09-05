@@ -85,11 +85,10 @@
                     <div id="inner-box">
                         <div class="main-cols" id="player-column">
                             <div class="text-center"><b class="overflow-hidden">{{ app?.team_info?.name }}</b><br>{{ app?.team_info?.player_first_name + ' ' + app?.team_info?.player_last_name }} | ID {{ app?.team_info?.id }}</div>
-                            <div class="chip-entry"><span>Wildcard 1</span><span>{{ chip_gws?.WC1 ? 'GW'+chip_gws.WC1 : '-'}}</span></div>
-                            <div class="chip-entry"><span>Wildcard 2</span><span>{{ chip_gws?.WC2 ? 'GW'+chip_gws.WC2 : '-'}}</span></div>
-                            <div class="chip-entry"><span>Free Hit</span><span>{{ chip_gws?.FH ? 'GW'+chip_gws.FH : '-'}}</span></div>
-                            <div class="chip-entry"><span>Triple Captain</span><span>{{ chip_gws?.TC ? 'GW'+chip_gws.TC : '-'}}</span></div>
-                            <div class="chip-entry"><span>Bench Boost</span><span>{{ chip_gws?.BB ? 'GW'+chip_gws.BB : '-'}}</span></div>
+                            <div class="chip-entry"><span>Wildcard</span><span>{{ chip_label('WC') }}</span></div>
+                            <div class="chip-entry"><span>Free Hit</span><span>{{ chip_label('FH') }}</span></div>
+                            <div class="chip-entry"><span>Triple Captain</span><span>{{ chip_label('TC') }}</span></div>
+                            <div class="chip-entry"><span>Bench Boost</span><span>{{ chip_label('BB') }}</span></div>
                         </div>
                         <div class="main-cols" id="content-creator-column">
                             <div>
@@ -176,7 +175,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/dom-to-image-more@3.1.1/dist/dom-to-image-more.min.js"></script>
-    <script src="static/js/main.js?v=5"></script>
+    <script src="static/js/main.js?v=6"></script>
 </body>
 
 </html>
