@@ -1,6 +1,7 @@
 name = "fpl-fetch"
 main = "src/index.js"
 compatibility_date = "2026-09-01"
+preview_urls = false
 
 # Deploy:  cd worker && npx wrangler login && npx wrangler deploy
 # The URL printed by deploy (https://fpl-fetch.<your-subdomain>.workers.dev)

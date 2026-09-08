@@ -7,7 +7,8 @@ let image_dir = 'data/cc/2026-2027/'
 // Tried in order; the first one that answers wins. Put the Cloudflare Worker
 // (see worker/) first once it is deployed, keep Render as the fallback.
 let FETCH_BASES = [
-    'https://fpl-fetch.onrender.com',
+    'https://fpl-fetch.sertalpbilal.workers.dev',   // Cloudflare Worker, see worker/
+    'https://fpl-fetch.onrender.com',              // Render fallback (slow to wake)
 ]
 
 var app = new Vue({
