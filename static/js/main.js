@@ -3,6 +3,12 @@ let fpl_logo = `<svg xmlns="http://www.w3.org/2000/svg" width="192"  viewBox="0 
 
 let this_season = '2026-27'
 let image_dir = 'data/cc/2026-2027/'
+// Servers that aggregate the FPL API for us (the FPL API sends no CORS headers).
+// Tried in order; the first one that answers wins. Put the Cloudflare Worker
+// (see worker/) first once it is deployed, keep Render as the fallback.
+let FETCH_BASES = [
+    'https://fpl-fetch.onrender.com',
+]
 
 var app = new Vue({
     el: '#app',
@@ -341,28 +347,33 @@ function fetch_team_picks() {
     app.fetch_started = Date.now()
     let slow_timer = setTimeout(() => { app.slow_fetch = true }, 8000)
 
-    let c = new Promise((resolve, reject) => {
+    let fetch_from = (base) => new Promise((resolve, reject) => {
         $.ajax({
             type: "GET",
-            url: `https://fpl-fetch.onrender.com/fpl_data?id=${tid}&gw=${gw}`,
+            url: `${base}/fpl_data?id=${tid}&gw=${gw}`,
             dataType: 'json',
             async: true,
             timeout: 120000,
-            headers: {
-                'Access-Control-Allow-Origin': '*',
-                'Access-Control-Allow-Headers': "X-Requested-With",
-                'Access-Control-Allow-Methods': 'GET',
-                'X-Requested-With': 'XMLHttpRequest',
-                'Referrer-Policy': 'no-referrer-when-downgrade'
-            },
             success: function(data) {
                 resolve({ body: data, is_last_gw: false })
             },
             error: function(xhr, status, error) {
-                reject(`Cannot get picks for team ${tid} GW ${gw}`)
+                // a 4xx means the team does not exist: no point asking the next server
+                let final = xhr.status >= 400 && xhr.status < 500
+                reject({ final, message: `Cannot get picks for team ${tid} GW ${gw} from ${base} (${xhr.status || status})` })
             }
         });
     })
+
+    // try each server in turn; a 4xx (unknown team) is final, anything else moves on
+    let c = FETCH_BASES.reduce(
+        (chain, base) => chain.catch((err) => {
+            if (err && err.final) { throw err }
+            if (err !== 'start') { console.warn(err.message || err) }
+            return fetch_from(base)
+        }),
+        Promise.reject('start')
+    )
 
     c.then((e) => {
         clearTimeout(slow_timer)
@@ -378,7 +389,7 @@ function fetch_team_picks() {
     }).catch((e) => {
         clearTimeout(slow_timer)
         app.slow_fetch = false
-        console.error(e)
+        console.error(e && e.message || e)
         app.loading = false
         app.ready = false
         app.error_message = `Could not fetch data for team ${tid}. Check the team ID and try again in a minute.`

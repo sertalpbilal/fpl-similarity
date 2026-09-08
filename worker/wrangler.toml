@@ -1,0 +1,11 @@
+name = "fpl-fetch"
+main = "src/index.js"
+compatibility_date = "2026-09-01"
+
+# Deploy:  cd worker && npx wrangler login && npx wrangler deploy
+# The URL printed by deploy (https://fpl-fetch.<your-subdomain>.workers.dev)
+# goes into FETCH_BASES in static/js/main.js.
+
+[vars]
+ALLOWED_ORIGINS = "https://sertalpbilal.github.io,http://127.0.0.1:8765,http://localhost:8765"
+CACHE_SECONDS = "600"
